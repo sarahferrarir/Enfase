@@ -1,0 +1,257 @@
+{
+  "numero_informativo": "887",
+  "data_publicacao": "5 de maio de 2026",
+  "julgados": [
+    {
+      "processo": "Processo em segredo de justiça",
+      "ramo_direito": "DIREITO ADMINISTRATIVO, DIREITO PROCESSUAL CIVIL",
+      "tema": "Precatório. Revisão de cálculos pelo Núcleo de Precatórios. Alteração de critérios. Extrapolação da competência administrativa. Impossibilidade.",
+      "destaque": "1. A competência do Presidente do Tribunal para revisão de cálculos em precatórios, prevista no art. 1º-E da Lei n. 9.494/1997 e nos arts. 26 a 30 da Resolução n. 303/2019 do CNJ, restringe-se à correção de erros materiais e inexatidões aritméticas, não alcançando, sob qualquer aspecto, a análise dos critérios de cálculo.",
+      "informacoes_inteiro_teor": "No caso, o Núcleo Auxiliar de Conciliação de Precatórios (NACP) de Tribunal estadual, a pretexto de correção de erro material, procedeu à substituição dos índices de correção monetária originalmente aplicados nos cálculos que instruíram o ofício precatório.",
+      "relator": "Ministro Gurgel de Faria",
+      "orgao_julgador": "Primeira Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 9.494/1997, art. 1º-E.",
+        "Resolução CNJ n. 303/2019, arts. 26 a 30."
+      ]
+    },
+    {
+      "processo": "REsp 2.206.562-RN",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "Contribuição ao PIS e COFINS. Direito à compensação dos valores recolhidos indevidamente (Tema n. 69 do STF). Utilização do sistema eSocial. Restrições estabelecidas no art. 26-A da Lei n. 11.457/2007. Lei específica. Necessidade de observância.",
+      "destaque": "A compensação tributária, na hipótese em que o contribuinte utiliza o Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas (eSocial), com utilização de créditos originados do pagamento indevido de contribuição ao PIS e de COFINS (Tema n. 69 do STF), deve observância à restrição estabelecida pelo § 1º do art. 26-A da Lei n. 11.457/2007.",
+      "informacoes_inteiro_teor": "A controvérsia refere-se à limitação da declaração do direito do sujeito passivo tributário à compensação tributária dos valores pagos a mais a título de contribuição ao PIS e de COFINS (Tema n. 69 do STF) com outros tributos administrados pela Secretaria da Receita Federal, em específico, após a edição da Lei n. 13.670/2018, que incluiu o art. 26-A na Lei n. 11.457/2007, o qual veicula regras restritivas e proibitivas para a compensação tributária, na hipótese em que o contribuinte utiliza o Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas (eSocial).",
+      "relator": "Ministro Teodoro Silva Santos",
+      "orgao_julgador": "Segunda Turma",
+      "data_julgamento": "15/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 11.457/2007, art. 26-A, § 1º, I, II",
+        "Lei n. 13.670/2018",
+        "Código Tributário Nacional (CTN), art. 170",
+        "Lei n. 8.212/1991, art. 11, parágrafo único, alínea d",
+        "Lei n. 9.430/1996, art. 74"
+      ]
+    },
+    {
+      "processo": "REsp 2.242.808-ES",
+      "ramo_direito": "DIREITO CIVIL, DIREITO CONSTITUCIONAL",
+      "tema": "Provedor de busca na internet. Notícia desabonadora. Desindexação de nome do indivíduo. Possibilidade. Situação excepcional. Exclusão. Impossibilidade. Harmonia com o Tema n. 786/STF.",
+      "destaque": "Excepcionalmente, quando o nome do indivíduo for o único elemento de busca, é possível a desindexação de resultados de matérias desabonadoras exibidos por provedores de pesquisa na internet, na ausência de interesse público, desde que mantida a matéria, com possibilidade de acesso mediante a inserção de palavras-chave ou de outros termos associados.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em decidir acerca da possibilidade de desvinculação (desindexação) de resultados desabonadores exibidos por provedores de busca na internet quando a pesquisa é realizada exclusivamente a partir do nome do indivíduo.",
+      "relator": "Ministra Nancy Andrighi",
+      "orgao_julgador": "Terceira Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 12.965/2014 (Marco Civil da Internet)",
+        "art. 19"
+      ]
+    },
+    {
+      "processo": "REsp 2.218.122-RS",
+      "ramo_direito": "DIREITO EMPRESARIAL, RECUPERAÇÃO JUDICIAL",
+      "tema": "Recuperação judicial. Grupo econômico. Atividade. Biênio legal. Comprovação. Necessidade. Consolidação substancial. Imposição judicial. Impossibilidade. Requisitos. Ausência.",
+      "destaque": "Não demonstrados os requisitos essenciais da interconexão e da confusão entre ativos ou passivos dos devedores, de modo que não seja possível identificar sua titularidade, não pode ser imposta a consolidação substancial por decisão judicial.\nNo caso de pedido de recuperação de grupo econômico, cada litisconsorte individualmente deve comprovar o requisito temporal de 2 (dois) anos de exercício regular de suas atividades.",
+      "informacoes_inteiro_teor": "A controvérsia cinge-se a definir se estão presentes os requisitos para a recuperação judicial ser processada em consolidação substancial e se era possível a relativização da exigência de exercício da atividade empresarial por 2 (dois) anos.",
+      "relator": "Ministro Ricardo Villas Bôas Cueva",
+      "orgao_julgador": "Terceira Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 11.101/2005 (LREF)",
+        "art. 48",
+        "art. 51, II",
+        "art. 52",
+        "art. 69-J"
+      ]
+    },
+    {
+      "processo": "REsp 2.230.360-SE",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Sentença homologatória. Acordo em cumprimento de sentença. Trânsito em julgado. Extinção sem julgamento de mérito. Ação anulatória. Cabimento.",
+      "destaque": "O meio adequado para desconstituir sentença que se limita a homologar o acordo firmado entre as partes, sem incursão no mérito pelo magistrado, é a ação anulatória.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em decidir se é cabível ação rescisória ou anulatória para desconstituir sentença homologatória de acordo. Sob a vigência do Código de Processo Civil de 1973, a previsão legislativa era confusa em relação ao cabimento de ação rescisória ou anulatória como medida para desconstituir o acordo homologado judicialmente, o que gerava intensos debates doutrinários. O art. 966 do Código de Processo Civil de 2015 prevê o cabimento da ação rescisória para rescindir \"a decisão de mérito, transitada em julgado\". A ação rescisória é cabível de forma excepcional, nas hipóteses expressa e taxativamente previstas em lei, e nos estreitos limites da manifestação da parte prejudicada. Já o § 4º do art. 966 passou a prever que \"os atos de disposição de direitos, praticados pelas partes ou por outros participantes do processo e homologados pelo juízo, bem como os atos homologatórios praticados no curso da execução, estão sujeitos à anulação, nos termos da lei\". Assim, dispõe a doutrina que, \"havendo (i) ato de disposição do direito debatido em juízo (ou seja, abre-se mão do próprio direito material), aliado à (ii) existência de homologação em juízo, seja no processo de conhecimento ou de execução, a hipótese será de ação anulatória e não de AR\". Atualmente, portanto, \"a jurisprudência e a doutrina pátrias entendem que o cabimento da ação anulatória está restrito ao reconhecimento de vícios de atos praticados pelas partes ou por outros participantes do processo, ou seja, não se busca a desconstituição de um ato propriamente estatal. Por conseguinte, a sentença surge apenas como um ato homologatório, porquanto a solução da controvérsia foi determinada pelas próprias partes, e não imposta pelo Poder Judiciário\" (REsp n. 2.064.264/PA, Terceira Turma, DJe de 28/8/2023). \"O acordo firmado pelas partes e homologado judicialmente é um ato processualizado, o que, por conseguinte, impõe sua análise sob o espectro do direito material que o respalda. Assim, o ajuizamento da ação anulatória seria necessário para a declaração da invalidade do negócio jurídico\" (REsp n. 1.845.558/SP, Terceira Turma, DJe de 10/6/2021). Destarte, a jurisprudência do Superior Tribunal de Justiça fixou-se no sentido de que o meio adequado para desconstituir sentença que se limita a homologar o acordo firmado entre as partes, sem incursão no mérito pelo magistrado, é a ação anulatória.",
+      "relator": "Ministra Nancy Andrighi",
+      "orgao_julgador": "Terceira Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Código de Processo Civil (CPC/2015)",
+        "art. 966",
+        "§ 4º"
+      ]
+    },
+    {
+      "processo": "REsp 2.155.476-SP",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "Cessão de crédito. Cota de consórcio cancelada. Cláusula contratual de restrição à cessão. Validade.",
+      "destaque": "A cláusula contratual que condiciona a cessão de crédito à anuência da administradora de consórcio é válida e eficaz, ainda que se trate de cota cancelada.",
+      "informacoes_inteiro_teor": "A controvérsia circunscreve-se à validade de cessão de crédito decorrente de cota de consórcio cancelada, realizada sem a prévia e expressa anuência da administradora, em afronta à cláusula contratual restritiva, constante de regulamento do consórcio.",
+      "relator": "Ministra Maria Isabel Gallotti",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "13/4/2026",
+      "legislacao_aplicada": [
+        "Código Civil (CC)",
+        "art. 286"
+      ]
+    },
+    {
+      "processo": "REsp 2.216.266-SP",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "Ação de cobrança. Alienação fiduciária. Busca e apreensão. Despesas com remoção e estadia do veículo em pátio particular. Obrigação propter rem. Ônus do credor fiduciário. Limitação de cobrança. Impossibilidade. Inaplicabilidade do art. 271, § 10, do CTB.",
+      "destaque": "Ao valor devido pelo credor fiduciário ao proprietário de pátio privado responsável pela guarda e conservação do veículo apreendido, em cumprimento à ordem judicial, é inaplicável a limitação temporal de cobrança do § 10 do art. 271 do CTB.",
+      "informacoes_inteiro_teor": "No caso, o credor fiduciário, em razão do inadimplemento dos contratantes, ajuizou ações de busca e apreensão dos veículos. Ao obter êxito na esfera judicial, teve os automóveis depositados no pátio privado.",
+      "relator": "Ministro Raul Araújo",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "13/4/2026",
+      "legislacao_aplicada": [
+        "Código de Transito Brasileiro (CTB), art. 262",
+        "Código de Transito Brasileiro (CTB), art. 271, § 10",
+        "Constituição Federal (CF), art. 150, IV"
+      ]
+    },
+    {
+      "processo": "AREsp 935.216-RJ",
+      "ramo_direito": "DIREITO CIVIL, DIREITO PROCESSUAL CIVIL",
+      "tema": "Cumprimento de sentença. Penhora de ativos financeiros de terceiro. Satisfação dos credores originários. Sub-rogação legal nos direitos de credor. Desnecessidade de nova intimação da executada para pagamento.",
+      "destaque": "Configurada a sub-rogação legal em favor do terceiro, opera-se a sucessão processual, autorizando o prosseguimento do cumprimento de sentença no estado em que se encontra, sendo desnecessária nova intimação da executada para pagamento.",
+      "informacoes_inteiro_teor": "Trata-se de cobrança de dívida não personalíssima por credora legalmente sub-rogada. O débito deriva de um negócio jurídico tradicional que fora quitado integralmente pela recorrente após ocorrer a penhora de seus ativos financeiros em razão de seu ingresso forçado no processo decorrente de incidente de desconsideração da personalidade jurídica instaurado pelos credores originários.",
+      "relator": "Ministro Raul Araújo",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Código de Processo Civil (CPC/2015), art. 523; e art. 778, § 2º.",
+        "Código Civil (CC), art. 349.",
+        "Código de Processo Civil (CPC/1973), art. 475-J."
+      ]
+    },
+    {
+      "processo": "AREsp 2.773.143-SP",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Responsabilidade civil médica. Morte de recém-nascido. Desconsideração de laudo pericial. Área de alta complexidade. Limites do livre convencimento motivado.",
+      "destaque": "A desconsideração do laudo pericial, nos termos dos arts. 371 e 479 do CPC, não pode se fundar em suposições, exigindo fundamentação técnica e racional apta a infirmar a conclusão do expert.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em ação de indenização por óbito de recém-nascido por suposto erro médico e falha na prestação de serviços hospitalares, com discussão sobre valoração da prova pericial. Quanto ao ponto, é certo que, ao realizar o julgamento, o juiz não é obrigado a seguir as conclusões do perito. Isso decorre do princípio do livre convencimento motivado, previsto no art. 371 do Código de Processo Civil (CPC) e, ainda, de forma específica, em razão do disposto no art. 479 do mesmo diploma legal.",
+      "relator": "Ministro João Otávio de Noronha",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "art. 371 do CPC",
+        "art. 477, § 2º, I do CPC",
+        "art. 479 do CPC",
+        "art. 480 do CPC"
+      ]
+    },
+    {
+      "processo": "Processo em segredo de justiça",
+      "ramo_direito": "DIREITO CONSTITUCIONAL, DIREITO PROCESSUAL PENAL",
+      "tema": "Tribunal do Júri. Pronúncia. Elemento subjetivo da conduta. Fase do Judicium Accusationis.",
+      "destaque": "Na fase do judicium accusationis, é vedado ao Tribunal de Justiça afastar, a partir da análise aprofundada e exauriente das provas, a possibilidade de dolo ou de culpa e desclassificar o crime doloso contra a vida, sob pena de usurpar a competência constitucional do Tribunal do Júri sobre o elemento subjetivo da conduta.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia a saber se, na fase do judicium accusationis, o Tribunal de Justiça pode afastar, de forma exauriente, a presença de dolo (direto ou eventual) e mesmo de culpa na conduta atribuída ao acusado, desclassificando o crime doloso contra a vida e afastando a competência do Tribunal do Júri.",
+      "relator": "Ministro Joel Ilan Paciornik",
+      "orgao_julgador": "Quinta Turma",
+      "data_julgamento": "15/4/2026",
+      "legislacao_aplicada": [
+        "Código de Processo Penal (CPP), art. 413, § 1º;",
+        "Constituição Federal (CF), art. 5º, XXXVIII;"
+      ]
+    },
+    {
+      "processo": "AREsp 3.057.385-DF",
+      "ramo_direito": "DIREITO PENAL",
+      "tema": "Violência psicológica contra a mulher. Art. 147-B do Código Penal. Prova da materialidade. Exame de corpo de delito. Dispensabilidade.",
+      "destaque": "Nos casos de violência doméstica, o exame de corpo de delito pode ser dispensado quando há outras provas idôneas que demonstrem a materialidade delitiva.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em saber se, nos casos de violência psicológica contra a mulher, o exame de corpo de delito é indispensável para comprovar a materialidade delitiva, ou se outras provas idôneas podem suprir sua ausência.",
+      "relator": "Ministro Joel Ilan Paciornik",
+      "orgao_julgador": "Quinta Turma",
+      "data_julgamento": "3/2/2026",
+      "legislacao_aplicada": [
+        "Código Penal (CP)",
+        "art. 147-B"
+      ]
+    },
+    {
+      "processo": "AgRg no REsp 2.255.737-MG",
+      "ramo_direito": "DIREITO PENAL",
+      "tema": "Furto qualificado pelo rompimento de obstáculo. Cadeado rompido e porta danificada. Atos executórios. Iter criminis. Subtração não iniciada. Tentativa.",
+      "destaque": "A conduta do agente que inicia o rompimento de obstáculo, e não alcança a subtração de bens por razões alheias à sua vontade, não pode ser considerada mero ato preparatório do delito, mas tentativa de furto qualificado.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia a definir se configura tentativa de furto qualificado a conduta de agentes flagrados ao tentar arrombar a porta de estabelecimento comercial depois de destruir o cadeado, sem conseguir prosseguir na subtração.",
+      "relator": "Ministro Reynaldo Soares da Fonseca",
+      "orgao_julgador": "Quinta Turma do Superior Tribunal de Justiça",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Código Penal (CP)",
+        "art. 14, II",
+        "e art. 155"
+      ]
+    },
+    {
+      "processo": "AgRg no AgRg no REsp 1.835.395-RS",
+      "ramo_direito": "DIREITO PENAL",
+      "tema": "Venda irregular de medicamentos pela internet. Princípio da especialidade. Incidência do art. 273, § 1º-B, do Código Penal. Tipicidade. Afastamento do tráfico de drogas.",
+      "destaque": null,
+      "informacoes_inteiro_teor": "Na instância ordinária, o acusado foi condenado pela prática do crime de tráfico de entorpecentes e por associação para o mesmo fim (arts. 33 e 35 da Lei n. 11.343/2006). Contudo, verifica-se a necessidade de proceder à adequada classificação dos fatos narrados na denúncia.",
+      "relator": "Ministro Antonio Saldanha Palheiro",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Código Penal, art. 273, § 1º-B",
+        "Lei n. 11.343/2006, art. 33 e art. 35",
+        "Portaria SVS/MS n. 344 de 1998"
+      ]
+    },
+    {
+      "processo": "AgRg no AREsp 3.080.643-SE",
+      "ramo_direito": "DIREITO PENAL, DIREITO PROCESSUAL PENAL",
+      "tema": "Queixa-crime. Decadência. Prazo peremptório. Alteração da capitulação jurídica. Suspensão, interrupção ou prorrogação do prazo decadencial. Impossibilidade.",
+      "destaque": "O prazo de 6 (seis) meses para o oferecimento da queixa ou da representação é peremptório, não se sujeitando a suspensão, interrupção ou prorrogação, ainda que ocorra alteração da capitulação jurídica.",
+      "informacoes_inteiro_teor": "Consta que a parte recorrente ofereceu queixa-crime em desfavor dos recorridos pela suposta prática dos crimes de difamação e injúria. O Juízo singular julgou extinta a punibilidade dos querelados pela decadência.",
+      "relator": "Ministro Rogerio Schietti Cruz",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Código Penal, art. 103;",
+        "Código de Processo Penal, art. 38;"
+      ]
+    },
+    {
+      "processo": "HC 1.000.918-SP",
+      "ramo_direito": "DIREITO PENAL, DIREITO PROCESSUAL PENAL",
+      "tema": "Aborto. Comunicação feita por médica que atendeu a paciente. Violação de sigilo médico. Configuração. Provas ilícitas reconhecidas. Restabelecimento da sentença de impronúncia.",
+      "destaque": "A comunicação feita por profissional de saúde à autoridade policial de fatos protegidos pelo sigilo médico - notadamente em casos de aborto - constitui prova ilícita, contaminando, por derivação, todos os elementos de prova subsequentes.",
+      "informacoes_inteiro_teor": "Consta dos autos que a paciente foi denunciada pela suposta prática do crime previsto no artigo 124 do Código Penal por ter provocado aborto em si mesma mediante a ingestão de substância abortiva. A decisão de pronúncia foi baseada em comunicação feita à polícia pela médica que atendeu a paciente.",
+      "relator": "Ministro Otávio de Almeida Toledo (Desembargador convocado do TJSP)",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "15/4/2026",
+      "legislacao_aplicada": [
+        "Código Penal (CP), art. 124",
+        "Constituição Federal (CF), art. 5º, LVI",
+        "Código de Processo Penal (CPP), art. 6º; caput e § 1º; e art. 207",
+        "Código de Ética Médica (Resolução CFM n. 2.217/2018)",
+        "Consulta n. 24.292/00 do CREMESP"
+      ]
+    },
+    {
+      "processo": "REsp 2.245.144-SP",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL, DIREITO TRIBUTÁRIO",
+      "tema": "A Primeira Seção acolheu a proposta de afetação dos Recursos Especiais n. 2.245.144-SP e 2.245.146-SP ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"1. Definir qual das partes deve ser condenada ao pagamento dos ônus sucumbenciais quanto ao período em que o autor é dispensado de recolher tributo em razão da aplicação da modulação dos efeitos da orientação estabelecida no Tema 986 do STJ. 2. Definir se há direito à repetição do indébito em favor do autor que recolhe integralmente o tributo, apesar de estar em situação de ser beneficiado pela modulação dos efeitos da orientação estabelecida no Tema 986 do STJ\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministra Maria Thereza de Assis Moura",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Tema 986 do STJ",
+        "Tema 1429"
+      ]
+    },
+    {
+      "processo": "REsp 2.219.634-PE",
+      "ramo_direito": "DIREITO PROCESSUAL PENAL",
+      "tema": "1430",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministra Maria Marluce Caldas",
+      "orgao_julgador": "Terceira Seção",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": []
+    }
+  ]
+}

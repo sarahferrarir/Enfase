@@ -1,0 +1,242 @@
+{
+  "numero_informativo": "886",
+  "data_publicacao": "28 de abril de 2026",
+  "julgados": [
+    {
+      "processo": "AgInt no REsp 2.221.968-PR",
+      "ramo_direito": "DIREITO ADMINISTRATIVO, DIREITO PROCESSUAL CIVIL",
+      "tema": "Ação de responsabilidade securitária contra seguradora. Apólice pública garantida pelo FCVS. Solicitação de participação da Caixa Econômica Federal ou da União. Manifestação de interesse no feito. Competência para processamento e julgamento da Justiça Federal. Marco temporal. Sentença de mérito prolatada após a data de entrada em vigor da Medida Provisória n. 513/2010. Precedente do STF.",
+      "destaque": "Segundo o Supremo Tribunal Federal, em caso de demandas relativas a indenização securitária vinculada ao FCVS, quando há solicitação de participação da Caixa Econômica Federal (CEF) ou da União, com manifestação de interesse da CEF no feito, o marco temporal para determinar a competência da Justiça Federal é quando, na data da entrada em vigor da MP n. 513/2010, existia sentença prolatada.",
+      "informacoes_inteiro_teor": "Na origem, cuida-se de ação ordinária de responsabilidade obrigacional securitária proposta por mutuários do Sistema Financeiro da Habitação (SFH) contra uma seguradora e a Caixa Econômica Federal, objetivando a condenação das requeridas ao pagamento de indenização securitária por danos físicos em imóveis dos autores, em razão da contratação do seguro habitacional obrigatório com o financiamento imobiliário.",
+      "relator": "Ministro Paulo Sérgio Domingues",
+      "orgao_julgador": "Primeira Turma",
+      "data_julgamento": "16/3/2026",
+      "legislacao_aplicada": [
+        "Medida Provisória n. 513/2010",
+        "Lei 9.469/1997, art. 5º, parágrafo único"
+      ]
+    },
+    {
+      "processo": "AgInt no REsp 2.198.124-SC",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "IRPF. Omissão de rendimentos na declaração de ajuste anual. Constituição do crédito tributário. Prazo decadencial. Regra do art. 173, I, do CTN. Incidência.",
+      "destaque": "Na hipótese de omissão de rendimentos na declaração de ajuste anual do IRPF, o prazo decadencial para constituição do crédito tributário rege-se pelo art. 173, I, do CTN (o termo inicial do prazo decadencial é o primeiro dia do exercício seguinte àquele em que o tributo poderia ter sido lançado).",
+      "informacoes_inteiro_teor": "A controvérsia consiste em definir qual regra decadencial se aplica à hipótese de omissão de rendimentos na declaração de ajuste anual do IRPF.\nNo caso, o contribuinte declarou parte de seus rendimentos e recolheu imposto sobre eles, mas deixou de oferecer à tributação os juros de mora recebidos em ação judicial, por considerá-los isentos. O lançamento suplementar foi efetuado em 2021.\nA jurisprudência pacífica do Superior Tribunal de Justiça, firmada em diversos precedentes de ambas as Turmas da Primeira Seção, é no sentido de que, em casos de omissão de rendimentos, o prazo decadencial para constituição do crédito tributário rege-se pelo art. 173, I, do Código Tributário Nacional - CTN.\nIsso porque, o entendimento consolidado é o de que, quanto à parcela omitida, não há pagamento antecipado nem declaração de débito, de modo que o lançamento só poderia ser efetuado após o prazo final para entrega da declaração.\nA alegação de que houve pagamento parcial e ausência de dolo não infirmam esse entendimento, uma vez que o pagamento parcial de imposto sobre outros rendimentos não altera a natureza da omissão quanto aos valores não declarados. Ademais, a regra do art. 150, § 4º, aplica-se às hipóteses em que há pagamento antecipado a menor do tributo devido sobre a totalidade da base declarada, discutindo-se apenas diferenças apuradas no mesmo contexto declaratório. Já na omissão de rendimentos, a parcela omitida não foi objeto de pagamento nem de declaração, razão pela qual se aplica a regra geral do art. 173, I.\nRessalta-se, ainda, que não há contradição com o Tema 163/STJ, porquanto, quanto à parcela omitida, não houve pagamento antecipado nem declaração de débito, de modo que o lançamento só poderia ser efetuado após o prazo final para entrega da declaração.\nDessa forma, na hipótese de omissão de rendimentos na declaração de ajuste anual do IRPF, o prazo decadencial para constituição do crédito tributário rege-se pelo art. 173, I, do CTN (o termo inicial do prazo decadencial é o primeiro dia do exercício seguinte àquele em que o tributo poderia ter sido lançado).",
+      "relator": "Ministro Benedito Gonçalves",
+      "orgao_julgador": "Primeira Turma",
+      "data_julgamento": "9/3/2026",
+      "legislacao_aplicada": [
+        "Código Tributário Nacional (CTN), art. 150, §4º e art. 173, I.",
+        "Tema 163/STJ."
+      ]
+    },
+    {
+      "processo": "REsp 2.200.952-DF",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Cumprimento de sentença. Decisão que somente homologa os cálculos. Dúvida sobre o recurso cabível. Jurisprudência do STJ que ainda não está pacificada, diante das particularidades da causa. Ausência de erro grosseiro. Princípio da fungibilidade recursal. Aplicabilidade.",
+      "destaque": "Aplica-se o princípio da fungibilidade recursal no que concerne ao recurso cabível contra decisão que somente homologa os cálculos no âmbito de cumprimento de sentença.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia ao debate quanto ao recurso cabível na origem - se agravo de instrumento ou apelação - contra decisão que somente homologa os cálculos no âmbito de cumprimento de sentença.",
+      "relator": "Ministro Francisco Falcão",
+      "orgao_julgador": "Segunda Turma",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Código de Processo Civil (CPC), art. 203, §§ 1º e 2º;",
+        "art. 924;"
+      ]
+    },
+    {
+      "processo": "AgInt no AREsp 2.866.825-RS",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL, DIREITO TRIBUTÁRIO",
+      "tema": "Imposto de Renda. Isenção por doença grave. Legitimidade ativa do espólio/herdeiros para repetição do indébito. Desnecessidade de requerimento administrativo prévio.",
+      "destaque": "Os herdeiros ou o espólio são legítimos para pleitear a repetição de valores de imposto de renda não recebidos pelo falecido em vida, por se tratar de crédito patrimonial transmissível com a herança, independentemente de prévio requerimento administrativo do titular em vida.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia acerca da legitimidade ativa do espólio/herdeiros, bem como da necessidade de prévio requerimento administrativo, para postular a restituição de imposto de renda indevidamente recolhido por contribuinte portador de moléstia grave.",
+      "relator": "Ministro Teodoro Silva Santos",
+      "orgao_julgador": "Segunda Turma",
+      "data_julgamento": "3/3/2026",
+      "legislacao_aplicada": [
+        "Lei n. 7.713/1988, art. 6º, XIV"
+      ]
+    },
+    {
+      "processo": "REsp 2.229.967-SP",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "Programa de Autorregularização Incentivada - PAI. Lei n. 14.740/2023. Inclusão de débitos com vencimento posterior à data de publicação da lei. Impossibilidade. Interpretação sistemática e teleológica da norma. Natureza de anistia tributária. Arts. 175, II; e 180 do CTN.",
+      "destaque": "Os débitos tributários com vencimento posterior à data de publicação da Lei 14.740/2023 não podem ser incluídos no Programa de Autorregularização Incentivada - PAI, sob pena de se admitir a concessão de anistia a infrações futuras.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia em definir se débitos tributários com vencimento posterior à data de publicação da Lei n. 14.740/2023 podem ser incluídos no Programa de Autorregularização Incentivada - PAI.",
+      "relator": "Ministro Afrânio Vilela",
+      "orgao_julgador": "Segunda Turma do Superior Tribunal de Justiça",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 14.740/2023",
+        "Código Tributário Nacional (CTN)",
+        "art. 180",
+        "art. 175, II"
+      ]
+    },
+    {
+      "processo": null,
+      "ramo_direito": "DIREITO DA CRIANÇA E DO ADOLESCENTE",
+      "tema": "Adoção. Entrega voluntária de recém-nascido. Arrependimento dos pais biológicos. Situação de fato consolidada. Melhor interesse da criança.",
+      "destaque": "Na hipótese de entrega voluntária de recém-nascido, o exercício tempestivo do direito de retratação ou arrependimento pelos pais biológicos não implica a automática revogação da adoção, podendo tal direito ser relativizado quando evidenciada a consolidação da situação fática, em observância ao princípio do melhor interesse da criança.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia a decidir se o direito de retratação/arrependimento dos pais biológicos, exercido tempestivamente nos termos do Estatuto da Criança e do Adolescente (ECA), impõe, de forma automática, a revogação da adoção e o retorno do infante à família natural, ou se deve ser relativizado diante da situação de fato consolidada e do princípio da prioridade absoluta e do melhor interesse da criança.",
+      "relator": "Ministro Humberto Martins",
+      "orgao_julgador": "Terceira Turma",
+      "data_julgamento": "30/3/2026",
+      "legislacao_aplicada": [
+        "Lei n. 8.069/1990 (ECA)",
+        "art. 166, § 1º",
+        "art. 166, § 5º"
+      ]
+    },
+    {
+      "processo": "Processo em segredo de justiça",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Ação de exigir contas. Segunda fase. Erro na interposição do recurso. Indução em erro pelo magistrado. Conhecimento do recurso interposto.",
+      "destaque": "É admissível relevar o equívoco na interposição do recurso quando o magistrado induz o jurisdicionado em erro.",
+      "informacoes_inteiro_teor": "A controvérsia busca definir se é possível a aplicação do princípio da fungibilidade recursal na segunda fase da ação de prestação de contas para conhecer de apelação interposta contra pronunciamento judicial intitulado de \"sentença\", que julgou \"boas\" as contas apresentadas, fixando honorários de sucumbência e determinando a retirada/descarte de documentos.",
+      "relator": "Ministro Ricardo Villas Bôas Cueva",
+      "orgao_julgador": "Terceira Turma",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 1.850.543-PR",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "Seguro obrigatório DPVAT. Lei n. 6.194/1974. Acidente de trânsito. Roubo de veículo. Ilícito penal doloso. Não existência de interesse legítimo segurável. Finalidade social do DPVAT. Não abrangência de consequências de conduta criminosa intencional.",
+      "destaque": "A indenização do seguro DPVAT não é devida quando o acidente ocorreu durante a prática de ilícito penal doloso envolvendo o próprio veículo objeto do roubo por afastar a aleatoriedade do contrato e o interesse legítimo segurável.",
+      "informacoes_inteiro_teor": "A controvérsia cinge-se a verificar se a indenização securitária do seguro obrigatório DPVAT é devida à vítima de acidente envolvendo veículo automotor durante a prática de ato ilícito, isto é, se o dolo do segurado é causa excludente do pagamento da indenização.",
+      "relator": "Ministra Maria Isabel Gallotti",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "13/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 6.194/1974, art. 5º;",
+        "Código Civil (CC), art. 762."
+      ]
+    },
+    {
+      "processo": "REsp 2.235.175-RS",
+      "ramo_direito": "DIREITO DA SAÚDE",
+      "tema": "Plano de saúde. Cobertura de cirurgia robótica em tratamento oncológico. Irrelevância da natureza do rol da ANS. Obrigatoriedade de custeio. ADI n. 7.265/DF.",
+      "destaque": "É devida a cobertura por plano de saúde de exames e procedimentos integrantes de tratamento oncológico, sendo irrelevante a natureza do rol da ANS.",
+      "informacoes_inteiro_teor": "A controvérsia diz respeito à ação de tratamento médico-hospitalar em que a parte autora pleiteou a autorização e cobertura de cirurgia de prostatovesiculectomia radical laparoscópica pela técnica robótica, indicada pelo médico assistente para tratamento de neoplasia maligna de próstata.",
+      "relator": "Ministro João Otávio de Noronha",
+      "orgao_julgador": "Quarta Turma do Superior Tribunal de Justiça",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Lei n. 9.656/1998, art. 10, § 13"
+      ]
+    },
+    {
+      "processo": "AREsp 2.662.310-SP",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Execução de título extrajudicial. Tentativa frustrada de citação pelos correios. Arresto prévio do art. 830 do CPC. Possibilidade. Citação por oficial de justiça. Dispensabilidade.",
+      "destaque": "O arresto prévio do art. 830 do CPC é admissível mesmo quando a tentativa frustrada de citação ocorre pelos correios, sendo dispensada a atuação do oficial de justiça.",
+      "informacoes_inteiro_teor": "A questão em discussão consiste em saber se a medida de arresto prévio depende necessariamente da tentativa de citação por intermédio do oficial de justiça ou se seria cabível quando a tentativa frustrada de citação se deu pelos correios.",
+      "relator": "Ministro João Otávio de Noronha",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "9/3/2026",
+      "legislacao_aplicada": [
+        "art. 246, § 1º do CPC",
+        "art. 797 do CPC",
+        "art. 830 do CPC",
+        "art. 854 do CPC"
+      ]
+    },
+    {
+      "processo": "AgRg no AgRg no AREsp 3.063.890-MS",
+      "ramo_direito": "DIREITO PENAL",
+      "tema": "Furto qualificado tentado. Pretensão de reconhecimento da modalidade consumada do crime. Teoria da apprehensio (apreensão) ou amotio (remoção). Termos não sinônimos. Fases sequenciais. Réu preso em flagrante delito ainda dentro do estabelecimento vítima. Posse mansa e pacífica. Prescindibilidade. Inversão da posse da coisa alheia móvel. Não configuração. Imprescindibilidade. Tentativa configurada. Tema Repetitivo 934/STJ. Distinguishing.",
+      "destaque": "O fato de o agente ter sido surpreendido no interior do estabelecimento da vítima, portando consigo, acondicionados numa mochila, os bens que objetivava subtrair, demonstra tão somente o iter criminis percorrido, mas não a efetiva inversão da posse, configurando tentativa de furto.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em definir se, na hipótese de o agente ter sido surpreendido ainda no interior do estabelecimento vítima, portando consigo, acondicionados numa mochila, os bens que objetivava subtrair, o delito patrimonial está configurado em sua modalidade consumada ou tentada.",
+      "relator": "Ministro Reynaldo Soares da Fonseca",
+      "orgao_julgador": "Quinta Turma",
+      "data_julgamento": "3/3/2026",
+      "legislacao_aplicada": [
+        "Tema 934/STJ"
+      ]
+    },
+    {
+      "processo": "AREsp 3.046.912-RS",
+      "ramo_direito": "DIREITO PENAL MILITAR, DIREITO PROCESSUAL PENAL, DIREITO PROCESSUAL PENAL MILITAR",
+      "tema": "Crime militar. Violência contra superior. Incidência do aumento de pena do § 3º do art. 157 do CPM (Lesão corporal). Exame de corpo de delito. Perícia necessária. Prova testemunhal. Excepcionalidade.",
+      "destaque": "Ausente exame de corpo de delito e inexistente justificativa para sua não realização, é inviável reconhecer a materialidade da lesão corporal necessária à aplicação do § 3º do art. 157 do Código Penal Militar.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia a determinar se, em crime militar de violência contra superior que resulta em lesão corporal, a ausência de exame de corpo de delito impede a incidência do § 3º do art. 157 do Código Penal Militar.",
+      "relator": "Ministro Ribeiro Dantas",
+      "orgao_julgador": "Quinta Turma",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Código Penal Militar (CPM), art. 157, § 3º",
+        "Código de Processo Penal Militar (CPPM), art. 328",
+        "Código de Processo Penal (CPP), art. 158 e art. 167"
+      ]
+    },
+    {
+      "processo": "HC 1.037.843-SP",
+      "ramo_direito": "DIREITO PENAL, DIREITO PENAL MILITAR",
+      "tema": "Prescrição da pretensão punitiva retroativa. Aplicação subsidiária do art. 110, § 2º, do Código Penal aos crimes militares. Peculato. Réu maior de 70 anos. Prescrição da pretensão punitiva.",
+      "destaque": "As normas gerais do Código Penal aplicam-se subsidiariamente ao Direito Penal Militar, nos termos do art. 12 do Código Penal, sempre que o Código Penal Militar não disciplinar de modo diverso a matéria.\nO art. 110, § 2º, do Código Penal, em sua redação anterior à Lei n. 12.234/2010, aplica-se, in bonam partem, aos crimes militares cometidos antes de sua revogação, permitindo o cômputo do lapso entre a data do fato e o recebimento da denúncia para efeito de prescrição da pretensão punitiva retroativa.\nA ausência, no art. 125, § 1º, do Código Penal Militar, de disciplina expressa sobre a prescrição retroativa entre o fato e o recebimento da denúncia configura lacuna normativa e não opção legislativa de afastamento do instituto, devendo tal lacuna ser suprida em favor do réu.",
+      "informacoes_inteiro_teor": "A questão em discussão consiste em saber se é admissível a aplicação subsidiária e in bonam partem do art. 110, § 2º, do Código Penal, em sua redação anterior à Lei n. 12.234/2010, aos crimes militares, para permitir o reconhecimento da prescrição da pretensão punitiva na modalidade retroativa computando-se o lapso entre a data do fato e o recebimento da denúncia.",
+      "relator": "Ministro Ribeiro Dantas",
+      "orgao_julgador": "Quinta Turma",
+      "data_julgamento": "10/3/2026",
+      "legislacao_aplicada": [
+        "Código Penal (CP), art. 12",
+        "Código Penal Militar (CPM), art. 125, III e § 1º",
+        "Constituição Federal (CF), art. 5º, XL",
+        "Lei n. 12.234/2010"
+      ]
+    },
+    {
+      "processo": "REsp 2.245.209-AL",
+      "ramo_direito": "DIREITO PENAL",
+      "tema": "Dosimetria da pena. Culpabilidade. Fundamentação idônea. Vítima em atividade laboral. Conhecimento pelo agente. Reprovabilidade acentuada. Valoração negativa mantida.",
+      "destaque": "O fato de o agente ter praticado o crime de roubo contra vítima que exercia atividade laboral lícita como motorista de aplicativo, circunstância de seu conhecimento no momento da ação delituosa, evidencia maior reprovabilidade, justificando a valoração negativa da culpabilidade, com a consequente exasperação da pena-base.",
+      "informacoes_inteiro_teor": "Consabidamente, a culpabilidade, enquanto circunstância judicial, deve ser compreendida como juízo de reprovabilidade da conduta, aferindo-se o maior ou menor grau de censurabilidade do comportamento do réu. A jurisprudência do Superior Tribunal de Justiça admite a valoração negativa da culpabilidade quando demonstradas circunstâncias que evidenciem maior censurabilidade da conduta, e desde que apresentada fundamentação concreta que extrapole os elementos inerentes ao tipo penal. No caso, o Juízo de primeiro grau fundamentou que a culpabilidade excede o normal à espécie, considerando que a vítima estava trabalhando como motorista vinculado a aplicativo, durante o período noturno, no momento do cometimento do delito, situação que denota um acentuado grau de reprovabilidade da conduta do réu. Salientou, ainda, que o réu se aproveitou da vulnerabilidade da vítima, que desempenhava atividade laboral lícita, buscando seu sustento, para praticar o crime, revelando maior censurabilidade em sua conduta.",
+      "relator": "Ministro Sebastião Reis Júnior",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "18/3/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "AgRg no HC 1.048.545-SP",
+      "ramo_direito": "DIREITO PENAL, DIREITO PROCESSUAL PENAL",
+      "tema": "Tráfico de drogas. Insuficiência probatória. Desclassificação para posse de drogas para consumo próprio.",
+      "destaque": "A condenação por tráfico de drogas exige prova robusta e inequívoca da prática de atos concretos de traficância, não sendo suficiente a mera apreensão de droga ou a existência de antecedentes criminais.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em determinar se a conduta do paciente enquadra-se no tipo penal de tráfico de drogas ou de posse para consumo próprio, considerando a quantidade de droga apreendida, os depoimentos dos policiais e a ausência de elementos concretos que comprovem a prática de traficância.",
+      "relator": "Ministro Antonio Saldanha Palheiro",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "14/4/2026",
+      "legislacao_aplicada": [
+        "Código de Processo Penal (CPP), art. 155",
+        "Lei n. 11.343/2006, art. 33"
+      ]
+    },
+    {
+      "processo": "REsp 2.223.487-RS",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "A Primeira Seção acolheu a proposta de afetação do Recurso Especial n. 2.223.487-RS ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se os serviços odontológicos se enquadram, ou não, no conceito de 'serviços hospitalares', para fins de aplicação dos percentuais reduzidos do art. 15, § 1º, III, a, e do art. 20, ambos da Lei n. 9.249/1995, na redação da Lei n. 11.727/2008.\".",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Teodoro Silva Santos",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "31/3/2026",
+      "legislacao_aplicada": [
+        "Lei n. 9.249/1995",
+        "Lei n. 11.727/2008"
+      ]
+    },
+    {
+      "processo": "REsp 2.227.090-CE",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL, DIREITO TRIBUTÁRIO",
+      "tema": "A Primeira Seção acolheu a proposta de afetação dos Recursos Especiais n. 2.227.090-CE, 2.217.950-PE, 2.227.299-SE e 2.204.190-AL ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se o prazo prescricional de cinco anos para o exercício do direito de compensação de créditos tributários reconhecidos judicialmente, previsto no art. 168 do Código Tributário Nacional (CTN), aplica-se ao início do procedimento compensatório ou à sua integral conclusão, bem como aferir os efeitos do pedido administrativo de habilitação de crédito na contagem desse prazo\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Teodoro Silva Santos",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "31/3/2026",
+      "legislacao_aplicada": [
+        "art. 168 do Código Tributário Nacional (CTN)"
+      ]
+    }
+  ]
+}

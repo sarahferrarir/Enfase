@@ -84,13 +84,14 @@ class InformativoConverter:
         print(f"   - Total de chunks: {len(chunks)}")
 
         print("\n🤖 Processando chunks com Ollama...")
-        all_julgados_data = []
+        julgados_with_source = []  # [(julgado_data, chunk_source), ...]
 
         for i, chunk in enumerate(chunks, 1):
             print(f"\n   Chunk {i}/{len(chunks)} ({len(chunk)} chars)...")
             try:
                 julgados_data = self.llm_processor.process_chunk(chunk)
-                all_julgados_data.extend(julgados_data)
+                for data in julgados_data:
+                    julgados_with_source.append((data, chunk))
                 print(f"   ✅ Encontrados {len(julgados_data)} julgados")
             except Exception as e:
                 print(f"   ❌ Erro: {str(e)}")
@@ -98,11 +99,12 @@ class InformativoConverter:
 
         print(f"\n📋 Convertendo para modelos Pydantic...")
         julgados = []
-        for data in all_julgados_data:
+        for data, source_chunk in julgados_with_source:
             try:
                 julgado = self.llm_processor.convert_to_julgado(data)
                 julgado.informativo = numero_informativo
                 julgado.data_informativo = data_publicacao
+                julgado.noticia_completa = source_chunk[:1000] if source_chunk else None
                 julgado.id = generate_id()
                 julgado.created_at = generate_timestamp()
 
@@ -111,24 +113,33 @@ class InformativoConverter:
                 print(f"   ⚠️  Erro ao converter: {str(e)}")
                 continue
 
-        print(f"\n✔️  Validando julgados...")
+        print(f"\n✔️  Validando julgados (rigoroso)...")
         valid_julgados = []
+        descartados_por_validacao = 0
         for julgado in julgados:
             is_valid, issues = self.validator.is_valid(julgado)
             if is_valid:
                 valid_julgados.append(julgado)
-                print(f"   ✅ {julgado.numero_processo or julgado.classe_processo}")
+                print(f"   ✅ {julgado.numero_processo}")
             else:
-                print(f"   ❌ Descartado: {', '.join(issues)}")
+                descartados_por_validacao += 1
+                print(f"   ❌ {julgado.numero_processo or 'sem-numero'}: {issues[0]}")
 
-        # Remove duplicatas
+        # Remove duplicatas e une entradas
+        print(f"\n🔀 Removendo duplicatas e unindo entradas...")
+        antes_merge = len(valid_julgados)
         valid_julgados = self.validator.merge_julgados(valid_julgados)
+        depois_merge = len(valid_julgados)
+        duplicatas_removidas = antes_merge - depois_merge
 
         print(f"\n{'='*60}")
-        print(f"📊 RESUMO:")
+        print(f"📊 RESUMO DO PROCESSAMENTO:")
         print(f"   - Chunks processados: {len(chunks)}")
-        print(f"   - Julgados extraídos: {len(all_julgados_data)}")
-        print(f"   - Julgados válidos: {len(valid_julgados)}")
+        print(f"   - Julgados extraídos pela LLM: {len(julgados)}")
+        print(f"   - Julgados descartados na validação: {descartados_por_validacao}")
+        print(f"   - Julgados válidos: {antes_merge}")
+        print(f"   - Duplicatas removidas/unidas: {duplicatas_removidas}")
+        print(f"   - Julgados finais: {len(valid_julgados)}")
         print(f"{'='*60}")
 
         # Monta JSON final

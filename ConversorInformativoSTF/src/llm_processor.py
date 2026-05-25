@@ -5,44 +5,53 @@ from .schemas import Julgado
 
 
 SYSTEM_PROMPT = """Você é um especialista em jurisprudência do STF (Superior Tribunal Federal).
-Sua tarefa é identificar e extrair julgados do texto fornecido.
+Sua tarefa é identificar e extrair APENAS julgados principais do informativo.
 
-Regras importantes:
-- Retorne APENAS JSON válido
-- NÃO invente dados
-- NÃO resuma campos, preserve o texto original
-- Um julgado típico tem: classe (ADI, RE, etc), número, título, resumo
-- Se algum campo estiver ausente, use null
-- Sempre validate o JSON antes de retornar"""
+REGRAS CRÍTICAS:
+1. Retorne APENAS JSON válido. Nenhum texto adicional antes/depois.
+2. Um julgado PRINCIPAL tem: classe + número + título + resumo (todos obrigatórios)
+3. Dados INCOMPLETOS não devem ser retornados como julgado
+4. Se um número de processo aparece APENAS dentro do resumo de outro caso (como precedente/citação), NÃO extraia como julgado separado
+5. Se o "resumo" é apenas "[Rcl 77.893 AgR/GO, relator...]" (dado referencial), NÃO é um julgado, descarte
+6. Preserve o texto original, não resuma nem abrevie
+7. Um resumo deve ser o texto substancial da decisão, não uma data ou referência processual"""
 
 
-JULGADO_EXTRACTION_PROMPT = """Analise o seguinte texto de um informativo do STF e identifique TODOS os julgados presentes.
+JULGADO_EXTRACTION_PROMPT = """Analise o seguinte texto de um informativo do STF e identifique APENAS os julgados PRINCIPAIS.
 
-Para cada julgado encontrado, extraia (se disponível):
-- classe_processo: ADI, ADPF, RE, ARE, HC, MS, Rcl, ACO, etc
-- numero_processo: número completo do processo
-- uf: estado da unidade de origem
-- ramo_direito: DIREITO CONSTITUCIONAL, DIREITO CIVIL, etc
-- materia: tema específico
-- titulo: título do julgado (geralmente em negrito ou itálico)
-- resumo: resumo executivo da decisão
-- relator: nome do relator
-- legislacao: leis, artigos ou normas mencionadas
-- ods_onu2030: objetivos de desenvolvimento sustentável (números)
-- data_julgamento: data do julgamento se informada
+CRITÉRIOS DE INCLUSÃO DE JULGADO (todos os 4 campos obrigatórios):
+✓ classe_processo: ADI, ADPF, RE, ARE, HC, MS, Rcl, ACO, SL, etc (uma única classe, não múltiplas)
+✓ numero_processo: número completo e único (ex: "1.234/SP", NOT "1.234 e 5.678")
+✓ titulo: título SUBSTANTIVO do caso (não vazio, não apenas "*itálicos*")
+✓ resumo: parágrafo COMPLETO com a essência da decisão (mínimo 50 caracteres, NOT referências como "[Rcl 77.893 AgR/GO, relator...]")
+
+CRITÉRIOS DE EXCLUSÃO:
+✗ Números de processo citados apenas como precedentes/referências dentro outro resumo
+✗ Entradas com dados incompletos ou fragmentados
+✗ Resumos que são apenas dados processuais (datas, relatores, links)
+✗ Processos que aparecem em listas como "ADI 7.490" mencionadas comparativamente
+
+CAMPOS ADICIONAIS (preencer se disponível, senão null):
+- uf: estado (ex: "SP", "GO", "DF")
+- ramo_direito: área jurídica (ex: "DIREITO CONSTITUCIONAL")
+- materia: tema específico do caso
+- relator: nome do Ministro relator
+- legislacao: leis/artigos mencionados
+- ods_onu2030: objetivos ONU (ex: "1, 2, 5")
+- data_julgamento: data do julgamento
 - observacao: qualquer observação relevante
 
-Retorne um JSON com a seguinte estrutura:
+RETORNE JSON COM ESTRUTURA:
 {{
   "julgados": [
     {{
-      "classe_processo": "string ou null",
-      "numero_processo": "string ou null",
+      "classe_processo": "string (obrigatório)",
+      "numero_processo": "string (obrigatório)",
       "uf": "string ou null",
+      "titulo": "string (obrigatório)",
+      "resumo": "string (obrigatório, mínimo 50 chars)",
       "ramo_direito": "string ou null",
       "materia": "string ou null",
-      "titulo": "string ou null",
-      "resumo": "string ou null",
       "relator": "string ou null",
       "legislacao": "string ou null",
       "ods_onu2030": "string ou null",
@@ -52,8 +61,7 @@ Retorne um JSON com a seguinte estrutura:
   ]
 }}
 
-Aqui está o texto:
-
+TEXTO:
 {text}"""
 
 

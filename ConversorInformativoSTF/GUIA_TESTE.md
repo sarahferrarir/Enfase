@@ -295,32 +295,6 @@ python -m src.converter exemplos/Informativo1214.docx --chunk-size 2000
 6. ✅ Sem julgados duplicados
 7. ✅ Output JSON é válido e parseable
 
----
-
-## 🎯 Próximas Iterações (Opcionais)
-
-1. **Fine-tuning do Prompt**
-   - Adicionar exemplos ao prompt (few-shot learning)
-   - Especificar melhor quais campos são críticos
-   - Adicionar instruções contra alucinações
-
-2. **Adicionar Logging**
-   - Salvar chunks processados
-   - Registrar quais campos falharam
-   - Debug de LLM com prompts/respostas
-
-3. **Caching**
-   - Cache de chunks já processados
-   - Evitar reprocessar mesmo arquivo
-
-4. **Validações Avançadas**
-   - Cross-check com numero_processo encontrado no texto
-   - Validar formato de data
-   - Validar UF contra lista de estados
-
-5. **Integração com Banco de Dados**
-   - Salvar diretamente em MongoDB/PostgreSQL
-   - Evitar duplicatas globais
 
 ---
 

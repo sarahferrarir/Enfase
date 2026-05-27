@@ -72,10 +72,10 @@
 
 ```
 ConversorInformativoSTF/
-├── exemplos/                    ✅ Intocado
+├── exemplos/                    
 ├── versionamento/
-│   └── old_converter/          ✅ Código antigo preservado (referência)
-└── src/                        ✨ Nova arquitetura LLM-driven
+│   └── old_converter/          Código antigo preservado (referência)
+└── src/                        Nova arquitetura LLM-driven
 ```
 
 ---
@@ -259,29 +259,6 @@ Se a execução não funcionar bem:
 2. **GUIA_TESTE.md** — Instruções passo a passo
 3. **Comentários no código** — Explicações inline
 4. **Docstrings** — Documentação das funções
-
----
-
-## 🎯 Próximos Passos (Opcionais)
-
-1. **Testar com diferentes modelos**
-   - Comparar qwen2.5:14b vs llama3.1:8b
-
-2. **Fine-tuning do prompt**
-   - Adicionar exemplos (few-shot learning)
-   - Ser mais específico sobre campos críticos
-
-3. **Adicionar logging avançado**
-   - Salvar chunks processados
-   - Registrar respostas da LLM para debug
-
-4. **Caching**
-   - Cache de chunks já processados
-   - Evitar reprocessar mesmo arquivo
-
-5. **Integração com DB**
-   - Salvar direto em MongoDB/PostgreSQL
-   - Deduplicação global
 
 ---
 

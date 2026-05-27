@@ -1,4 +1,4 @@
-# 🚀 PRÓXIMOS PASSOS - Teste e Validação
+# 🚀 GUIA - Teste e Validação
 
 ## ✅ O que foi implementado
 

@@ -1,5 +1,5 @@
 import re
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 from .schemas import Julgado
 
 
@@ -345,6 +345,3 @@ class JulgadoValidator:
                         setattr(best, attr, j_val)
 
         return best
-
-
-from typing import Optional

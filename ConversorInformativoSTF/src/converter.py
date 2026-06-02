@@ -117,13 +117,14 @@ class InformativoConverter:
         valid_julgados = []
         descartados_por_validacao = 0
         for julgado in julgados:
-            is_valid, issues = self.validator.is_valid(julgado)
+            is_valid, issues = self.validator.is_valid(julgado, cleaned_text)
             if is_valid:
                 valid_julgados.append(julgado)
                 print(f"   ✅ {julgado.numero_processo}")
             else:
                 descartados_por_validacao += 1
-                print(f"   ❌ {julgado.numero_processo or 'sem-numero'}: {issues[0]}")
+                issues_str = issues[0] if issues else "desconhecido"
+                print(f"   ❌ {julgado.numero_processo or 'sem-numero'}: {issues_str}")
 
         # Remove duplicatas e une entradas
         print(f"\n🔀 Removendo duplicatas e unindo entradas...")

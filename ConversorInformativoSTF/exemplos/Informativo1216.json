@@ -1,8 +1,8 @@
 {
   "julgado_stf": [
     {
-      "id": "50be2da9-7727-417d-ab12-36ea0bc446a0",
-      "created_at": "2026-06-03T19:30:26.920Z",
+      "id": "74537278-a800-4b67-9df4-497928764540",
+      "created_at": "2026-06-06T06:22:51.583Z",
       "informativo": "1216",
       "classe_processo": "ADI",
       "numero_processo": "7836",
@@ -44,8 +44,8 @@
       "tema_julgado": null
     },
     {
-      "id": "028eec9b-e82e-4b30-adcd-fcfce1642a51",
-      "created_at": "2026-06-03T19:30:26.921Z",
+      "id": "56a10fd9-d828-42f9-8a16-bbc8afe50351",
+      "created_at": "2026-06-06T06:22:51.584Z",
       "informativo": "1216",
       "classe_processo": "ADI",
       "numero_processo": "7847",
@@ -87,8 +87,8 @@
       "tema_julgado": null
     },
     {
-      "id": "e2ecb264-deba-4e3f-aa1f-591d4ce82e50",
-      "created_at": "2026-06-03T19:30:26.921Z",
+      "id": "d7bd26e6-69ed-4d5c-aa77-3f77f314cc1b",
+      "created_at": "2026-06-06T06:22:51.584Z",
       "informativo": "1216",
       "classe_processo": "ADI",
       "numero_processo": "7696",

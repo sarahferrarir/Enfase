@@ -14,6 +14,10 @@ PROCESS_RE = re.compile(
     r"(?:/(?P<uf>[A-Z]{2}))?",
     flags=re.IGNORECASE,
 )
+MAIN_TITLE_THEME_RG_RE = re.compile(
+    r"\(\s*Tema\s+(?P<theme>\d+\s*RG)\s*\)",
+    flags=re.IGNORECASE,
+)
 
 
 def _split_area_line(text: str) -> tuple[str, str | None]:
@@ -47,6 +51,22 @@ def _split_title_and_processes(text: str) -> tuple[str, str]:
         if PROCESS_RE.search(suffix):
             return normalize_spaces(text[: match.start()]), normalize_spaces(suffix)
     return normalize_spaces(text), ""
+
+
+def _clean_title(text: str) -> str:
+    text = MAIN_TITLE_THEME_RG_RE.sub("", text)
+    return normalize_spaces(text).strip(" -–—")
+
+
+def _extract_main_theme_rg(process_text: str) -> tuple[str | None, str | None]:
+    """Extrai Tema RG somente do trecho do processo principal no titulo."""
+
+    match = MAIN_TITLE_THEME_RG_RE.search(process_text)
+    if not match:
+        return None, None
+
+    theme = normalize_spaces(match.group("theme")).upper()
+    return theme, "sim"
 
 
 def _normalize_process_number(number: str) -> str:
@@ -202,7 +222,9 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
 
     title_line = remaining[0] if remaining else ""
     title, process_text = _split_title_and_processes(title_line)
+    title = _clean_title(title)
     classe, numero, uf = _extract_processes(process_text)
+    tema_rg, repercussao_geral = _extract_main_theme_rg(process_text)
 
     footer_start = len(remaining)
     for index, line in enumerate(remaining):
@@ -238,6 +260,8 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
         titulo=title,
         ramo_direito=ramo_direito,
         materia=materia,
+        repercussao_geral=repercussao_geral,
+        tema_rg=tema_rg,
         ods_onu2030=ods_onu2030,
         resumo=resumo,
         noticia=noticia,
@@ -250,4 +274,3 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
         data_julgamento=footer_fields["data_julgamento"],
         situacao_julgamento=footer_fields["situacao_julgamento"],
     )
-

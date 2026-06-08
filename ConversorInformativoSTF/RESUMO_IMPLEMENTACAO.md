@@ -1,273 +1,133 @@
-# 📋 RESUMO DA IMPLEMENTAÇÃO - Conversor STF com LLM/Ollama
+# Resumo de Implementacao
 
-## ✅ Status Geral: 100% Implementado
+Este arquivo registra a evolucao do `ConversorInformativoSTF` e as principais decisoes tecnicas. Instrucoes de execucao ficam no `README.md` e no `GUIA_TESTE.md`.
 
-### 📦 O que foi criado
+## Evolucao das Versoes
 
-**10 Novos Módulos Python em `src/`:**
+### Versao regex inicial
 
-1. **schemas.py** (2.2 KB)
-   - Pydantic models para `Julgado`, `Informativo`, `LLMResponse`
-   - Validação automática de tipos
-   - ~50 campos de julgado STF suportados
+A primeira versao separava julgados e extraia campos principalmente por regex. Ela foi preservada em `versionamento/old_converter/`.
 
-2. **document_reader.py** (868 B)
-   - `read_docx(path)` → markdown
-   - Usa mammoth para converter DOCX para markdown
-   - Tratamento de erros
+Problemas observados:
 
-3. **text_preprocessor.py** (1.6 KB)
-   - `clean_text(text)` → remove HTML, imagens, normaliza espaços
-   - `extract_metadata(text)` → extrai número, ano, data do informativo
-   - Limpeza básica SEM tentar extrair julgados
+- separacao incorreta de julgados;
+- alta dependencia da estrutura textual exata;
+- dificuldade para lidar com variacoes entre informativos;
+- falsos positivos com processos citados em precedentes.
 
-4. **chunker.py** (2.4 KB)
-   - `chunk_text(text, size=3000, overlap=300)` → chunks sobrepostos
-   - Estratégia inteligente: não quebra no meio de parágrafos
-   - `extract_julgados_rough()` → debug rápido de possíveis julgados
+### Experimento LLM/Ollama
 
-5. **ollama_client.py** (5.6 KB)
-   - `OllamaClient` com temperatura, timeout, retry automático
-   - `generate(prompt, json_mode)` → resposta com retry
-   - `generate_json(prompt)` → garante JSON válido
-   - Health check antes de processar
+Foi criada uma arquitetura experimental com LLM, prompts e chunking. Essa abordagem ficou preservada em `versionamento/llm_chunk_pipeline/`.
 
-6. **llm_processor.py** (5.0 KB)
-   - `LLMProcessor` que orquestra chamadas ao Ollama
-   - `process_chunk(chunk)` → extrai julgados via LLM
-   - Prompts estruturados e claros
-   - `convert_to_julgado(dict)` → converte para Pydantic model
-   - Sistema prompt: SYSTEM_PROMPT + JULGADO_EXTRACTION_PROMPT
+Motivo para nao seguir como fluxo principal:
 
-7. **validator.py** (4.1 KB)
-   - `JulgadoValidator` com validações:
-     - `is_valid(julgado)` → (bool, issues[])
-     - `clean_field(text)` → remove markdown extras
-     - `normalize_numero_processo(num)` → normaliza números
-     - `merge_julgados(list)` → remove duplicatas por número
+- duplicacao de julgados;
+- processos citados como precedentes eram confundidos com julgados principais;
+- chunking por tamanho podia fragmentar itens editoriais;
+- maior custo operacional e menor previsibilidade.
 
-8. **utils.py** (1.8 KB)
-   - `generate_id()` → UUID para julgados
-   - `generate_timestamp()` → ISO 8601 em UTC
-   - `wrap_html(text)` → envolve texto em `<p>` tags
-   - `format_ods(str)` → normaliza ODS para "1, 2, 3"
+### Versao deterministica atual
 
-9. **converter.py** (7.1 KB)
-   - `InformativoConverter` — orquestrador principal
-   - `convert(docx_path, output_path)` → pipeline completo
-   - CLI com argparse: `python -m src.converter [OPTIONS] DOCX`
-   - Logging detalhado de cada etapa
-   - Salva JSON no mesmo diretório ou custom
+A versao ativa voltou a ser deterministica, mas com uma arquitetura mais clara e com leitura mais rica do DOCX.
 
-10. **__init__.py**
-    - Pacote Python vazio
+Decisoes principais:
 
-### 📚 Documentação
+- ler o DOCX diretamente via XML;
+- preservar paragrafos, runs, estilos simples e hyperlinks;
+- isolar a secao `1 Plenario` antes da extracao;
+- separar itens editoriais por marcadores juridicos e estrutura do informativo;
+- extrair campos estruturados por regras pequenas e localizadas;
+- gerar HTML dos campos textuais a partir do conteudo real do DOCX;
+- manter versoes antigas apenas como historico em `versionamento/`.
 
-- **README.md** (8.4 KB) — Documentação completa com troubleshooting
-- **GUIA_TESTE.md** (5+ KB) — Passo a passo para testar tudo
-- **requirements.txt** — Atualizado com versões compatíveis
+## Arquitetura Atual
 
-### 🔒 Estrutura Protegida
-
-```
-ConversorInformativoSTF/
-├── exemplos/                    
-├── versionamento/
-│   └── old_converter/          Código antigo preservado (referência)
-└── src/                        Nova arquitetura LLM-driven
+```text
+DOCX
+  -> document_reader.py
+  -> metadata_extractor.py
+  -> section_extractor.py
+  -> editorial_item_splitter.py
+  -> field_extractor.py
+  -> html_formatter.py
+  -> converter.py
+  -> JSON final
 ```
 
----
+Responsabilidades:
 
-## 🚀 Como Rodar
+- `document_reader.py`: le `word/document.xml` e `word/_rels/document.xml.rels`, gerando paragrafos com runs e links.
+- `metadata_extractor.py`: identifica numero, ano e data do informativo.
+- `section_extractor.py`: limita o processamento ao Plenario.
+- `editorial_item_splitter.py`: separa itens editoriais reais.
+- `field_extractor.py`: extrai processo, titulo, ramo, materia, resumo, noticia, ODS, legislacao, relator, julgamento e tema RG.
+- `html_formatter.py`: converte paragrafos e runs para HTML seguro.
+- `schemas.py`: define os modelos Pydantic de entrada intermediaria e saida.
+- `validator.py`: emite avisos simples de validacao.
 
-### Prerequisitos
-- Python 3.8+
-- Ollama instalado e rodando
+## Campos Atualmente Cobertos
 
-### Passo a Passo
+Campos estruturais principais:
 
-```bash
-# 1. Iniciar Ollama em terminal dedicado
-ollama serve
+- `informativo`
+- `data_informativo`
+- `classe_processo`
+- `numero_processo`
+- `uf`
+- `titulo`
+- `ramo_direito`
+- `materia`
+- `ods_onu2030`
+- `legislacao`
+- `tema_rg`
+- `repercussao_geral`
+- `relator`
+- `redator_acordao`
+- `data_julgamento`
+- `situacao_julgamento`
 
-# 2. Baixar modelo (primeira vez)
-ollama pull qwen2.5:14b
+Campos textuais:
 
-# 3. Ir para pasta do projeto
-cd /Users/sarahferrarir/Enfase/ConversorInformativoSTF
+- `resumo`
+- `noticia`
+- `noticia_completa`
+- `html`
+- `tese_julgado`
 
-# 4. Ativar virtual environment
-source .venv/bin/activate
+O HTML preserva, quando o DOCX fornece esses dados:
 
-# 5. Executar conversor
-python -m src.converter exemplos/Informativo1214.docx
+- paragrafos;
+- negrito;
+- italico;
+- sublinhado;
+- links;
+- listas;
+- linhas finais de processo como lista.
 
-# 6. Resultado em exemplos/Informativo1214.json
-```
+## Limitações Atuais
 
-### Opções
+- A extracao ainda depende de padroes editoriais dos Informativos STF.
+- O parser de legislacao cobre padroes comuns, nao todos os possiveis.
+- Links so sao preservados quando existem como hyperlinks reais no DOCX.
+- Estilos visuais complexos do Word nao sao reproduzidos.
+- Turmas, inovacoes normativas e outras secoes nao sao objetivo do pipeline atual.
+- O schema tem campos futuros ainda nao preenchidos automaticamente.
 
-```bash
-# Usar modelo alternativo
-python -m src.converter exemplos/Informativo1214.docx --model llama3.1:8b
+## Proximos Passos Possiveis
 
-# Aumentar chunk size (mais contexto)
-python -m src.converter exemplos/Informativo1214.docx --chunk-size 5000
+Melhorias deterministicas:
 
-# Especificar saída custom
-python -m src.converter exemplos/Informativo1214.docx -o resultado_custom.json
+- ampliar testes de regressao com mais informativos;
+- adicionar snapshots controlados dos campos principais;
+- melhorar cobertura de legislacao e referencias normativas;
+- revisar a documentacao quando novos informativos forem adicionados.
 
-# Ollama em outro servidor
-python -m src.converter exemplos/Informativo1214.docx --url http://192.168.1.100:11434
-```
+Uso futuro de IA em campos especificos, sem voltar ao chunking como fluxo principal:
 
----
+- gerar `questao`;
+- gerar `comentario`;
+- sugerir `classificacao`;
+- sugerir `conteudo_fixacao`;
+- apoiar revisao humana de campos complexos.
 
-## 📊 Fluxo do Pipeline
-
-```
-1. read_docx()                      Lê DOCX → Markdown
-2. clean_text()                     Remove lixo
-3. extract_metadata()               Pega número/data do informativo
-4. chunk_text()                     Divide em chunks (3000 chars, overlap 300)
-5. Para cada chunk:
-   a. llm_processor.process_chunk() Envia para Ollama
-   b. Ollama retorna JSON com julgados
-6. Para cada julgado:
-   a. convert_to_julgado()          Cria Pydantic model
-   b. validator.is_valid()          Valida campos
-7. validator.merge_julgados()       Remove duplicatas
-8. Salva JSON final
-```
-
----
-
-## 🧪 O Que Testar
-
-### Teste Básico
-```bash
-# Converter arquivo
-python -m src.converter exemplos/Informativo1214.docx
-
-# Verificar saída
-cat exemplos/Informativo1214.json | python -m json.tool | head -50
-```
-
-### Teste de Quantidade
-```bash
-# Contar julgados extraídos
-cat exemplos/Informativo1214.json | python -m json.tool | grep -c "numero_processo"
-
-# Comparar com versão antiga (~24 esperados)
-```
-
-### Teste de Robustez
-```bash
-# Testar com outros informativos
-python -m src.converter exemplos/Informativo1215.docx
-python -m src.converter exemplos/Informativo1216.docx
-
-# Esperado: melhoria em relação à versão antiga
-# 1215 tinha ~4 julgados, agora deve ter mais
-# 1216 tinha ~2 julgados, agora deve ter mais
-```
-
----
-
-## 🔧 Customizações Possíveis
-
-### 1. Alterar Temperatura (criatividade da LLM)
-**Arquivo:** `src/converter.py`, função `main()`
-
-```python
-# Linha que cria InformativoConverter
-# Mudar de 0.1 para 0.3 se tiver poucos julgados
-converter = InformativoConverter(
-    ollama_temperature=0.3  # ← aumentar aqui
-)
-```
-
-### 2. Melhorar Prompt
-**Arquivo:** `src/llm_processor.py`
-
-```python
-JULGADO_EXTRACTION_PROMPT = """
-Seu novo prompt mais específico aqui...
-"""
-```
-
-### 3. Adicionar Validações
-**Arquivo:** `src/validator.py`
-
-```python
-def is_valid(julgado, original_text=None):
-    # Adicionar suas validações aqui
-    # Exemplo: validar se UF é válido
-```
-
-### 4. Estender Modelos
-**Arquivo:** `src/schemas.py`
-
-```python
-class Julgado(BaseModel):
-    # Adicionar novos campos conforme necessário
-    novo_campo: Optional[str] = None
-```
-
----
-
-## ⚠️ Possíveis Ajustes
-
-Se a execução não funcionar bem:
-
-1. **Ollama não responde**
-   - Verificar: `ollama serve` rodando
-   - Verificar modelo: `ollama list`
-
-2. **Poucos julgados extraídos**
-   - Aumentar `chunk_size` de 3000 para 5000
-   - Aumentar `temperature` de 0.1 para 0.3
-   - Revisar/customizar prompt
-
-3. **JSON inválido da LLM**
-   - Trocar modelo: qwen2.5 → llama3.1
-   - Reduzir `chunk_size`
-
-4. **Processamento lento**
-   - Usar modelo mais leve: `llama3.1:8b`
-   - Reduzir `chunk_size`
-
----
-
-## 📈 Comparação: Antigo vs Novo
-
-| Aspecto | Antigo | Novo |
-|---------|--------|------|
-| **Tecnologia** | Regex rígida | LLM semântica |
-| **Robustez** | ❌ Quebra fácil | ✅ Adaptável |
-| **Debug** | 😤 Qual regex falhou? | 😊 Qual chunk falhou? |
-| **Flexibilidade** | ❌ Hardcoded | ✅ Via prompt |
-| **Taxa de sucesso** | ~20-30% dos julgados | Esperado: >70% |
-
----
-
-## 📖 Documentação Disponível
-
-1. **README.md** — Guia completo do projeto
-2. **GUIA_TESTE.md** — Instruções passo a passo
-3. **Comentários no código** — Explicações inline
-4. **Docstrings** — Documentação das funções
-
----
-
-## 📞 Referências
-
-- **Ollama:** https://ollama.ai
-- **Pydantic:** https://docs.pydantic.dev/
-- **Mammoth:** https://github.com/mwilliamson/python-mammoth
-
----
-
-**Implementação completada em etapas seguras. Código antigo protegido. Pronto para testar! 🎉**
+A decisao recomendada e manter a extracao estrutural deterministica e usar IA apenas como etapa complementar, isolada e opcional, para campos interpretativos.

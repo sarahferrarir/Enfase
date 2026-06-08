@@ -114,6 +114,21 @@ def _is_process_footer(text: str) -> bool:
     )
 
 
+def _find_footer_start(lines: list[str]) -> int:
+    for index, line in enumerate(lines):
+        if _is_process_footer(line):
+            return index
+    return len(lines)
+
+
+def _footer_paragraphs(paragraphs: list[Paragraph], lines: list[str], footer_start: int) -> list[Paragraph]:
+    return [
+        paragraphs[index]
+        for index in range(footer_start, len(lines))
+        if _is_process_footer(lines[index])
+    ]
+
+
 def _extract_person(text: str, marker: str, stop_markers: list[str]) -> str | None:
     lower = text.lower()
     start = lower.find(marker.lower())
@@ -202,6 +217,25 @@ def _join_html(*parts: str | None) -> str | None:
     return "\n".join(html_parts) if html_parts else None
 
 
+def _build_textual_html(
+    paragraphs: list[Paragraph],
+    lines: list[str],
+    ignored_indexes: set[int],
+    footer_start: int,
+) -> tuple[str | None, str | None, str | None]:
+    resumo_index, noticia_indexes = _extract_resumo_noticia_indexes(lines, ignored_indexes, footer_start)
+    resumo = paragraph_to_html(paragraphs[resumo_index]) if resumo_index is not None else None
+    noticia_html = paragraphs_to_html([paragraphs[index] for index in noticia_indexes])
+    footer_html = paragraphs_to_list_html(_footer_paragraphs(paragraphs, lines, footer_start))
+
+    noticia = _join_html(noticia_html, footer_html)
+    noticia_completa = _join_html(
+        paragraphs_to_html(paragraphs[1:footer_start]),
+        footer_html,
+    )
+    return resumo, noticia, noticia_completa
+
+
 def _extract_legislacao(text: str) -> str | None:
     patterns = [
         r"\bCF/1988\b(?:,\s*art\.?\s*[\wº°., §-]+)?",
@@ -231,12 +265,7 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
     classe, numero, uf = _extract_processes(process_text)
     tema_rg, repercussao_geral = _extract_main_theme_rg(process_text)
 
-    footer_start = len(remaining)
-    for index, line in enumerate(remaining):
-        if _is_process_footer(line):
-            footer_start = index
-            break
-
+    footer_start = _find_footer_start(remaining)
     footer_lines = [line for line in remaining[footer_start:] if _is_process_footer(line)]
     footer_fields = _extract_footer_fields(footer_lines)
 
@@ -250,14 +279,11 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
     ignored_indexes = set(tese_indexes)
     ignored_indexes.update(i for i, line in enumerate(remaining) if line.lower().startswith("ods:"))
 
-    resumo_index, noticia_indexes = _extract_resumo_noticia_indexes(remaining, ignored_indexes, footer_start)
-    resumo = paragraph_to_html(remaining_paragraphs[resumo_index]) if resumo_index is not None else None
-    noticia_html = paragraphs_to_html([remaining_paragraphs[i] for i in noticia_indexes])
-    footer_html = paragraphs_to_list_html([remaining_paragraphs[i] for i in range(footer_start, len(remaining)) if _is_process_footer(remaining[i])])
-    noticia = _join_html(noticia_html, footer_html)
-    noticia_completa = _join_html(
-        paragraphs_to_html(remaining_paragraphs[1:footer_start]),
-        footer_html,
+    resumo, noticia, noticia_completa = _build_textual_html(
+        remaining_paragraphs,
+        remaining,
+        ignored_indexes,
+        footer_start,
     )
 
     return JulgadoSTF(

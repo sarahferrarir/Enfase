@@ -1,310 +1,105 @@
-# 🚀 GUIA - Teste e Validação
+# Guia de Teste
 
-## ✅ O que foi implementado
+Este guia cobre apenas execucao e validacao da versao atual do conversor.
 
-### 1. **Reorganização do Projeto**
-- ✅ Código antigo movido para `versionamento/old_converter/`
-- ✅ Pasta `exemplos/` intocada e protegida
-- ✅ Nova estrutura em `src/` criada
+## Pre-requisitos
 
-### 2. **Novos Módulos Implementados**
-
-| Arquivo | Função | Status |
-|---------|--------|--------|
-| `src/schemas.py` | Modelos Pydantic para Julgado e Informativo | ✅ Completo |
-| `src/document_reader.py` | Lê DOCX com mammoth | ✅ Completo |
-| `src/text_preprocessor.py` | Limpeza básica de markdown | ✅ Completo |
-| `src/chunker.py` | Divisão inteligente em chunks | ✅ Completo |
-| `src/ollama_client.py` | Cliente centralizado do Ollama | ✅ Completo |
-| `src/llm_processor.py` | Processamento via LLM com prompts | ✅ Completo |
-| `src/validator.py` | Validação e deduplicação de julgados | ✅ Completo |
-| `src/utils.py` | Funções utilitárias (ID, timestamp, etc) | ✅ Completo |
-| `src/converter.py` | Orquestrador principal do pipeline | ✅ Completo |
-
-### 3. **Dependências Atualizadas**
-```
-pydantic==2.6.4
-mammoth==0.4.17
-requests==2.31.0
-ollama==0.1.31
-```
-
----
-
-## 📋 Como Testar
-
-### **PREREQUISITO: Ollama Instalado**
-
-```bash
-# Instalar Ollama (se não tiver)
-# https://ollama.ai
-
-# Verificar instalação
-ollama --version
-
-# Iniciar servidor (TERMINAL DEDICADO)
-ollama serve
-```
-
-### **PASSO 1: Instalar Dependências**
+- Python 3.10+.
+- Ambiente virtual `.venv` criado na raiz de `ConversorInformativoSTF`.
+- Dependencias instaladas:
 
 ```bash
 cd /Users/sarahferrarir/Enfase/ConversorInformativoSTF
-
-# Criar virtual env (recomendado)
-python3 -m venv venv
-source venv/bin/activate
-
-# Instalar requirements
-pip install -r requirements.txt
+./.venv/bin/python -m pip install -r requirements.txt
 ```
 
-### **PASSO 2: Baixar Modelo Ollama**
+O fluxo atual nao exige Ollama nem LLM.
+
+## Comandos Basicos
+
+Compilar os modulos:
 
 ```bash
-# Em OUTRO terminal (com Ollama rodando)
-ollama pull qwen2.5:14b
-
-# Ou modelo alternativo mais leve
-ollama pull llama3.1:8b
-
-# Verificar modelos instalados
-ollama list
+./.venv/bin/python -m compileall src
 ```
 
-### **PASSO 3: Testar o Pipeline**
+Rodar testes unitarios:
 
 ```bash
-# Teste com Informativo1214.docx
-python -m src.converter exemplos/Informativo1214.docx
-
-# Ou com modelo alternativo
-python -m src.converter exemplos/Informativo1214.docx --model llama3.1:8b
-
-# Com mais debug
-python -m src.converter exemplos/Informativo1214.docx -o resultado_teste.json
+./.venv/bin/python -m unittest discover -s tests
 ```
 
-### **PASSO 4: Verificar Resultado**
+Converter um DOCX:
 
 ```bash
-# Ver arquivo gerado
-ls -lh exemplos/Informativo1214.json
-
-# Contar julgados
-cat exemplos/Informativo1214.json | python -m json.tool | grep -c "numero_processo"
-
-# Ver estrutura
-cat exemplos/Informativo1214.json | python -m json.tool | head -50
-
-# Ver um julgado completo
-cat exemplos/Informativo1214.json | python -m json.tool | head -100
+./.venv/bin/python -m src.converter exemplos/Informativo1218.docx -o /tmp/Informativo1218_teste.json
 ```
 
----
-
-## 🔍 Entendendo o Pipeline
-
-### **Fluxo de Execução**
-
-```
-1. converter.py main()
-   ↓
-2. read_docx() → markdown bruto
-   ↓
-3. clean_text() → remove lixo
-   ↓
-4. extract_metadata() → pega número/data informativo
-   ↓
-5. chunk_text() → divide em 3000 chars
-   ↓
-6. Para cada chunk:
-   - llm_processor.process_chunk()
-   - Envia para Ollama via ollama_client.py
-   - Recebe JSON estruturado
-   ↓
-7. Para cada julgado extraído:
-   - validator.is_valid() → verifica campos
-   - convert_to_julgado() → Pydantic model
-   ↓
-8. validator.merge_julgados() → remove duplicatas
-   ↓
-9. Salva resultado.json
-```
-
-### **Principais Classes**
-
-**OllamaClient** (src/ollama_client.py)
-```python
-client = OllamaClient(
-    model="qwen2.5:14b",
-    temperature=0.1,
-    timeout=300,
-)
-
-response = client.generate(
-    prompt="Seu prompt aqui",
-    json_mode=True,
-)
-```
-
-**LLMProcessor** (src/llm_processor.py)
-```python
-processor = LLMProcessor(client)
-
-julgados = processor.process_chunk(text)
-# Retorna lista de dicts com dados extraídos
-```
-
-**JulgadoValidator** (src/validator.py)
-```python
-is_valid, issues = validator.is_valid(julgado)
-if not is_valid:
-    print(f"Problemas: {issues}")
-```
-
----
-
-## ⚡ Customizações Possíveis
-
-### **1. Alterar Modelo Ollama**
+## Teste com Informativo 1214
 
 ```bash
-# Usar llama3.1 (mais rápido, menos memória)
-python -m src.converter exemplos/Informativo1214.docx --model llama3.1:8b
-
-# Ou outro modelo disponível
-ollama pull mistral
-python -m src.converter exemplos/Informativo1214.docx --model mistral
+./.venv/bin/python -m src.converter exemplos/Informativo1214.docx -o /tmp/Informativo1214_teste.json
+jq '.julgado_stf | length' /tmp/Informativo1214_teste.json
+jq '.julgado_stf[] | {titulo, classe_processo, numero_processo, resumo, noticia, html}' /tmp/Informativo1214_teste.json
 ```
 
-### **2. Aumentar Chunk Size (mais contexto)**
+Validacoes esperadas:
+
+- o comando roda sem erro;
+- a quantidade de itens permanece `4`;
+- cada item possui `titulo`, `classe_processo` e `numero_processo`;
+- `resumo`, `noticia` e `html` contem HTML com `<p>`;
+- linhas finais de processos aparecem como lista HTML quando aplicavel;
+- nao aparecem `SUMÁRIO`, `2 TURMAS`, `INOVAÇÕES NORMATIVAS`, `base64` ou `<img>`.
+
+## Teste com Informativo 1218
 
 ```bash
-# Padrão: 3000 chars
-# Aumentar para 5000 pode melhorar extração
-python -m src.converter exemplos/Informativo1214.docx --chunk-size 5000
+./.venv/bin/python -m src.converter exemplos/Informativo1218.docx -o /tmp/Informativo1218_teste.json
+jq '.julgado_stf | length' /tmp/Informativo1218_teste.json
+jq '.julgado_stf[] | {titulo, classe_processo, numero_processo, tema_rg, repercussao_geral, resumo, noticia, html}' /tmp/Informativo1218_teste.json
 ```
 
-### **3. Aumentar Temperature (mais criativo)**
+Validacoes esperadas:
+
+- o comando roda sem erro;
+- a quantidade de itens permanece `5`;
+- o item `RE 597.315/RJ` possui `tema_rg: "516 RG"`;
+- o mesmo item possui `repercussao_geral: "sim"`;
+- o titulo desse item nao contem `(Tema 516 RG)`;
+- temas citados em precedentes, como `(Tema 323 RG)` e `(Tema 177 RG)`, nao viram tema principal;
+- `resumo`, `noticia` e `html` contem HTML com `<p>`.
+
+## Checagens Rapidas
+
+Contar itens:
 
 ```bash
-# Padrão: 0.1 (determinístico)
-# Aumentar para 0.3 pode ajudar se tem poucos julgados
-python -m src.converter exemplos/Informativo1214.docx --temperature 0.3
-
-# Editar também em src/converter.py, linha que cria InformativoConverter
+jq '.julgado_stf | length' /tmp/Informativo1214_teste.json
+jq '.julgado_stf | length' /tmp/Informativo1218_teste.json
 ```
 
-### **4. Customizar Prompt**
+Verificar campos principais:
 
-Editar `src/llm_processor.py`:
-```python
-JULGADO_EXTRACTION_PROMPT = """Seu novo prompt aqui...
-```
-
----
-
-## 🧪 Casos de Teste Esperados
-
-### **Teste 1: Informativo1214.docx**
 ```bash
-python -m src.converter exemplos/Informativo1214.docx
-
-# Esperado:
-# - ~24 julgados (comparar com versionamento/old_converter/)
-# - JSON com campos: classe_processo, numero_processo, titulo, resumo
-# - Nenhum erro de JSON inválido
+jq '.julgado_stf[] | {titulo, classe_processo, numero_processo}' /tmp/Informativo1214_teste.json
 ```
 
-### **Teste 2: Informativo1215.docx**
+Verificar HTML:
+
 ```bash
-python -m src.converter exemplos/Informativo1215.docx
-
-# Esperado:
-# - Melhoria vs versão antiga (~4 → mais julgados)
-# - Sem quebras por regex rígida
+jq '[.julgado_stf[].resumo, .julgado_stf[].noticia, .julgado_stf[].html]
+    | map(select(. != null))
+    | {p: map(test("<p>")) | any,
+       a: map(test("<a target=\"_blank\"")) | any,
+       ul: map(test("<ul>")) | any}' /tmp/Informativo1214_teste.json
 ```
 
-### **Teste 3: Informativo1216.docx**
+Verificar secoes ou conteudo indesejado:
+
 ```bash
-python -m src.converter exemplos/Informativo1216.docx
-
-# Esperado:
-# - Melhoria vs versão antiga
-# - Robustez a variações de estrutura
+grep -Eio 'SUMÁRIO|SUMARIO|2 TURMAS|INOVAÇÕES NORMATIVAS|base64|<img' /tmp/Informativo1214_teste.json
+grep -Eio 'SUMÁRIO|SUMARIO|2 TURMAS|INOVAÇÕES NORMATIVAS|base64|<img' /tmp/Informativo1218_teste.json
 ```
 
----
-
-## 🐛 Debug se Algo Falhar
-
-### **Problema: "Ollama não está disponível"**
-```bash
-# Terminal 1: iniciar servidor
-ollama serve
-
-# Terminal 2: verificar conexão
-python -c "
-from src.ollama_client import OllamaClient
-c = OllamaClient()
-print(c._health_check())  # Deve retornar True
-"
-```
-
-### **Problema: "JSON inválido"**
-```bash
-# Teste o modelo diretamente
-ollama run qwen2.5:14b '{"teste": "json"}'
-
-# Se não retornar JSON puro, pode ser problema do modelo
-# Tente llama3.1:8b que é mais confiável com JSON
-```
-
-### **Problema: Poucos julgados extraídos**
-```bash
-# 1. Aumentar chunk_size
-python -m src.converter exemplos/Informativo1214.docx --chunk-size 5000
-
-# 2. Aumentar temperature
-# Editar src/converter.py, função main(), linha que cria InformativoConverter
-
-# 3. Revisar prompt (editar JULGADO_EXTRACTION_PROMPT em src/llm_processor.py)
-```
-
-### **Problema: Processamento muito lento**
-```bash
-# Usar modelo mais leve
-python -m src.converter exemplos/Informativo1214.docx --model llama3.1:8b
-
-# Ou reduzir chunk_size
-python -m src.converter exemplos/Informativo1214.docx --chunk-size 2000
-```
-
----
-
-## 📊 Métricas de Sucesso
-
-✅ **Pipeline está funcionando quando:**
-
-1. ✅ Ollama responde a prompts
-2. ✅ Chunks são processados sem erro
-3. ✅ JSON é gerado sem erro de validação
-4. ✅ Pelo menos alguns julgados são extraídos
-5. ✅ Campos obrigatórios (classe, número, título) não são nulos
-6. ✅ Sem julgados duplicados
-7. ✅ Output JSON é válido e parseable
-
-
----
-
-## 📞 Referências
-
-- **Ollama**: https://ollama.ai
-- **Pydantic**: https://docs.pydantic.dev/
-- **Mammoth**: https://github.com/mwilliamson/python-mammoth
-- **Documentação STF**: http://www.stf.jus.br
-
----
-
-**Status:** ✅ Implementação completa. Pronto para testar!
+Se os comandos `grep` nao retornarem nada, a checagem passou.

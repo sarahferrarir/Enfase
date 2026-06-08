@@ -14,6 +14,11 @@ NS = {
 }
 W_VAL = f"{{{NS['w']}}}val"
 R_ID = f"{{{NS['r']}}}id"
+W_R = f"{{{NS['w']}}}r"
+W_HYPERLINK = f"{{{NS['w']}}}hyperlink"
+W_T = f"{{{NS['w']}}}t"
+W_TAB = f"{{{NS['w']}}}tab"
+W_BR = f"{{{NS['w']}}}br"
 
 
 def _read_relationships(docx: ZipFile) -> dict[str, str]:
@@ -44,11 +49,11 @@ def _has_run_flag(run: ET.Element, tag: str) -> bool:
 def _run_text(run: ET.Element) -> str:
     fragments: list[str] = []
     for child in run:
-        if child.tag == f"{{{NS['w']}}}t":
+        if child.tag == W_T:
             fragments.append(child.text or "")
-        elif child.tag == f"{{{NS['w']}}}tab":
+        elif child.tag == W_TAB:
             fragments.append("\t")
-        elif child.tag == f"{{{NS['w']}}}br":
+        elif child.tag == W_BR:
             fragments.append("\n")
     return "".join(fragments)
 
@@ -72,10 +77,10 @@ def _extract_runs_from_run(run: ET.Element, href: str | None = None) -> list[Tex
 def _extract_runs(node: ET.Element, relationships: dict[str, str], href: str | None = None) -> list[TextRun]:
     runs: list[TextRun] = []
 
-    if node.tag == f"{{{NS['w']}}}r":
+    if node.tag == W_R:
         return _extract_runs_from_run(node, href)
 
-    if node.tag == f"{{{NS['w']}}}hyperlink":
+    if node.tag == W_HYPERLINK:
         rel_id = node.attrib.get(R_ID)
         href = relationships.get(rel_id) if rel_id else href
 

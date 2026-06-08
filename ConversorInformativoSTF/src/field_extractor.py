@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 
 from .editorial_item_splitter import is_legal_area_line
+from .html_formatter import paragraph_to_html, paragraphs_to_html, paragraphs_to_list_html
 from .schemas import EditorialItem, InformativoMetadata, JulgadoSTF, Paragraph
 from .utils import generate_id, generate_timestamp, normalize_spaces, parse_numeric_date, unique_or_join
 
@@ -180,22 +181,25 @@ def _extract_tese(lines: list[str]) -> tuple[str | None, set[int]]:
     return None, consumed
 
 
-def _extract_resumo_noticia(lines: list[str], ignored_indexes: set[int], footer_start: int) -> tuple[str | None, str | None]:
+def _extract_resumo_noticia_indexes(lines: list[str], ignored_indexes: set[int], footer_start: int) -> tuple[int | None, list[int]]:
     try:
         resumo_marker_index = next(i for i, line in enumerate(lines) if line.lower().startswith("resumo:"))
     except StopIteration:
-        return None, None
+        return None, []
 
     body_indexes = [
         i for i in range(resumo_marker_index + 1, footer_start)
         if i not in ignored_indexes and lines[i].strip()
     ]
     if not body_indexes:
-        return None, None
+        return None, []
 
-    resumo = lines[body_indexes[0]]
-    noticia_lines = [lines[i] for i in body_indexes[1:]]
-    return resumo, "\n\n".join(noticia_lines) if noticia_lines else None
+    return body_indexes[0], body_indexes[1:]
+
+
+def _join_html(*parts: str | None) -> str | None:
+    html_parts = [part for part in parts if part]
+    return "\n".join(html_parts) if html_parts else None
 
 
 def _extract_legislacao(text: str) -> str | None:
@@ -218,7 +222,8 @@ def _extract_legislacao(text: str) -> str | None:
 def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> JulgadoSTF:
     paragraphs = item.paragraphs
     ramo_direito, materia, consumed_area = _extract_area(paragraphs)
-    remaining = [p.text for p in paragraphs[consumed_area:]]
+    remaining_paragraphs = paragraphs[consumed_area:]
+    remaining = [p.text for p in remaining_paragraphs]
 
     title_line = remaining[0] if remaining else ""
     title, process_text = _split_title_and_processes(title_line)
@@ -245,8 +250,15 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
     ignored_indexes = set(tese_indexes)
     ignored_indexes.update(i for i, line in enumerate(remaining) if line.lower().startswith("ods:"))
 
-    resumo, noticia = _extract_resumo_noticia(remaining, ignored_indexes, footer_start)
-    noticia_completa = "\n\n".join(remaining[1:footer_start]).strip() or None
+    resumo_index, noticia_indexes = _extract_resumo_noticia_indexes(remaining, ignored_indexes, footer_start)
+    resumo = paragraph_to_html(remaining_paragraphs[resumo_index]) if resumo_index is not None else None
+    noticia_html = paragraphs_to_html([remaining_paragraphs[i] for i in noticia_indexes])
+    footer_html = paragraphs_to_list_html([remaining_paragraphs[i] for i in range(footer_start, len(remaining)) if _is_process_footer(remaining[i])])
+    noticia = _join_html(noticia_html, footer_html)
+    noticia_completa = _join_html(
+        paragraphs_to_html(remaining_paragraphs[1:footer_start]),
+        footer_html,
+    )
 
     return JulgadoSTF(
         id=generate_id(),
@@ -266,6 +278,7 @@ def extract_fields(item: EditorialItem, metadata: InformativoMetadata) -> Julgad
         resumo=resumo,
         noticia=noticia,
         noticia_completa=noticia_completa,
+        html=noticia_completa,
         tese_julgado=tese,
         legislacao=_extract_legislacao(item.text),
         orgao_julgador="PLENÁRIO",

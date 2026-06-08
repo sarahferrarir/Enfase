@@ -4,12 +4,24 @@ from pydantic import BaseModel, ConfigDict, Field
 from typing import Any
 
 
+class TextRun(BaseModel):
+    """Trecho textual de um paragrafo com marcacoes basicas do DOCX."""
+
+    text: str
+    bold: bool = False
+    italic: bool = False
+    underline: bool = False
+    href: str | None = None
+
+
 class Paragraph(BaseModel):
     """Paragrafo extraido do DOCX mantendo metadados minimos."""
 
     index: int
     text: str
     style: str | None = None
+    runs: list[TextRun] = Field(default_factory=list)
+    is_list_item: bool = False
 
 
 class InformativoMetadata(BaseModel):
@@ -75,4 +87,3 @@ class JulgadoSTF(BaseModel):
 
 class InformativoOutput(BaseModel):
     julgado_stf: list[JulgadoSTF] = Field(default_factory=list)
-

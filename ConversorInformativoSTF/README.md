@@ -2,7 +2,7 @@
 
 Conversor deterministico de Informativos do STF em DOCX para JSON estruturado.
 
-A versao atual nao usa LLM, Ollama ou chunking como fluxo principal. Essas tentativas ficaram preservadas em `versionamento/` como historico. O pipeline ativo usa leitura direta do DOCX por XML, isolamento da secao Plenario, separacao deterministica dos itens editoriais, extracao estruturada dos campos e geracao de HTML para campos textuais.
+A versao atual nao usa LLM, Ollama ou chunking como fluxo principal. O pipeline ativo usa leitura direta do DOCX por XML, isolamento da secao Plenario, separacao deterministica dos itens editoriais, extracao estruturada dos campos e geracao de HTML para campos textuais.
 
 ## Objetivo
 
@@ -46,7 +46,6 @@ ConversorInformativoSTF/
 │   ├── utils.py              # utilitarios compartilhados
 │   └── validator.py          # avisos simples de validacao
 ├── tests/                    # testes unitarios leves
-├── versionamento/            # historico de versoes anteriores
 ├── requirements.txt
 ├── GUIA_TESTE.md
 └── RESUMO_IMPLEMENTACAO.md

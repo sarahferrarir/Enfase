@@ -6,7 +6,7 @@ Este arquivo registra a evolucao do `ConversorInformativoSTF` e as principais de
 
 ### Versao regex inicial
 
-A primeira versao separava julgados e extraia campos principalmente por regex. Ela foi preservada em `versionamento/old_converter/`.
+A primeira versao separava julgados e extraia campos principalmente por regex.
 
 Problemas observados:
 
@@ -17,7 +17,7 @@ Problemas observados:
 
 ### Experimento LLM/Ollama
 
-Foi criada uma arquitetura experimental com LLM, prompts e chunking. Essa abordagem ficou preservada em `versionamento/llm_chunk_pipeline/`.
+Foi criada uma arquitetura experimental com LLM, prompts e chunking.
 
 Motivo para nao seguir como fluxo principal:
 
@@ -38,7 +38,6 @@ Decisoes principais:
 - separar itens editoriais por marcadores juridicos e estrutura do informativo;
 - extrair campos estruturados por regras pequenas e localizadas;
 - gerar HTML dos campos textuais a partir do conteudo real do DOCX;
-- manter versoes antigas apenas como historico em `versionamento/`.
 
 ## Arquitetura Atual
 

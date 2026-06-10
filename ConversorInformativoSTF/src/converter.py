@@ -2,7 +2,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
+from xml.etree.ElementTree import ParseError
+from zipfile import BadZipFile
 
 from .document_reader import read_docx_paragraphs
 from .editorial_item_splitter import split_editorial_items
@@ -36,7 +39,7 @@ def convert_file(docx_path: str | Path, output_path: str | Path | None = None) -
     output = convert_docx(input_path)
     issues = validate_julgados(output.julgado_stf)
     if issues:
-        print("Avisos de validacao:")
+        print("Avisos de validação:")
         for issue in issues:
             print(f"- {issue}")
 
@@ -46,13 +49,29 @@ def convert_file(docx_path: str | Path, output_path: str | Path | None = None) -
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Converte Informativo STF em DOCX para JSON base deterministico."
+        description="Converte Informativo STF em DOCX para JSON base determinístico."
     )
     parser.add_argument("docx_file", help="Caminho do DOCX do Informativo STF.")
-    parser.add_argument("-o", "--output", help="Caminho do JSON de saida.")
+    parser.add_argument("-o", "--output", help="Caminho do JSON de saída.")
     args = parser.parse_args()
 
-    output_path = convert_file(args.docx_file, args.output)
+    input_path = Path(args.docx_file)
+    if not input_path.exists():
+        print(f"Erro: arquivo não encontrado: {input_path}", file=sys.stderr)
+        sys.exit(1)
+    if input_path.suffix.lower() != ".docx":
+        print(f"Erro: o arquivo de entrada deve ser .docx: {input_path}", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        output_path = convert_file(input_path, args.output)
+    except (BadZipFile, KeyError, ParseError):
+        print(
+            f"Erro: não foi possível ler o DOCX. O arquivo pode estar inválido ou corrompido: {input_path}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     print(f"JSON salvo em: {output_path}")
 
 

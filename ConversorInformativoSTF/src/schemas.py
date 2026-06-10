@@ -53,7 +53,7 @@ class JulgadoSTF(BaseModel):
     data_julgamento: str | None = None
     relator: str | None = None
     redator_acordao: str | None = None
-    orgao_julgador: str | None = "PLENARIO"
+    orgao_julgador: str | None = "PLENÁRIO"
     tipo_julgamento: str | None = None
     situacao_julgamento: str | None = None
     titulo: str | None = None

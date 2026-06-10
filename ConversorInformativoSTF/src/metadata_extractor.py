@@ -15,14 +15,12 @@ def extract_metadata(paragraphs: list[Paragraph]) -> InformativoMetadata:
     if numero_match:
         numero, ano = numero_match.groups()
 
-    data = None
     data_line_match = re.search(
         r"Data de divulga[cç][aã]o:\s*(.+)",
         text,
         flags=re.IGNORECASE,
     )
-    if data_line_match:
-        data = parse_pt_date(data_line_match.group(1))
+    data = parse_pt_date(data_line_match.group(1)) if data_line_match else None
     if not data:
         data = parse_pt_date(text)
 
@@ -31,4 +29,3 @@ def extract_metadata(paragraphs: list[Paragraph]) -> InformativoMetadata:
         ano_informativo=ano,
         data_informativo=data,
     )
-

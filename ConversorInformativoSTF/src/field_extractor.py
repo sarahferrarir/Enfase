@@ -19,6 +19,7 @@ MAIN_TITLE_THEME_RG_RE = re.compile(
     r"\(\s*Tema\s+(?P<theme>\d+\s*RG)\s*\)",
     flags=re.IGNORECASE,
 )
+REPERCUSSAO_GERAL_SIM = "sim"
 
 
 def _split_area_line(text: str) -> tuple[str, str | None]:
@@ -67,7 +68,7 @@ def _extract_main_theme_rg(process_text: str) -> tuple[str | None, str | None]:
         return None, None
 
     theme = normalize_spaces(match.group("theme")).upper()
-    return theme, "sim"
+    return theme, REPERCUSSAO_GERAL_SIM
 
 
 def _normalize_process_number(number: str) -> str:

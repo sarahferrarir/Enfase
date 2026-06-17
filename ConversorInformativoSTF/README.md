@@ -116,4 +116,6 @@ Sem `-o`, o conversor grava o JSON ao lado do DOCX:
 
 Os comandos operacionais e validacoes esperadas ficam em [GUIA_TESTE.md](GUIA_TESTE.md).
 
+Para validar acuracia entre um JSON gerado e um JSON de referencia, use o guia especifico do comparador: [tests/GUIA_COMPARE_JSON.md](tests/GUIA_COMPARE_JSON.md).
+
 O historico das decisoes de implementacao fica em [RESUMO_IMPLEMENTACAO.md](RESUMO_IMPLEMENTACAO.md).

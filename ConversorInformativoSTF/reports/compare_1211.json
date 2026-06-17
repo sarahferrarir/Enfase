@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-06-17T16:39:35.125253+00:00",
+  "expected_path": "exemplos/sample.json",
+  "generated_path": "exemplos/Informativo1211.json",
+  "informativo": "1211",
+  "expected_items": 2,
+  "generated_items": 2,
+  "matched_items": 2,
+  "missing_items": 0,
+  "extra_items": 0,
+  "field_differences": 0,
+  "passed": true,
+  "ignored_fields": [
+    "legislacao",
+    "situacao_julgamento"
+  ],
+  "missing": [],
+  "extra": [],
+  "differences": []
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-06-17T16:35:35.450254+00:00",
+  "expected_path": "exemplos/julgado-stf.json",
+  "generated_path": "exemplos/Informativo1214.json",
+  "informativo": "1214",
+  "expected_items": 4,
+  "generated_items": 4,
+  "matched_items": 4,
+  "missing_items": 0,
+  "extra_items": 0,
+  "field_differences": 4,
+  "passed": false,
+  "ignored_fields": [
+    "legislacao"
+  ],
+  "missing": [],
+  "extra": [],
+  "differences": [
+    {
+      "item": "ADPF; ADPF; ADPF 1005; 1006; 1097/DF; DF; DF | Mínimo existencial: prevenção, tratamento e conciliação administrativa e judicial das situações de superendividamento",
+      "field": "situacao_julgamento",
+      "expected": "finalizado; finalizado; finalizado",
+      "generated": "finalizado"
+    },
+    {
+      "item": "ADPF; ACO 342; 2463/DF; DF | Aquisição de imóveis rurais por empresas brasileiras cuja maioria do capital social pertença a estrangeiros",
+      "field": "data_julgamento",
+      "expected": "2026-05-04",
+      "generated": "2026-04-23"
+    },
+    {
+      "item": "ADPF; ACO 342; 2463/DF; DF | Aquisição de imóveis rurais por empresas brasileiras cuja maioria do capital social pertença a estrangeiros",
+      "field": "situacao_julgamento",
+      "expected": null,
+      "generated": "finalizado"
+    },
+    {
+      "item": "Rcl; Rcl 77893 AgR; 78401 AgR/GO; GO | Concurso público para as carreiras militares estaduais: cláusula de reserva de gênero e alcance da modulação de efeitos na ADI 7.490",
+      "field": "situacao_julgamento",
+      "expected": "finalizado; finalizado",
+      "generated": "finalizado"
+    }
+  ]
+}

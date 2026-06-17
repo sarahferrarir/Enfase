@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-06-17T16:38:43.624450+00:00",
+  "expected_path": "exemplos/julgado-stf.json",
+  "generated_path": "exemplos/Informativo1213.json",
+  "informativo": "1213",
+  "expected_items": 2,
+  "generated_items": 2,
+  "matched_items": 2,
+  "missing_items": 0,
+  "extra_items": 0,
+  "field_differences": 6,
+  "passed": false,
+  "ignored_fields": [
+    "legislacao",
+    "situacao_julgamento"
+  ],
+  "missing": [],
+  "extra": [],
+  "differences": [
+    {
+      "item": "ADI; ADI; ADI; ADI; ADI; ADI 7925; 7926; 7927; 7928; 7929; 7930/SC; SC; SC; SC; SC; SC | Lei estadual que veda a adoção de cotas étnico-raciais em instituições de ensino superior do estado",
+      "field": "data_julgamento",
+      "expected": "2026-04-27",
+      "generated": "2026-04-17"
+    },
+    {
+      "item": "ADI; ADI; ADI; ADI; ADI; ADI 7925; 7926; 7927; 7928; 7929; 7930/SC; SC; SC; SC; SC; SC | Lei estadual que veda a adoção de cotas étnico-raciais em instituições de ensino superior do estado",
+      "field": "materia",
+      "expected": "SERVIÇOS; EDUCAÇÃO SUPERIOR; SISTEMA DE COTAS; COTAS ÉTNICO-RACIAIS/DIREITOS E GARANTIAS FUNDAMENTAIS; ISONOMIA",
+      "generated": "SERVIÇOS; EDUCAÇÃO SUPERIOR; SISTEMA DE COTAS; COTAS ÉTNICO-RACIAIS | DIREITOS E GARANTIAS FUNDAMENTAIS; ISONOMIA"
+    },
+    {
+      "item": "ADI; ADI; ADI; ADI; ADI; ADI 7925; 7926; 7927; 7928; 7929; 7930/SC; SC; SC; SC; SC; SC | Lei estadual que veda a adoção de cotas étnico-raciais em instituições de ensino superior do estado",
+      "field": "ods_onu2030",
+      "expected": null,
+      "generated": "4, 10"
+    },
+    {
+      "item": "ADI; ADI; ADI; ADI; ADI; ADI 7925; 7926; 7927; 7928; 7929; 7930/SC; SC; SC; SC; SC; SC | Lei estadual que veda a adoção de cotas étnico-raciais em instituições de ensino superior do estado",
+      "field": "tema_rg",
+      "expected": "",
+      "generated": null
+    },
+    {
+      "item": "ARE 1487739/PE | Incidência do piso salarial para os profissionais do magistério público da educação básica aos servidores contratados temporariamente",
+      "field": "tema_rg",
+      "expected": "1308",
+      "generated": null
+    },
+    {
+      "item": "ARE 1487739/PE | Incidência do piso salarial para os profissionais do magistério público da educação básica aos servidores contratados temporariamente",
+      "field": "repercussao_geral",
+      "expected": "SIM",
+      "generated": null
+    }
+  ]
+}

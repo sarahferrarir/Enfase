@@ -32,7 +32,7 @@ Rodar testes unitarios:
 Converter um DOCX:
 
 ```bash
-./.venv/bin/python -m src.converter exemplos/Informativo1218.docx -o /tmp/Informativo1218_teste.json
+./.venv/bin/python -m src.converter exemplos/Informativo1221.docx -o /tmp/Informativo1218_teste.json
 ```
 
 ## Teste com Informativo 1214

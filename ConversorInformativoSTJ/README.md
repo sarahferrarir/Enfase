@@ -95,7 +95,7 @@ Deverá mostrar `llama3.1:8b` na lista.
 ### Execução básica
 
 ```bash
-python converter.py informativo_866.html
+python converter.py exemplos/informativo_893.html
 ```
 
 **Entrada:** Arquivo HTML do informativo (ex: `informativo_866.html`)  

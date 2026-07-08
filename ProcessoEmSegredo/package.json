@@ -1,0 +1,19 @@
+{
+  "name": "processo-em-segredo",
+  "version": "0.1.0",
+  "description": "Parser deterministico de PDFs de pautas de julgamento do STJ.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "parse": "tsc --outDir dist && node dist/index.js",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/pdf-parse": "^1.1.5",
+    "typescript": "^5.8.0"
+  }
+}

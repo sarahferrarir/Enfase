@@ -41,6 +41,7 @@ Use sempre **"o Ênfase"**. Não use artigo feminino para a marca.
 ## Regras Críticas
 
 - Não inventar preços, descontos, datas, prazos, vagas, bônus, cashback, links, telefones, professores, credenciais, produtos, carreiras, depoimentos, aprovações, estatísticas, regras acadêmicas, FAQs ou imagens atribuídas a pessoas reais.
+- Usar a logo oficial documentada em [`docs/design/assets/logo-enfase.avif`](docs/design/assets/logo-enfase.avif); não recriar, distorcer, recolorir ou substituir a marca sem fonte oficial.
 - Separar fato, inferência e dúvida.
 - Marcar como `N/A` regras que não se aplicam ao tipo de interface.
 - Não tratar ausência de hero, pricing, prova social ou footer comercial como erro em dashboards, ferramentas ou aplicações internas.
@@ -79,6 +80,7 @@ Consulte os detalhes em [`03-tokens.md`](docs/design/03-tokens.md).
 ## O Que Ler
 
 - Marca ou direção visual: [`01-brand.md`](docs/design/01-brand.md) e [`02-principles.md`](docs/design/02-principles.md).
+- Logo e regras de uso da marca: [`01-brand.md`](docs/design/01-brand.md) e [`logo-enfase.avif`](docs/design/assets/logo-enfase.avif).
 - Cores, espaçamento, bordas, sombras ou breakpoints: [`03-tokens.md`](docs/design/03-tokens.md).
 - Fontes, hierarquia e escala: [`04-typography.md`](docs/design/04-typography.md).
 - Container, grid, seções e fundos: [`05-layout.md`](docs/design/05-layout.md).

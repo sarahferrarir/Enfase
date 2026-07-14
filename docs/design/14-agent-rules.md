@@ -31,6 +31,8 @@ Agentes nunca devem inventar:
 - FAQs;
 - imagens atribuídas a pessoas reais.
 
+Também não devem recriar, redesenhar, recolorir ou substituir a logo oficial do Ênfase sem fonte oficial.
+
 ## Ordem De Busca
 
 Antes de criar informação, verificar:
@@ -66,6 +68,17 @@ O agente deve:
 - listar arquivos afetados;
 - separar fato, inferência e dúvida;
 - marcar como `N/A` regras que não se aplicam.
+
+## Logo E Marca
+
+Ao usar a logo:
+
+- verificar primeiro [`01-brand.md`](01-brand.md);
+- usar o ativo oficial [`assets/logo-enfase.avif`](assets/logo-enfase.avif) quando aplicável;
+- não inventar versão alternativa;
+- não alterar proporção, cor, efeitos ou composição;
+- garantir contraste e leitura;
+- registrar como pendência quando a interface exigir uma variação oficial não documentada.
 
 ## Documentação
 

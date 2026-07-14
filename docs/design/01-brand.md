@@ -81,6 +81,44 @@ Quando duas soluções forem visualmente válidas, preferir a que seja:
 - menos decorativa;
 - mais fácil de manter.
 
+## Logo
+
+Ativo oficial documentado:
+
+- [`assets/logo-enfase.avif`](assets/logo-enfase.avif)
+
+A logo é o principal identificador visual do Ênfase. Ela deve aparecer com nitidez, contraste suficiente e espaço ao redor para não competir com navegação, CTAs, títulos ou imagens.
+
+Usar a logo em:
+
+- header público;
+- footer público;
+- telas de login;
+- capas ou aberturas institucionais;
+- documentos e páginas em que a autoria visual do Ênfase precisa ficar clara.
+
+Evitar usar a logo como:
+
+- marca d'água decorativa;
+- padrão de fundo;
+- ícone repetido em cards;
+- substituto de heading;
+- elemento meramente ornamental.
+
+Regras:
+
+- não recriar a logo manualmente;
+- não distorcer proporção;
+- não aplicar filtros, sombras duras, contornos ou efeitos;
+- não recolorir sem ativo oficial;
+- não usar sobre fundos com contraste insuficiente;
+- não comprimir a ponto de prejudicar leitura;
+- não adicionar texto, selo ou badge colado à marca;
+- preservar área de respiro ao redor;
+- usar alternativa oficial adequada quando houver variação para fundo claro ou escuro.
+
+Quando não houver versão oficial adequada ao contexto, não improvisar. Usar o ativo disponível com fundo que preserve contraste ou pedir confirmação.
+
 ## Direção De Arte
 
 Preferir:

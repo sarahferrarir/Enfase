@@ -29,6 +29,10 @@ O [`../../DESIGN.md`](../../DESIGN.md) da raiz continua sendo o ponto de entrada
 | [`17-current-implementation.md`](17-current-implementation.md) | Registra o estado atual consolidado da implementação. | Ao comparar o padrão desejado com o que existe hoje. |
 | [`18-decision-tree.md`](18-decision-tree.md) | Ajuda a escolher estrutura, componentes e regras N/A. | Ao decidir arquitetura de página ou fluxo. |
 
+Ativo oficial disponível:
+
+- [`assets/logo-enfase.avif`](assets/logo-enfase.avif): logo oficial do Ênfase para referência de documentação e implementação.
+
 ## Ordem Recomendada De Leitura
 
 Normalmente não é necessário ler todos os arquivos.
@@ -71,6 +75,12 @@ Depois, consulte apenas os documentos relacionados à tarefa.
 2. [`02-principles.md`](02-principles.md)
 3. [`03-tokens.md`](03-tokens.md)
 4. [`04-typography.md`](04-typography.md)
+
+### Quero usar ou revisar a logo
+
+1. [`01-brand.md`](01-brand.md)
+2. [`16-implementation.md`](16-implementation.md)
+3. [`assets/logo-enfase.avif`](assets/logo-enfase.avif)
 
 ### Quero alterar regras de negócio
 

@@ -43,6 +43,12 @@ Este arquivo registra valores e estruturas confirmados ou consolidados pela docu
 
 Quando o código oficial fornecer valor mais preciso, atualizar este arquivo.
 
+## Ativos Documentados
+
+- logo oficial adicionada à documentação em [`assets/logo-enfase.avif`](assets/logo-enfase.avif).
+
+Este registro indica que o ativo está disponível no Design System. Ele não substitui inspeção de variantes oficiais de marca no Figma ou no código quando a tarefa exigir confirmação.
+
 ## Classes E Estruturas Existentes
 
 ### Hero Editorial

@@ -68,6 +68,7 @@ Antes de alterar:
 
 O Figma deve ser usado para:
 
+- logo e variações oficiais de marca, quando disponíveis;
 - fotos de professores;
 - heroes;
 - ícones;
@@ -83,6 +84,23 @@ O agente deve:
 4. exportar no formato correto;
 5. preservar proporção;
 6. documentar novo ativo.
+
+## Logo
+
+Ativo oficial documentado no Design System:
+
+- [`assets/logo-enfase.avif`](assets/logo-enfase.avif)
+
+Regras de implementação:
+
+- usar o arquivo oficial ou uma variação oficial confirmada;
+- preservar proporção original;
+- definir dimensões para evitar CLS quando usado em HTML;
+- fornecer texto alternativo quando a logo for informativa;
+- usar `alt=""` apenas quando a marca já estiver textual e a imagem for redundante;
+- garantir contraste suficiente com o fundo;
+- não aplicar filtros, sombras duras, contornos, compressão agressiva ou recoloração;
+- não converter para outro formato sem necessidade técnica documentada.
 
 ## Imagens E Performance
 

@@ -113,6 +113,7 @@ Conteúdo:
 Visual:
 
 - cores usam tokens oficiais?
+- logo, quando presente, usa ativo oficial e mantém legibilidade?
 - PT Serif e Montserrat estão nos papéis corretos?
 - conteúdo usa container oficial?
 - espaçamento segue o sistema?

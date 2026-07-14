@@ -1,19 +1,19 @@
 ---
-version: "1.0"
+version: "2.0"
 status: "active"
-name: "Ênfase — Autoridade Jurídica Contemporânea"
+name: "Ênfase Design System"
 website: "https://cursoenfase.com.br/"
 purpose:
-  - "Orientar agentes na criação de novas páginas."
-  - "Orientar agentes na correção de páginas existentes."
-  - "Reduzir contexto repetido em prompts."
-  - "Padronizar respostas e implementações de agentes."
-  - "Documentar identidade visual, componentes, interações e regras de negócio."
+  - "Orientar humanos e agentes na criação de interfaces do Ênfase."
+  - "Orientar auditorias, correções e refatorações de páginas existentes."
+  - "Padronizar identidade visual, tokens, componentes, conteúdo, acessibilidade e responsividade."
+  - "Separar decisões de design de regras específicas de negócio."
+  - "Reduzir contexto repetido em prompts para Codex, Claude, ChatGPT e outros agentes."
 source_priority:
   - "Código e tokens oficiais do site."
   - "Componentes e estilos oficiais do Figma."
   - "Este DESIGN.md."
-  - "Padrões visuais recorrentes do site."
+  - "Padrões visuais recorrentes do ecossistema do Ênfase."
   - "Inferências do agente, somente quando não houver fonte melhor."
 colors:
   background: "#FFFFFF"
@@ -136,78 +136,80 @@ motion:
   entranceTiming: "cubic-bezier(0.22, 1, 0.36, 1)"
   entranceOffsetY: "14px"
 breakpoints:
-  careerCarouselMobileMax: "720px"
-  careerCarouselTabletMax: "1024px"
+  mobileMax: "720px"
+  tabletMax: "1024px"
+  desktopMin: "1025px"
 ---
 
-# DESIGN.md — Curso Ênfase
+# Ênfase Design System
 
-## 1. Função deste documento
+## 1. Introdução
 
-Este arquivo é a fonte de verdade visual e estrutural para agentes que criam, editam, revisam ou refatoram páginas do site do Curso Ênfase.
+Este documento é a fonte de verdade visual e estrutural para qualquer interface do Ênfase.
 
-Ele deve permitir que um agente:
+Ele deve ser usado por designers, desenvolvedores, redatores e agentes de IA ao criar, revisar, auditar ou refatorar:
 
-- construa uma página nova sem inventar uma identidade paralela;
-- corrija páginas existentes que não seguem o padrão;
-- reutilize componentes já estabelecidos;
-- preserve comportamento responsivo e acessibilidade;
-- respeite regras de negócio;
-- mantenha consistência entre site, Figma e materiais institucionais;
-- reduza a necessidade de repetir contexto em prompts.
+- landing pages;
+- páginas institucionais;
+- páginas de curso;
+- blogs;
+- páginas de artigo;
+- dashboards;
+- ferramentas;
+- planners;
+- trackers;
+- portais;
+- áreas internas;
+- aplicações administrativas;
+- sistemas web;
+- páginas de documentação.
 
-Quando houver conflito, aplicar esta ordem de prioridade:
+O objetivo não é reproduzir uma Home específica. O objetivo é garantir que qualquer interface pareça pertencer ao mesmo ecossistema: clara, jurídica, editorial, responsiva, acessível e consistente.
 
-1. dados e regras de negócio oficiais e atuais;
+Quando houver conflito entre fontes, aplicar esta prioridade:
+
+1. dados oficiais e regras de negócio atuais;
 2. código e tokens oficiais do site;
 3. componentes e estilos oficiais do Figma;
 4. este documento;
-5. inferências visuais do agente.
+5. inferência do agente, apenas quando não houver fonte melhor.
 
-O agente não deve tratar este arquivo como uma licença para inventar dados, preços, resultados, condições comerciais ou regras acadêmicas.
+Este arquivo não autoriza agentes a inventar dados, preços, resultados, condições comerciais, regras acadêmicas, nomes de produtos ou afirmações institucionais.
+
+Regra de linguagem: usar sempre "o Ênfase". Não usar artigo feminino para a marca.
 
 ---
 
-## 2. Princípio central da marca
+## 2. Marca
 
-Toda página deve comunicar, nesta ordem:
+### 2.1 Quem é o Ênfase
 
-1. autoridade;
-2. clareza;
-3. direção;
-4. confiança;
-5. sofisticação;
-6. modernidade discreta.
+O Ênfase é uma marca de educação jurídica com linguagem institucional, editorial e contemporânea. A interface deve comunicar autoridade acadêmica e direção prática sem parecer rígida, datada ou excessivamente comercial.
 
 O Ênfase deve parecer:
 
-- jurídica;
+- jurídico;
 - experiente;
 - premium;
-- organizada;
+- organizado;
 - institucional;
 - atual;
-- objetiva;
-- segura.
+- objetivo;
+- confiável;
+- editorial.
 
 O Ênfase não deve parecer:
 
-- startup SaaS;
-- plataforma tecnológica genérica;
+- startup SaaS genérica;
+- plataforma tecnológica sem identidade jurídica;
 - cursinho visualmente popular ou agressivo;
 - site infantil;
-- escritório jurídico excessivamente conservador;
+- escritório jurídico frio ou excessivamente conservador;
 - template pronto de landing page;
 - campanha desconectada da identidade principal;
 - produto neon, futurista ou experimental.
 
-A interface combina tradição jurídica e experiência editorial com uma construção digital limpa, responsiva e orientada à conversão.
-
----
-
-## 3. Personalidade visual
-
-### 3.1 Conceitos visuais principais
+### 2.2 Personalidade visual
 
 A identidade deve remeter a:
 
@@ -222,20 +224,27 @@ A identidade deve remeter a:
 - autoridade acadêmica;
 - preparação de alto nível.
 
-### 3.2 Equilíbrio da marca
+O equilíbrio desejado é:
 
-A marca é:
+- sério, sem ser frio;
+- sofisticado, sem ser ostensivo;
+- tradicional, sem parecer ultrapassado;
+- comercial, sem parecer agressivo;
+- objetivo, sem parecer seco;
+- jurídico, sem ser burocrático.
 
-- séria, sem ser fria;
-- sofisticada, sem ser ostensiva;
-- tradicional, sem parecer ultrapassada;
-- comercial, sem parecer agressiva;
-- objetiva, sem parecer seca;
-- jurídica, sem ser burocrática.
+### 2.3 Princípios de marca
 
-### 3.3 Regra de decisão
+Toda interface deve comunicar, nesta ordem:
 
-Quando houver duas soluções visualmente válidas, preferir a que seja:
+1. autoridade;
+2. clareza;
+3. direção;
+4. confiança;
+5. sofisticação;
+6. modernidade discreta.
+
+Quando duas soluções forem visualmente válidas, preferir a que seja:
 
 - mais simples;
 - mais editorial;
@@ -247,9 +256,66 @@ Quando houver duas soluções visualmente válidas, preferir a que seja:
 
 ---
 
-## 4. Cores
+## 3. Design Principles
 
-### 4.1 Tokens oficiais
+### 3.1 Função antes da decoração
+
+Elementos visuais devem existir para estruturar, orientar, hierarquizar ou reforçar confiança. Ornamentos sem função devem ser removidos.
+
+Evitar:
+
+- excesso de badges;
+- ícones decorativos repetidos;
+- gradientes sem propósito;
+- sombras fortes;
+- padrões visuais competindo com o conteúdo.
+
+### 3.2 Hierarquia forte
+
+Cada tela deve deixar claro:
+
+- onde o usuário está;
+- qual é a informação principal;
+- quais ações são possíveis;
+- qual ação é prioritária;
+- o que é secundário.
+
+Usar contraste, tamanho, espaço negativo e posição antes de adicionar decoração.
+
+### 3.3 Tipografia editorial
+
+A combinação entre PT Serif e Montserrat é parte central da identidade. A serifada cria autoridade e ritmo editorial. A sans-serif sustenta leitura, navegação e operação.
+
+### 3.4 Simplicidade operacional
+
+Ferramentas, dashboards e sistemas internos devem ser mais densos e funcionais que páginas comerciais, mas ainda devem preservar tokens, tipografia, cores, acessibilidade e linguagem visual.
+
+### 3.5 Consistência sobre novidade
+
+Não criar uma identidade paralela para cada campanha, ferramenta ou produto. Novas páginas devem reutilizar tokens, componentes e padrões já definidos.
+
+### 3.6 Leitura como prioridade
+
+O Ênfase trabalha com conteúdo jurídico e educacional. Interfaces devem favorecer leitura, comparação, consulta e tomada de decisão.
+
+Regras:
+
+- parágrafos curtos;
+- largura controlada de texto;
+- títulos informativos;
+- listas quando ajudam;
+- tabelas quando comparação for necessária;
+- CTAs específicos.
+
+### 3.7 Componentes grandes, claros e acessíveis
+
+Controles devem ter área confortável, estados visíveis, foco evidente e semântica correta. A sofisticação da marca não pode reduzir usabilidade.
+
+---
+
+## 4. Design Tokens
+
+### 4.1 Tokens CSS oficiais
 
 ```css
 :root {
@@ -275,9 +341,9 @@ Quando houver duas soluções visualmente válidas, preferir a que seja:
 }
 ```
 
-### 4.2 Função de cada cor
+### 4.2 Cores
 
-#### Rosa principal — `#FF2759`
+#### Rosa principal: `#FF2759`
 
 Usar em:
 
@@ -288,25 +354,25 @@ Usar em:
 - elementos de alta prioridade;
 - preços em destaque;
 - linha superior da página;
-- identidade da marca.
+- sinalização de marca.
 
 Não usar como:
 
-- fundo predominante de página;
+- fundo predominante;
 - cor de grandes seções;
 - texto corrido;
 - decoração repetida em todos os componentes.
 
-#### Rosa escuro — `#D6224C`
+#### Rosa escuro: `#D6224C`
 
-Usar principalmente em:
+Usar em:
 
 - hover;
 - pressed;
-- estados mais densos do CTA;
-- gradientes ou detalhes controlados.
+- estados densos do CTA;
+- detalhes controlados.
 
-#### Roxo institucional — `#200140`
+#### Roxo institucional: `#200140`
 
 Usar em:
 
@@ -315,9 +381,9 @@ Usar em:
 - bordas e detalhes;
 - títulos secundários;
 - superfícies de dropdown;
-- elementos de navegação.
+- navegação.
 
-#### Roxo escuro — `#170030`
+#### Roxo escuro: `#170030`
 
 Usar em:
 
@@ -328,32 +394,33 @@ Usar em:
 - rodapé;
 - navegação ativa em fundos escuros.
 
-#### Texto principal — `#160023`
+#### Texto principal: `#160023`
 
 Usar em:
 
-- títulos e textos em superfícies claras;
+- títulos em superfícies claras;
+- textos principais;
 - labels;
 - preços;
-- informações principais.
+- informações críticas.
 
-#### Texto secundário — `#675F78`
+#### Texto secundário: `#675F78`
 
 Usar em:
 
 - descrições;
 - supporting copy;
 - metadados;
-- FAQ;
+- respostas de FAQ;
 - textos auxiliares.
 
-#### Dourado — `#D6B56D`
+#### Dourado: `#D6B56D`
 
-Usar em:
+Usar com moderação em:
 
 - divisores;
 - badges premium;
-- contornos de plano recomendado;
+- contornos de destaque;
 - detalhes jurídicos;
 - pequenas sinalizações de autoridade.
 
@@ -366,21 +433,21 @@ Não usar em:
 
 #### Superfícies
 
-- branco: `#FFFFFF`;
-- superfície clara: `#F5F2F8`;
-- superfície alternativa: `#EEE8F4`;
-- linha/borda: `rgba(32, 1, 64, 0.14)`.
+- `#FFFFFF`: superfície base;
+- `#F5F2F8`: superfície clara alternativa;
+- `#EEE8F4`: superfície de apoio;
+- `#20014024`: linha ou borda sutil.
 
-### 4.3 Proporção recomendada
+### 4.3 Proporção de cor
 
-Em páginas claras:
+Em interfaces claras, usar como referência:
 
-- 65–80% superfícies claras;
-- 10–20% roxo/escuro;
-- 5–10% rosa;
+- 65-80% superfícies claras;
+- 10-20% roxo ou escuro;
+- 5-10% rosa;
 - menos de 5% dourado.
 
-Essa proporção é orientativa. A regra mais importante é não diluir a força do rosa e do dourado pelo uso excessivo.
+A regra principal é preservar força semântica. Rosa deve significar ação ou destaque. Dourado deve significar autoridade, refinamento ou recomendação.
 
 ### 4.4 Contraste
 
@@ -388,8 +455,79 @@ Essa proporção é orientativa. A regra mais importante é não diluir a força
 - texto secundário em fundo claro: `#675F78`;
 - texto em fundo escuro: branco;
 - bordas em fundo claro: `#20014024`;
-- focus em fundo claro: roxo;
-- focus em fundo escuro: branco ou rosa, desde que o contraste seja adequado.
+- foco em fundo claro: `#3A0A6E`;
+- foco em fundo escuro: branco ou rosa com contraste adequado.
+
+Atender WCAG AA:
+
+- 4.5:1 para texto normal;
+- 3:1 para texto grande;
+- 3:1 para componentes gráficos essenciais.
+
+### 4.5 Espaçamento
+
+Usar escala baseada em 4px:
+
+- `4px`;
+- `8px`;
+- `16px`;
+- `24px`;
+- `32px`;
+- `48px`;
+- `64px`;
+- `clamp(56px, 7vw, 92px)` para seções.
+
+Evitar valores arbitrários como `13px`, `27px` ou `43px`, exceto quando já existirem em componente oficial ou quando houver motivo técnico documentado.
+
+### 4.6 Bordas, radius e sombras
+
+Radius:
+
+- `0`: superfícies sem arredondamento;
+- `4px`: controles pequenos;
+- `8px`: botões e elementos interativos;
+- `14px`: cards padrão;
+- `20px`: cards editoriais maiores;
+- `9999px`: pills, badges e divisores.
+
+Borda padrão:
+
+```css
+border: 1px solid rgba(32, 1, 64, 0.14);
+```
+
+Sombra padrão:
+
+```css
+box-shadow: 0 18px 50px rgba(22, 0, 35, 0.14);
+```
+
+Usar sombra em:
+
+- dropdowns;
+- menus;
+- modais;
+- cards elevados;
+- componentes flutuantes;
+- planos destacados.
+
+Evitar:
+
+- glassmorphism;
+- blur como linguagem principal;
+- sombras duras;
+- bordas grossas sem função;
+- arredondamento em pill para todos os elementos.
+
+### 4.7 Breakpoints
+
+Tokens consolidados:
+
+- mobile: até `720px`;
+- tablet: até `1024px`;
+- desktop: a partir de `1025px`.
+
+Breakpoints podem ser refinados por componente quando houver necessidade real, mas devem ser documentados.
 
 ---
 
@@ -415,23 +553,7 @@ Essa proporção é orientativa. A regra mais importante é não diluir a força
   serif;
 ```
 
-### 5.2 Montserrat
-
-Usar em:
-
-- corpo;
-- botões;
-- navegação;
-- labels;
-- FAQ;
-- preços;
-- formulários;
-- metadados;
-- cards funcionais;
-- menus;
-- descrições.
-
-### 5.3 PT Serif
+### 5.2 PT Serif
 
 Usar em:
 
@@ -439,21 +561,44 @@ Usar em:
 - H2 de seção;
 - títulos editoriais;
 - títulos de cards institucionais;
-- títulos de pricing;
+- títulos de planos ou produtos;
 - blocos que precisam transmitir autoridade.
 
-Não usar PT Serif em:
+Não usar em:
 
 - botões;
 - navegação;
-- campos de formulário;
+- campos;
 - labels;
-- textos longos;
-- mensagens de sistema.
+- texto longo;
+- mensagens de sistema;
+- tabelas operacionais;
+- dashboards densos.
 
-### 5.4 Escalas confirmadas
+O CSS solicita PT Serif com peso 700. Confirmar que esse peso está carregado. Não depender de bold sintético em novas implementações.
 
-#### H1 do hero
+### 5.3 Montserrat
+
+Usar em:
+
+- corpo;
+- botões;
+- navegação;
+- labels;
+- FAQs;
+- preços;
+- formulários;
+- metadados;
+- cards funcionais;
+- menus;
+- descrições;
+- tabelas;
+- dashboards;
+- ferramentas.
+
+### 5.4 Escala recomendada
+
+H1 editorial ou hero:
 
 ```css
 font-family: var(--font-headline);
@@ -463,7 +608,17 @@ line-height: 0.98;
 letter-spacing: 0;
 ```
 
-#### H2 de seção
+Page title:
+
+```css
+font-family: var(--font-headline);
+font-size: clamp(38px, 5vw, 58px);
+font-weight: 700;
+line-height: 1.02;
+letter-spacing: 0;
+```
+
+H2 de seção:
 
 ```css
 font-family: var(--font-headline);
@@ -474,27 +629,82 @@ letter-spacing: 0;
 color: #170030;
 ```
 
+Título editorial de card:
+
+```css
+font-family: var(--font-headline);
+font-size: clamp(28px, 3vw, 42px);
+font-weight: 700;
+line-height: 1.08;
+letter-spacing: 0;
+```
+
+Título funcional de card:
+
+```css
+font-family: var(--font-brand);
+font-size: 22px;
+font-weight: 700;
+line-height: 1.25;
+letter-spacing: 0;
+```
+
+Body grande:
+
+```css
+font-family: var(--font-brand);
+font-size: clamp(18px, 1.6vw, 21px);
+font-weight: 400;
+line-height: 1.55;
+```
+
+Body padrão:
+
+```css
+font-family: var(--font-brand);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.55;
+```
+
+Body pequeno:
+
+```css
+font-family: var(--font-brand);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
+```
+
+Overline:
+
+```css
+font-family: var(--font-brand);
+font-size: 13px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+```
+
 ### 5.5 Regras tipográficas
 
 - não usar tracking negativo em títulos serifados;
-- manter line-height mais fechado apenas em títulos grandes;
+- manter line-height fechado apenas em títulos grandes;
 - evitar parágrafos longos ocupando o container inteiro;
-- limitar headings centrais a aproximadamente 820px;
+- limitar headings centrais a aproximadamente `820px`;
 - usar `strong` para ênfase moderada;
 - reservar caixa alta a overlines, badges e labels;
 - não usar mais de três pesos diferentes na mesma seção;
-- não usar bold excessivo em todos os textos;
+- não usar bold excessivo;
 - não centralizar parágrafos longos;
 - não inserir quebras `<br>` rígidas sem necessidade;
-- se houver quebra editorial, ela deve ser responsiva.
-
-### 5.6 Observação técnica
-
-O CSS solicita PT Serif com peso 700. Confirmar que esse peso está carregado. Não depender de bold sintético em novas implementações.
+- se houver quebra editorial, ela deve ser responsiva;
+- texto de botão deve caber sem esmagar padding.
 
 ---
 
-## 6. Layout
+## 6. Layout System
 
 ### 6.1 Container
 
@@ -511,35 +721,16 @@ margin-inline: auto;
 
 Regras:
 
-- largura máxima de 1200px;
-- gutter mínimo de 20px por lado;
+- largura máxima de `1200px`;
+- gutter mínimo de `20px` por lado;
 - alinhamento central;
-- seções full-bleed podem ter fundo de largura total, mas o conteúdo interno deve alinhar ao container;
+- seções full-bleed podem ter fundo de largura total;
+- conteúdo interno deve alinhar ao container;
 - não criar containers independentes com larguras arbitrárias.
 
-### 6.2 Estrutura global
+### 6.2 Seções
 
-```css
---topbar-height: 5px;
---header-height: 80px;
---hero-height: 600px;
-```
-
-Âncoras:
-
-```css
-[id] {
-  scroll-margin-top: calc(
-    var(--topbar-height) +
-    var(--header-height) +
-    19px
-  );
-}
-```
-
-Valor resultante aproximado: `104px`.
-
-### 6.3 Espaçamento de seção
+Padrão:
 
 ```css
 .section {
@@ -549,22 +740,7 @@ Valor resultante aproximado: `104px`.
 
 O espaço negativo faz parte da identidade. Não reduzir seções apenas para mostrar mais conteúdo acima da dobra.
 
-### 6.4 Ritmo
-
-Usar escala baseada em 4px:
-
-- 4px;
-- 8px;
-- 16px;
-- 24px;
-- 32px;
-- 48px;
-- 64px;
-- `clamp(56px, 7vw, 92px)`.
-
-Evitar valores arbitrários como 13px, 27px ou 43px, exceto quando comprovados no componente existente.
-
-### 6.5 Cabeçalho de seção
+### 6.3 Cabeçalho de seção
 
 ```css
 .section-heading {
@@ -574,14 +750,14 @@ Evitar valores arbitrários como 13px, 27px ou 43px, exceto quando comprovados n
 }
 ```
 
-Estrutura:
+Anatomia recomendada:
 
 1. overline opcional;
 2. H2;
-3. divisor dourado;
+3. divisor dourado opcional;
 4. supporting copy.
 
-### 6.6 Divisor dourado
+Divisor dourado:
 
 ```css
 .section-heading h2::after {
@@ -598,11 +774,40 @@ Estrutura:
 
 Usar em títulos principais de seção, não em headings internos de cards.
 
----
+### 6.4 Grid
 
-## 7. Fundos
+Usar grids previsíveis:
 
-### 7.1 Hero escuro
+- 1 coluna em mobile;
+- 2 colunas em tablet quando houver espaço;
+- 3 ou 4 colunas em desktop para cards;
+- colunas assimétricas apenas quando a hierarquia justificar.
+
+Exemplos:
+
+```css
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+```
+
+### 6.5 Fundos
+
+Hero ou bloco escuro institucional:
 
 ```css
 background-image:
@@ -626,11 +831,11 @@ Características:
 - roxo quase preto;
 - brilho quente central;
 - profundidade;
-- atmosfera de biblioteca;
+- atmosfera editorial;
 - contraste alto;
 - ausência de neon.
 
-### 7.2 Seção clara institucional
+Seção clara institucional:
 
 ```css
 .section--light {
@@ -645,64 +850,621 @@ Características:
 
 A textura deve permanecer sutil.
 
-### 7.3 Alternância de seções
-
-Preferir alternância entre:
+Alternar entre:
 
 - branco texturizado;
 - soft lilás;
 - roxo escuro;
 - bloco branco elevado.
 
-Não alternar cores sem função narrativa.
+Não alternar cores sem função.
+
+### 6.6 Estrutura global
+
+Tokens consolidados:
+
+```css
+--topbar-height: 5px;
+--header-height: 80px;
+--hero-height: 600px;
+```
+
+Âncoras:
+
+```css
+[id] {
+  scroll-margin-top: calc(
+    var(--topbar-height) +
+    var(--header-height) +
+    19px
+  );
+}
+```
+
+Valor aproximado: `104px`.
 
 ---
 
-## 8. Bordas, raios e sombras
+## 7. Component Library
 
-### 8.1 Raios
+Cada componente deve documentar objetivo, anatomia, uso, variantes, estados e acessibilidade. Componentes compartilhados devem ser alterados com cuidado, verificando todas as telas impactadas.
 
-- 4px: controles pequenos;
-- 8px: botões e elementos interativos;
-- 14px: cards padrão;
-- 20px: cards editoriais maiores;
-- 9999px: pills, badges e divisores.
+### 7.1 Button
 
-### 8.2 Sombra padrão
+Objetivo: executar ação, iniciar fluxo, enviar formulário ou navegar para destino prioritário.
 
-```css
-box-shadow: 0 18px 50px rgba(22, 0, 35, 0.14);
-```
+Anatomia:
 
-Usar em:
+- label específico;
+- ícone opcional;
+- estado visual;
+- foco visível;
+- loading quando assíncrono.
 
-- dropdowns;
-- pricing destacado;
-- cards elevados;
-- menus;
-- componentes flutuantes.
-
-### 8.3 Bordas
+Primário:
 
 ```css
-border: 1px solid rgba(32, 1, 64, 0.14);
+background: #ff2759;
+color: #fff;
+min-height: 48px;
+padding: 0 24px;
+border-radius: 8px;
+font-family: var(--font-brand);
+font-weight: 700;
 ```
 
-Não usar borda preta ou cinza pesada.
+Hover:
 
-### 8.4 Proibições
+```css
+background: #d6224c;
+```
 
-- não usar glassmorphism;
-- não usar blur como linguagem principal;
-- não usar sombras duras;
-- não usar bordas grossas sem função;
-- não arredondar todos os elementos como pills.
+Variantes:
+
+- primary;
+- secondary;
+- outline on dark;
+- outline on light;
+- ghost;
+- icon-only;
+- destructive, apenas quando necessário e com critério.
+
+Estados obrigatórios:
+
+- default;
+- hover;
+- focus-visible;
+- active;
+- disabled;
+- loading, quando assíncrono.
+
+Regras:
+
+- disabled não pode depender apenas de cor;
+- botão com ícone sem texto precisa de `aria-label`;
+- usar `<button>` para ação e `<a>` para navegação;
+- evitar CTAs genéricos.
+
+Textos preferidos:
+
+- Explorar carreiras;
+- Começar pelo ENAM;
+- Conhecer o NDCJ;
+- Conhecer o NDP;
+- Garantir minha vaga;
+- Falar com a equipe;
+- Ver resposta;
+- Abrir relatório;
+- Salvar plano.
+
+Evitar:
+
+- Clique aqui;
+- Saiba mais;
+- Ver mais;
+- Continuar, quando existir termo mais específico;
+- Acessar, quando o destino puder ser nomeado.
+
+### 7.2 Card
+
+Objetivo: agrupar conteúdo relacionado em uma unidade escaneável.
+
+Anatomia:
+
+- container;
+- mídia opcional;
+- ícone ou badge opcional;
+- título;
+- descrição;
+- metadados opcionais;
+- ação opcional.
+
+Variantes:
+
+- editorial;
+- funcional;
+- produto;
+- carreira;
+- métrica;
+- plano;
+- artigo;
+- ferramenta.
+
+Regras:
+
+- fundo branco ou soft;
+- borda sutil;
+- sombra suave apenas quando houver elevação real;
+- padding generoso;
+- título claro;
+- descrição específica;
+- card inteiro clicável quando representar navegação única;
+- hover sutil;
+- foco no link ou controle principal.
+
+Evitar:
+
+- vários CTAs competindo;
+- badges em excesso;
+- imagem repetida em múltiplos cards;
+- conteúdo sem hierarquia;
+- card dentro de card.
+
+### 7.3 Input e Textarea
+
+Objetivo: coletar dados com clareza e baixo atrito.
+
+Anatomia:
+
+- label visível;
+- campo;
+- placeholder opcional;
+- texto de ajuda opcional;
+- mensagem de erro ou sucesso;
+- estado disabled ou readonly quando aplicável.
+
+Regras:
+
+- placeholder não substitui label;
+- usar `aria-describedby` para ajuda e erro;
+- erro não depende apenas de vermelho;
+- altura mínima de toque de `44px`;
+- foco visível;
+- mensagens específicas;
+- prevenção de envio duplicado.
+
+Estados:
+
+- default;
+- hover;
+- focus;
+- filled;
+- error;
+- success;
+- disabled;
+- readonly;
+- loading, quando aplicável.
+
+### 7.4 Select e Combobox
+
+Objetivo: permitir escolha entre opções controladas.
+
+Usar select nativo quando a lista for simples. Usar combobox apenas quando houver busca, listas longas ou necessidade operacional real.
+
+Regras:
+
+- label visível;
+- opção atual clara;
+- navegação por teclado;
+- Escape fecha menu customizado;
+- estados de erro e disabled;
+- menu não pode ser cortado por containers;
+- opções devem ter labels compreensíveis.
+
+### 7.5 Accordion
+
+Objetivo: revelar conteúdo secundário sem alongar excessivamente a página.
+
+Anatomia:
+
+- pergunta ou título;
+- botão ocupando o cabeçalho inteiro;
+- ícone de expansão;
+- painel;
+- resposta.
+
+Semântica:
+
+```html
+<button
+  aria-expanded="false"
+  aria-controls="panel-id"
+>
+```
+
+Regras:
+
+- todo o cabeçalho clicável;
+- não depender apenas do ícone;
+- resposta em Montserrat;
+- cor muted para texto auxiliar;
+- animação suave;
+- reduced motion respeitado;
+- comportamento de item único ou múltiplos itens deve ser consistente.
+
+FAQ deve responder dúvidas reais e específicas. Não copiar perguntas irrelevantes entre produtos.
+
+### 7.6 Badge
+
+Objetivo: sinalizar categoria, status, recomendação ou metadado curto.
+
+Variantes:
+
+- neutral;
+- premium;
+- active;
+- warning;
+- success;
+- status.
+
+Regras:
+
+- usar caixa alta com moderação;
+- manter contraste;
+- não transformar badge em decoração repetitiva;
+- dourado deve ser reservado a autoridade, premium ou recomendação.
+
+### 7.7 Modal e Dialog
+
+Objetivo: solicitar decisão ou exibir fluxo temporário sem trocar de página.
+
+Regras:
+
+- usar `role="dialog"` ou elemento semântico equivalente;
+- associar título com `aria-labelledby`;
+- prender foco dentro do modal;
+- fechar com Escape quando seguro;
+- retornar foco ao acionador;
+- incluir botão de fechar acessível;
+- não usar modal para conteúdo longo que deveria ser página.
+
+### 7.8 Hero e Page Header
+
+Objetivo: introduzir contexto, proposta principal e ação prioritária quando a página exigir entrada editorial.
+
+Hero é componente, não obrigação. Ferramentas, dashboards e áreas internas podem usar cabeçalho funcional compacto.
+
+Anatomia típica:
+
+- overline opcional;
+- H1;
+- divisor opcional;
+- supporting copy;
+- ações;
+- imagem ou fundo institucional opcional.
+
+Layout consolidado para hero editorial:
+
+```css
+.hero {
+  min-height: 600px;
+  color: #fff;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__inner {
+  z-index: 1;
+  width: min(100% - 40px, 1200px);
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 72px 0;
+  position: relative;
+}
+```
+
+Usar quando:
+
+- a página precisa de posicionamento editorial;
+- existe proposta comercial ou institucional;
+- a primeira dobra precisa orientar decisão.
+
+Evitar quando:
+
+- a interface é uma ferramenta;
+- o usuário já está em fluxo operacional;
+- a tela precisa priorizar dados, filtros ou tarefas.
+
+### 7.9 Table
+
+Objetivo: comparar dados estruturados.
+
+Regras:
+
+- usar `<table>` para dados tabulares reais;
+- cabeçalhos claros;
+- alinhamento consistente;
+- ordenação e filtros quando necessário;
+- estados vazios;
+- overflow horizontal controlado em mobile;
+- não usar tabela para layout.
+
+### 7.10 Breadcrumb
+
+Objetivo: mostrar localização e permitir retorno hierárquico.
+
+Regras:
+
+- usar em páginas profundas;
+- labels curtos;
+- último item representa página atual;
+- incluir `aria-current="page"` no item atual;
+- não substituir navegação principal.
+
+### 7.11 Progress
+
+Objetivo: indicar avanço em fluxo, trilha, checklist, planner ou tarefa.
+
+Variantes:
+
+- barra linear;
+- steps;
+- circular apenas para métrica compacta;
+- checklist.
+
+Regras:
+
+- estado atual claro;
+- label textual quando necessário;
+- não depender apenas de cor;
+- valores devem ser reais.
+
+### 7.12 Tabs
+
+Objetivo: alternar visões relacionadas no mesmo contexto.
+
+Regras:
+
+- usar quando os painéis forem paralelos;
+- navegação por teclado com setas quando implementado como tabs ARIA;
+- indicar tab ativa;
+- não usar tabs para esconder conteúdo essencial de SEO em páginas públicas sem critério.
+
+### 7.13 Timeline
+
+Objetivo: representar sequência temporal, etapas de curso, cronograma ou processo.
+
+Regras:
+
+- cada etapa precisa de título;
+- datas devem ser verificadas;
+- status visual deve ter texto;
+- mobile deve manter leitura linear.
+
+### 7.14 Empty State
+
+Objetivo: orientar o usuário quando não houver dados, resultados ou conteúdo.
+
+Anatomia:
+
+- título curto;
+- explicação objetiva;
+- ação recomendada quando existir;
+- ícone discreto opcional.
+
+Evitar tom informal excessivo. Empty state deve ajudar, não decorar.
+
+### 7.15 Tooltip
+
+Objetivo: explicar controle, abreviação ou metadado auxiliar.
+
+Regras:
+
+- não conter informação essencial;
+- funcionar com teclado e hover;
+- manter texto curto;
+- não usar para mensagens de erro;
+- não esconder CTAs dentro de tooltip.
+
+### 7.16 Header e navegação
+
+Objetivo: orientar deslocamento global e expor ações de alto valor.
+
+Anatomia em páginas comerciais ou institucionais:
+
+- topbar rosa de `5px`;
+- fundo roxo escuro;
+- logo;
+- navegação principal;
+- portal;
+- CTA principal.
+
+Regras:
+
+- altura desktop consolidada: `80px`;
+- logo alinhado ao container;
+- links em Montserrat;
+- ação principal em rosa;
+- dropdown em roxo escuro;
+- estado ativo destacado;
+- foco visível;
+- navegação por teclado;
+- mobile com menu colapsado;
+- dropdown deve fechar com Escape;
+- não depender apenas de hover.
+
+Ferramentas e áreas internas podem usar navegação compacta, sidebar, app shell ou topbar funcional.
+
+### 7.17 Footer
+
+Objetivo: encerrar páginas públicas com contexto institucional, links úteis e informações legais.
+
+Footer público deve conter:
+
+- logo;
+- descrição institucional;
+- carreiras;
+- links institucionais;
+- links úteis;
+- informações legais;
+- copyright.
+
+Links úteis esperados:
+
+- Quem Somos;
+- Fale Conosco;
+- Blog;
+- Portal de Entrada;
+- Portal da Pós.
+
+Ferramentas e áreas internas podem usar footer mínimo ou omitir footer, desde que a navegação operacional continue clara.
+
+### 7.18 Icons
+
+Preferir Lucide para ícones funcionais.
+
+```html
+<svg
+  class="lucide"
+  aria-hidden="true"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+>
+```
+
+Regras:
+
+- usar `currentColor`;
+- ícones decorativos recebem `aria-hidden="true"`;
+- botão apenas com ícone recebe `aria-label`;
+- manter traço consistente;
+- não misturar múltiplas bibliotecas no mesmo componente;
+- não usar emoji como ícone da UI.
+
+SVGs próprios podem representar:
+
+- tribunais;
+- balança;
+- carreiras;
+- documentos;
+- plano de estudos;
+- diagnóstico;
+- execução guiada;
+- resposta rápida.
+
+Manter estilo linear, institucional e discreto.
+
+### 7.19 Pricing
+
+Objetivo: apresentar investimento, condições e comparação de planos.
+
+Pricing é componente comercial, não fundação do Design System.
+
+Anatomia:
+
+1. overline;
+2. título;
+3. opções;
+4. badge de destaque;
+5. prazo;
+6. preço;
+7. condição;
+8. desconto, se oficial;
+9. CTA.
+
+Regras:
+
+- preço e condições devem ser oficiais e atuais;
+- não copiar preço de outra página;
+- plano recomendado pode usar borda dourada;
+- badge dourado em pill;
+- preço em rosa;
+- explicar parcelamento e valor à vista;
+- mostrar prazo de acesso;
+- manter comparação justa;
+- CTA principal no plano recomendado.
+
+Nunca inventar:
+
+- desconto;
+- cashback;
+- bônus;
+- prazo;
+- parcelamento;
+- número de vagas;
+- data de encerramento.
+
+### 7.20 Career Card
+
+Objetivo: apresentar uma carreira ou trilha com navegação clara.
+
+Anatomia:
+
+```html
+<article class="career-card">
+  <a class="career-card__link" href="...">
+    <div class="career-card__media" aria-hidden="true">
+      <img alt="" ...>
+    </div>
+    <div class="career-card__body">
+      <span class="career-card__icon">...</span>
+      <h3 class="career-card__title">...</h3>
+      <p class="career-card__description">...</p>
+    </div>
+  </a>
+</article>
+```
+
+Regras:
+
+- card inteiro clicável;
+- usar `<article>`;
+- imagem decorativa com `alt=""`;
+- título claro;
+- descrição específica;
+- ícone circular sobreposto quando o padrão visual pedir;
+- sombra suave;
+- fundo branco;
+- borda discreta;
+- focus no link inteiro;
+- hover sutil;
+- não repetir imagens em cards diferentes.
+
+Responsividade consolidada:
+
+```html
+sizes="
+  (max-width: 720px) 78vw,
+  (max-width: 1024px) 33vw,
+  20vw
+"
+```
+
+### 7.21 Carousel
+
+Objetivo: permitir navegação horizontal quando o conteúdo excede a largura disponível.
+
+Regras:
+
+- viewport com overflow controlado;
+- navegação anterior/próximo;
+- estado `disabled`;
+- labels acessíveis;
+- não depender apenas de swipe;
+- não usar autoplay;
+- preservar conteúdo no DOM;
+- suportar teclado;
+- usar apenas quando grid responsivo não resolver melhor.
 
 ---
 
-## 9. Motion
+## 8. Motion
 
-### 9.1 Transição padrão
+### 8.1 Transição padrão
 
 ```css
 transition-duration: 150ms;
@@ -718,7 +1480,7 @@ Aplicar em:
 - transform leve;
 - ícones.
 
-### 9.2 Entrada fade-up
+### 8.2 Entrada fade-up
 
 ```css
 animation:
@@ -743,7 +1505,35 @@ Aplicar apenas a elementos de entrada relevantes:
 - divisor;
 - elementos editoriais de destaque.
 
-### 9.3 Reduced motion
+### 8.3 Hover, focus e active
+
+- hover deve confirmar interatividade sem deslocar layout;
+- focus-visible deve ser mais evidente que hover;
+- active pode escurecer, comprimir levemente ou reduzir opacidade;
+- componentes não devem depender de movimento para comunicar estado.
+
+### 8.4 Loading
+
+Usar loading quando a ação for assíncrona.
+
+Regras:
+
+- impedir envio duplicado;
+- preservar tamanho do botão;
+- comunicar progresso com texto ou indicador;
+- não deixar layout saltar;
+- não esconder erro.
+
+### 8.5 Disabled
+
+Disabled deve comunicar indisponibilidade com:
+
+- opacidade ou cor;
+- cursor adequado quando aplicável;
+- bloqueio real de interação;
+- explicação quando a razão não for óbvia.
+
+### 8.6 Reduced motion
 
 ```css
 @media (prefers-reduced-motion: no-preference) {
@@ -757,9 +1547,9 @@ Quando o usuário preferir menos movimento:
 - remover animação de entrada;
 - reduzir transições;
 - manter o conteúdo visível;
-- não tornar nenhuma informação dependente de animação.
+- não tornar informação dependente de animação.
 
-### 9.4 Não usar
+Não usar:
 
 - autoplay;
 - bounce;
@@ -772,321 +1562,478 @@ Quando o usuário preferir menos movimento:
 
 ---
 
-## 10. Header e navegação
+## 9. Content
 
-### 10.1 Anatomia
+### 9.1 Tom
 
-O header desktop contém:
+O texto deve ser:
 
-- topbar rosa de 5px;
-- fundo roxo escuro;
-- logo;
-- grupos de carreira;
-- botão Portal;
-- CTA “Falar com a equipe”.
-
-### 10.2 Regras
-
-- altura desktop: 80px;
-- logo alinhado ao container;
-- links em Montserrat;
-- ação principal em rosa;
-- Portal como ação secundária outline;
-- dropdown em roxo escuro;
-- estado ativo destacado;
-- foco visível;
-- navegação por teclado;
-- mobile deve usar menu colapsado.
-
-### 10.3 Dropdown
-
-- fundo `#170030`;
-- texto branco/cinza claro;
-- sombra suave;
-- raio moderado;
-- itens com área clicável ampla;
-- abrir por teclado;
-- fechar com Escape;
-- não depender apenas de hover;
-- funcionar em touch.
-
-### 10.4 Portais
-
-Distinguir:
-
-- Portal de Entrada;
-- Portal da Pós.
-
-Não substituir um pelo outro.
-
----
-
-## 11. Hero principal
-
-### 11.1 Estrutura semântica
-
-```html
-<section class="hero" aria-labelledby="hero-title">
-  <div class="hero__inner">
-    <div class="hero__copy">
-      <h1 id="hero-title">...</h1>
-      <div class="hero__divider" aria-hidden="true"></div>
-      <p>...</p>
-
-      <div
-        class="hero__actions"
-        aria-label="Ações principais"
-      >
-        ...
-      </div>
-    </div>
-  </div>
-</section>
-```
-
-### 11.2 Layout confirmado
-
-```css
-.hero {
-  min-height: 600px;
-  color: #fff;
-  isolation: isolate;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero__inner {
-  z-index: 1;
-  width: min(100% - 40px, 1200px);
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  padding: 72px 0;
-  position: relative;
-}
-```
-
-### 11.3 Conteúdo
-
-O hero deve conter:
-
-1. título;
-2. divisor;
-3. texto de apoio;
-4. CTA principal;
-5. CTA secundário opcional;
-6. imagem jurídica;
-7. contraste suficiente.
-
-### 11.4 Regras de copy
-
-O título deve responder rapidamente:
-
-- qual carreira;
-- qual curso;
-- qual fase;
-- qual resultado de organização/direção.
-
-O texto deve explicar:
-
-- para quem;
-- qual método;
-- qual benefício;
-- qual diferencial.
-
-Não usar mais de dois CTAs principais.
-
-### 11.5 Page hero
-
-Páginas internas podem usar uma versão menor:
-
-- título PT Serif;
-- overline;
-- supporting copy;
-- CTA;
-- imagem ou fundo escuro;
-- altura inferior ao hero da home.
-
-Não replicar o hero da home integralmente em todas as páginas.
-
----
-
-## 12. Botões
-
-### 12.1 Primário
-
-```css
-background: #ff2759;
-color: #fff;
-min-height: 48px;
-padding: 0 24px;
-border-radius: 8px;
-font-family: Montserrat, sans-serif;
-font-weight: 700;
-```
-
-Hover:
-
-```css
-background: #d6224c;
-```
-
-### 12.2 Outline em fundo escuro
-
-- transparente;
-- texto branco;
-- borda clara;
-- hover com branco de baixa opacidade;
-- não competir visualmente com CTA principal.
-
-### 12.3 Outline em fundo claro
-
-- transparente;
-- texto rosa;
-- borda rosa;
-- hover com rosa suave ou preenchimento rosa.
-
-### 12.4 Texto
-
-Preferir:
-
-- Explorar carreiras;
-- Começar pelo ENAM;
-- Conhecer o NDCJ;
-- Conhecer o NDP;
-- Garantir minha vaga;
-- Falar com a equipe;
-- Ver resposta.
+- claro;
+- direto;
+- jurídico;
+- confiante;
+- editorial;
+- específico;
+- sem exagero comercial.
 
 Evitar:
+
+- informalidade excessiva;
+- promessas absolutas;
+- urgência artificial;
+- jargão sem explicação;
+- frases genéricas de marketing;
+- afirmações sem fonte.
+
+### 9.2 Headings
+
+Regras:
+
+- um H1 por página;
+- H2 por seção;
+- H3 em cards ou subseções;
+- não usar heading apenas por aparência;
+- título deve explicar o conteúdo, não apenas vender.
+
+### 9.3 Subtítulos e supporting copy
+
+Supporting copy deve:
+
+- contextualizar;
+- reduzir ambiguidade;
+- explicar público, método ou benefício;
+- manter largura confortável;
+- evitar parágrafo longo centralizado.
+
+### 9.4 CTAs
+
+CTA deve ser específico e orientado à ação real.
+
+Bom:
+
+- Conhecer o curso;
+- Montar plano de estudos;
+- Baixar relatório;
+- Falar com a equipe;
+- Ver cronograma;
+- Abrir dashboard.
+
+Ruim:
 
 - Clique aqui;
 - Saiba mais;
 - Ver mais;
-- Continuar;
-- Acessar, quando um termo mais específico existir.
+- Continuar sem contexto.
 
-### 12.5 Estados obrigatórios
+### 9.5 Links
 
-Todo botão deve ter:
+- texto descritivo;
+- evitar "clique aqui";
+- evitar nomes diferentes para o mesmo destino;
+- verificar links externos;
+- indicar destino externo quando necessário.
 
-- default;
-- hover;
-- focus-visible;
-- active;
-- disabled;
-- loading, quando assíncrono.
+### 9.6 SEO e conteúdo público
 
-Disabled não pode depender apenas de cor.
-
----
-
-## 13. Ícones
-
-### 13.1 Ícones funcionais
-
-Preferir Lucide.
-
-```html
-<svg
-  class="lucide"
-  aria-hidden="true"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
->
-```
-
-### 13.2 Regras
-
-- usar `currentColor`;
-- ícones decorativos recebem `aria-hidden="true"`;
-- botão apenas com ícone recebe `aria-label`;
-- manter traço consistente;
-- não misturar múltiplas bibliotecas no mesmo componente;
-- não usar emoji como ícone da UI.
-
-### 13.3 Ícones institucionais
-
-SVGs próprios podem representar:
-
-- tribunais;
-- balança;
-- carreiras;
-- documentos;
-- plano de estudos;
-- diagnóstico;
-- execução guiada;
-- resposta rápida.
-
-Manter estilo linear e institucional.
+- responder intenção de busca;
+- usar nomes oficiais;
+- manter parágrafos curtos;
+- usar FAQ estruturado quando compatível;
+- imagens com dimensões, alt correto e formato otimizado;
+- evitar duplicar conteúdo irrelevante entre produtos.
 
 ---
 
-## 14. Cards de carreira
+## 10. Accessibility
 
-### 14.1 Anatomia
+### 10.1 Semântica
 
-```html
-<article class="career-card">
-  <a class="career-card__link" href="...">
-    <div
-      class="career-card__media"
-      aria-hidden="true"
-    >
-      <img alt="" ...>
-    </div>
+- um H1 por página;
+- hierarquia correta;
+- `<nav>` para navegação;
+- `<main>` para conteúdo;
+- `<section>` com heading;
+- `<article>` para cards independentes;
+- `<button>` para ações;
+- `<a>` para navegação;
+- não usar `<div>` clicável.
 
-    <div class="career-card__body">
-      <span class="career-card__icon">
-        ...
-      </span>
+### 10.2 Teclado
 
-      <h3 class="career-card__title">
-        ...
-      </h3>
+Suportar:
 
-      <p class="career-card__description">
-        ...
-      </p>
-    </div>
-  </a>
-</article>
+- Tab;
+- Shift+Tab;
+- Enter;
+- Espaço;
+- Escape;
+- setas quando o padrão do componente exigir.
+
+### 10.3 Focus visible
+
+Fundo claro:
+
+```css
+outline: 3px solid #3a0a6e;
+outline-offset: 3px;
 ```
 
-### 14.2 Regras
+Fundo escuro:
 
-- card inteiro clicável;
-- usar `<article>`;
-- imagem decorativa com `alt=""`;
-- título claro;
-- descrição específica;
-- ícone circular sobreposto;
-- sombra suave;
-- fundo branco;
-- borda discreta;
-- focus no link inteiro;
-- hover sutil;
-- não repetir imagens em cards diferentes.
-
-### 14.3 Responsividade confirmada
-
-```html
-sizes="
-  (max-width: 720px) 78vw,
-  (max-width: 1024px) 33vw,
-  20vw
-"
+```css
+outline: 3px solid #ffffff;
+outline-offset: 3px;
 ```
 
-Comportamento:
+### 10.4 ARIA
 
-- mobile: carrossel horizontal;
-- tablet: largura aproximada de 33vw;
-- desktop: largura aproximada de 20vw.
+Usar ARIA para complementar semântica, não para corrigir markup inadequado.
 
-### 14.4 Carreiras oficiais
+Regras:
+
+- `aria-label` em botões apenas com ícone;
+- `aria-expanded` em disclosure, menu e accordion;
+- `aria-controls` quando houver painel controlado;
+- `aria-current="page"` em item atual;
+- `aria-describedby` para ajuda e erro em campos;
+- não usar roles desnecessárias quando HTML nativo resolve.
+
+### 10.5 Contraste
+
+Atender WCAG AA:
+
+- texto normal: 4.5:1;
+- texto grande: 3:1;
+- componentes gráficos essenciais: 3:1.
+
+### 10.6 Touch target
+
+Área mínima aproximada: `44px` por `44px`.
+
+### 10.7 Skip link
+
+Manter "Pular para o conteúdo" como primeiro link focável em páginas com navegação global.
+
+### 10.8 Imagens
+
+Imagem decorativa:
+
+```html
+<div aria-hidden="true">
+  <img alt="">
+</div>
+```
+
+Imagem informativa deve ter alt descritivo e objetivo.
+
+### 10.9 Movimento
+
+Respeitar `prefers-reduced-motion`. Nenhuma informação pode depender exclusivamente de animação.
+
+---
+
+## 11. Responsividade
+
+### 11.1 Princípio
+
+Mobile não é desktop reduzido. A interface deve reorganizar prioridade, densidade e fluxo.
+
+Revisar:
+
+- header;
+- navegação;
+- hero ou page header;
+- cards;
+- grids;
+- tabelas;
+- formulários;
+- CTAs;
+- dashboards;
+- modais.
+
+### 11.2 Desktop
+
+Desktop pode usar:
+
+- grids de 3 ou 4 colunas;
+- navegação horizontal;
+- tabelas completas;
+- painéis lado a lado;
+- espaço negativo amplo;
+- imagens editoriais maiores.
+
+### 11.3 Tablet
+
+Tablet deve:
+
+- reduzir colunas;
+- preservar padding;
+- evitar textos espremidos;
+- manter controles confortáveis;
+- considerar orientação retrato e paisagem.
+
+### 11.4 Mobile
+
+Mobile deve:
+
+- priorizar leitura linear;
+- empilhar CTAs quando necessário;
+- usar botões full-width quando fizer sentido;
+- evitar altura fixa em hero;
+- esconder ou reordenar imagens que competem com a tarefa;
+- permitir overflow horizontal controlado em tabelas;
+- remover quebras manuais de desktop.
+
+### 11.5 Cards e grids
+
+- uma coluna para cards grandes;
+- duas colunas apenas com largura suficiente;
+- carrossel apenas quando o componente existente exigir;
+- preservar padding interno;
+- não reduzir tipografia a ponto de perder leitura.
+
+### 11.6 Tabelas
+
+Em mobile:
+
+- usar scroll horizontal controlado;
+- ou transformar linhas em cards quando a comparação não exigir colunas simultâneas;
+- manter cabeçalhos ou labels visíveis;
+- não cortar conteúdo.
+
+### 11.7 Quebras manuais
+
+Quebras como `.desktop-break` devem ser removidas ou ocultadas em mobile. Não depender de `<br>` para layout responsivo.
+
+---
+
+## 12. Tipos de Página
+
+Templates são exemplos de composição. Eles não definem o Design System. Cada template deve reutilizar tokens, layout, componentes, conteúdo e acessibilidade já descritos.
+
+### 12.1 Landing Page
+
+Usar para campanha, produto ou oferta específica.
+
+Pode conter:
+
+- hero ou page header;
+- contexto factual;
+- proposta;
+- público;
+- método;
+- conteúdo;
+- diferenciais;
+- prova social, se verificável;
+- investimento;
+- FAQ;
+- CTA final;
+- footer.
+
+Não criar identidade visual independente.
+
+### 12.2 Página Institucional
+
+Usar para apresentar marca, história, método, equipe ou posicionamento.
+
+Pode conter:
+
+- page hero;
+- história;
+- proposta;
+- método;
+- números verificáveis;
+- equipe;
+- CTA;
+- footer.
+
+### 12.3 Página de Curso
+
+Usar para produto educacional específico.
+
+Pode conter:
+
+- page hero;
+- para quem é;
+- proposta;
+- método;
+- conteúdo;
+- professores;
+- materiais;
+- diferenciais;
+- resultados verificáveis;
+- FAQ;
+- investimento;
+- CTA;
+- footer.
+
+### 12.4 Blog
+
+Usar para listagem editorial.
+
+Deve priorizar:
+
+- categorias;
+- busca;
+- cards de artigo;
+- metadados;
+- paginação;
+- leitura limpa;
+- SEO.
+
+### 12.5 Página de Artigo
+
+Usar para conteúdo editorial longo.
+
+Deve conter:
+
+- H1 claro;
+- autor ou fonte quando aplicável;
+- data;
+- corpo com largura confortável;
+- headings coerentes;
+- links relacionados;
+- imagens otimizadas;
+- compartilhamento quando fizer sentido.
+
+### 12.6 Dashboard
+
+Usar para acompanhamento, métricas, desempenho ou operação.
+
+Deve priorizar:
+
+- tarefas principais;
+- métricas;
+- filtros;
+- tabelas;
+- estados vazios;
+- carregamento;
+- densidade controlada;
+- clareza operacional.
+
+Não precisa de hero comercial.
+
+### 12.7 Ferramenta, Planner ou Tracker
+
+Usar para execução de tarefa.
+
+Deve conter:
+
+- cabeçalho funcional;
+- estado atual;
+- controles principais;
+- feedback;
+- salvamento ou exportação quando aplicável;
+- acessibilidade de formulário;
+- responsividade orientada ao uso.
+
+### 12.8 Portal ou Área Interna
+
+Usar para ambiente autenticado.
+
+Pode usar:
+
+- app shell;
+- sidebar;
+- topbar compacta;
+- breadcrumbs;
+- tabs;
+- filtros;
+- tabelas;
+- cards de status.
+
+### 12.9 Página de Login
+
+Deve conter:
+
+- marca;
+- formulário simples;
+- labels visíveis;
+- erro claro;
+- recuperação de acesso;
+- termos ou privacidade quando aplicável;
+- segurança sem excesso de texto.
+
+### 12.10 Página de Erro
+
+Deve conter:
+
+- mensagem clara;
+- explicação breve;
+- ação de retorno;
+- contato ou ajuda quando aplicável;
+- tom sóbrio.
+
+### 12.11 Página de Documentação
+
+Deve priorizar:
+
+- navegação lateral ou índice;
+- headings estáveis;
+- exemplos;
+- blocos de código;
+- busca quando necessário;
+- versão ou contexto;
+- leitura longa confortável.
+
+---
+
+## 13. Application and Tool Pages
+
+Ferramentas internas, planners, trackers, dashboards e aplicações web não precisam utilizar a estrutura completa de uma landing page.
+
+Devem preservar:
+
+- tokens;
+- tipografia;
+- componentes;
+- cores;
+- acessibilidade;
+- responsividade;
+- linguagem visual.
+
+Podem omitir:
+
+- hero comercial;
+- pricing;
+- prova social;
+- CTA de venda;
+- footer institucional completo;
+- navegação comercial.
+
+A função da ferramenta sempre prevalece sobre a estrutura comercial.
+
+Regras complementares:
+
+- usar densidade maior apenas quando a tarefa exigir;
+- preferir Montserrat em superfícies operacionais;
+- reservar PT Serif para títulos de página ou momentos editoriais;
+- manter ações principais em rosa;
+- usar roxo escuro para navegação ou áreas de identidade;
+- exibir estados vazios, loading, erro e sucesso;
+- proteger layout contra transbordamento de tabelas, labels e botões;
+- não transformar ferramenta em landing page.
+
+---
+
+## 14. Business Rules
+
+Regras de negócio devem ficar separadas das regras visuais. Elas impedem que uma página visualmente correta fique comercial, acadêmica ou juridicamente errada.
+
+### 14.1 Produtos e carreiras
+
+Não alterar sem confirmação:
+
+- nomes;
+- combinações;
+- destinos;
+- escopo;
+- etapa;
+- público;
+- promessas;
+- condições.
+
+Carreiras oficiais já usadas:
 
 1. Magistratura Federal;
 2. Magistratura Estadual;
@@ -1097,196 +2044,359 @@ Comportamento:
 7. Magistratura do Trabalho e MPT;
 8. Defensorias.
 
-Não alterar os nomes sem confirmação.
+### 14.2 ENAM
 
----
+O ENAM se relaciona às magistraturas. Não assumir aplicação automática a Procuradorias, Defensorias ou outros produtos.
 
-## 15. Carrossel
+Regras, datas, cashback e condições precisam de fonte oficial atual.
 
-### 15.1 Estrutura
+### 14.3 Núcleo Duro
 
-```html
-<div class="career-carousel">
-  <div class="mobile-carousel__viewport">
-    <div class="career-grid">
-      ...
-    </div>
-  </div>
+Existem ao menos:
 
-  <div class="mobile-carousel__nav">
-    <button aria-label="Anterior">...</button>
-    <button aria-label="Próximo">...</button>
-  </div>
-</div>
-```
+- NDCJ: Núcleo Duro Carreiras Jurídicas;
+- NDP: Núcleo Duro Procuradorias.
 
-### 15.2 Regras
+Núcleo Duro não é sinônimo de curso Regular.
 
-- viewport com overflow controlado;
-- navegação anterior/próximo;
-- estado `disabled`;
-- labels acessíveis;
-- não depender apenas de swipe;
-- não usar autoplay;
-- preservar conteúdo no DOM;
-- não esconder controles em desktop sem motivo;
-- suportar teclado.
+### 14.4 Conteúdo e acesso
 
----
+Não generalizar entre produtos:
 
-## 16. Cards institucionais
+- aulas ao vivo;
+- aulas gravadas;
+- PDF;
+- simulados;
+- correção;
+- cronograma;
+- mentoria;
+- acesso integral;
+- acesso progressivo;
+- prazo.
 
-Usados para:
+### 14.5 Preço e condições
 
-- NDCJ;
-- NDP;
-- diferenciais;
-- explicações;
-- apresentação de produtos;
-- etapas.
+Sempre verificar:
 
-Características:
-
-- fundo branco;
-- borda sutil;
-- sombra suave;
-- título editorial em PT Serif quando adequado;
-- descrição em Montserrat;
-- CTA rosa;
-- padding generoso;
-- composição simples;
-- pouco ornamento.
-
-Não inserir vários badges, ícones e CTAs no mesmo card sem função clara.
-
----
-
-## 17. Pricing
-
-### 17.1 Estrutura
-
-1. overline;
-2. título;
-3. opções;
-4. badge de destaque;
-5. prazo;
-6. preço;
-7. condição;
-8. desconto;
-9. CTA.
-
-### 17.2 Regras
-
-- preço e condições devem ser oficiais e atuais;
-- não copiar preço de outra página;
-- plano recomendado pode usar borda dourada;
-- badge dourado em pill;
-- preço em rosa;
-- explicar parcelamento e valor à vista;
-- mostrar prazo de acesso;
-- manter comparação justa;
-- CTA principal no plano recomendado.
-
-### 17.3 Proibição
+- produto;
+- vigência;
+- parcelamento;
+- Pix;
+- desconto;
+- acesso;
+- bônus;
+- checkout.
 
 Não inventar:
 
-- desconto;
-- cashback;
-- bônus;
+- preço;
 - prazo;
+- desconto;
 - parcelamento;
+- bônus;
 - número de vagas;
 - data de encerramento.
 
+### 14.6 Resultados e depoimentos
+
+Permitido:
+
+- tradição;
+- método;
+- resultados oficiais;
+- aprovações verificadas;
+- depoimentos autorizados.
+
+Proibido:
+
+- aprovação garantida;
+- método infalível;
+- números inventados;
+- causalidade absoluta;
+- afirmações não comprovadas.
+
+### 14.7 WhatsApp e contato
+
+"Falar com a equipe" deve usar link oficial. Não criar números divergentes.
+
+### 14.8 Portais
+
+Distinguir:
+
+- Portal de Entrada;
+- Portal da Pós.
+
+Não substituir um pelo outro.
+
 ---
 
-## 18. FAQ / Accordion
+## 15. Auditoria
 
-### 18.1 Anatomia
+Esta seção orienta agentes ao auditar páginas, componentes, ferramentas ou fluxos.
 
-- pergunta;
-- ícone `+`;
-- estado aberto com `×` ou rotação;
-- resposta;
-- borda;
-- área clicável inteira.
+### 15.1 Escala de conformidade
 
-### 18.2 Semântica
+Cada requisito avaliado deve receber uma destas classificações:
 
-Usar:
+- Atendido;
+- Parcial;
+- Não atendido;
+- Não aplicável (N/A).
 
-```html
-<button
-  aria-expanded="false"
-  aria-controls="faq-panel-id"
->
-```
+Nem toda regra vale para toda interface. Se uma regra não fizer sentido para aquele tipo de aplicação, marcar como `N/A`, nunca como `Não atendido`.
 
-### 18.3 Regras
+Exemplos:
 
-- todo o cabeçalho clicável;
-- não clicar apenas no ícone;
-- navegação por teclado;
-- resposta em Montserrat;
-- cor muted;
-- animação suave;
-- reduced motion;
-- manter comportamento existente de múltiplos ou único item aberto.
+- pricing em dashboard interno: `N/A`;
+- hero comercial em planner: `N/A`;
+- footer institucional completo em app autenticado: `N/A`;
+- navegação por teclado em qualquer interface interativa: deve ser avaliada.
 
-### 18.4 Conteúdo
+### 15.2 Severidade
 
-FAQ deve responder dúvidas reais:
+Cada problema encontrado deve receber severidade:
 
+- Crítico: impede uso, viola regra legal/comercial relevante, quebra fluxo principal ou cria risco grave de acessibilidade;
+- Alto: prejudica conversão, compreensão, navegação, responsividade ou acessibilidade importante;
+- Médio: desalinhamento perceptível com o Design System ou problema que afeta parte dos usuários;
+- Baixo: refinamento visual, inconsistência pequena ou melhoria de manutenção.
+
+### 15.3 Categorias de auditoria
+
+Avaliar, quando aplicável:
+
+- marca e linguagem visual;
+- tokens;
+- tipografia;
+- layout;
+- componentes;
+- conteúdo;
+- acessibilidade;
+- responsividade;
+- performance visual;
+- regras de negócio;
+- implementação.
+
+### 15.4 Formato recomendado
+
+Usar tabela:
+
+| Requisito | Status | Severidade | Evidência | Recomendação |
+| --- | --- | --- | --- | --- |
+| Usa tokens oficiais | Atendido | N/A | Cores derivam de tokens | Manter |
+| Pricing presente em ferramenta interna | N/A | N/A | Tela não é comercial | Nenhuma |
+| Botão sem focus visível | Não atendido | Alto | Navegação por teclado sem indicação | Adicionar `focus-visible` |
+
+### 15.5 Resumo final obrigatório
+
+Ao final, gerar resumo com:
+
+- Visual;
+- Código;
+- Acessibilidade;
+- Responsividade;
+- Design System;
+- Score Geral.
+
+Score sugerido:
+
+- 90-100: excelente aderência;
+- 75-89: bom, com ajustes;
+- 60-74: parcial, requer correções;
+- abaixo de 60: desalinhado ou arriscado.
+
+O score deve considerar apenas requisitos aplicáveis. Itens `N/A` não reduzem pontuação.
+
+### 15.6 Checklist base para agentes
+
+Conteúdo:
+
+- o H1 descreve claramente a página?
+- produto, carreira e contexto estão corretos?
+- preços e condições foram confirmados quando aparecem?
+- links foram confirmados?
+- não existem promessas indevidas?
+- CTAs são específicos?
+
+Visual:
+
+- cores usam tokens oficiais?
+- PT Serif e Montserrat estão nos papéis corretos?
+- conteúdo usa container oficial?
+- espaçamento segue o sistema?
+- imagens seguem a direção de arte?
+- dourado não está excessivo?
+- rosa está reservado a ações e destaque?
+
+Componentes:
+
+- componentes existentes foram reutilizados?
+- hover existe?
+- focus-visible existe?
+- disabled existe?
+- loading existe quando necessário?
+- cards clicáveis têm foco adequado?
+- accordions usam semântica correta?
+- carrossel, se aplicável, tem controles acessíveis?
+
+Responsividade:
+
+- desktop revisado?
+- tablet revisado?
+- mobile revisado?
+- botões não quebram?
+- headings não transbordam?
+- imagens mantêm foco?
+- tabelas não cortam conteúdo?
+- menu mobile funciona quando existe?
+
+Acessibilidade:
+
+- há um único H1?
+- hierarquia de headings está correta?
+- navegação por teclado funciona?
+- foco visível?
+- contraste AA?
+- reduced motion?
+- alt texts corretos?
+- touch targets adequados?
+
+Regressão:
+
+- componentes compartilhados foram verificados?
+- nenhum link oficial foi removido?
+- Portal de Entrada e Portal da Pós foram preservados quando aplicáveis?
+- não houve alteração acidental em outra página?
+
+---
+
+## 16. Implementação
+
+### 16.1 Tokens
+
+Reutilizar tokens globais. Não hardcodar a mesma cor, espaço, sombra ou radius em vários componentes.
+
+### 16.2 Componentes
+
+Criar variantes controladas.
+
+Bom:
+
+- `Button`;
+- `ButtonPrimary`;
+- `ButtonOutline`;
+- `SectionHeading`;
+- `Card`;
+- `CareerCard`;
+- `PricingCard`;
+- `Accordion`;
+- `PageHeader`;
+- `Tabs`;
+- `Table`.
+
+Ruim:
+
+- `HomePinkButton`;
+- `DefensoriaPinkButton`;
+- `NdcjPinkButton`;
+- `OtherPinkButton`.
+
+### 16.3 Dados
+
+Centralizar quando possível:
+
+- links;
+- cursos;
+- FAQs;
+- preços;
+- informações institucionais;
+- professores;
+- CTAs;
 - carreiras;
-- ENAM;
-- Núcleo Duro;
-- aulas;
-- acesso;
-- simulados;
-- suporte;
-- preço;
-- prazo;
-- garantia, se oficial.
+- contatos.
 
-Não copiar FAQs irrelevantes entre produtos.
+### 16.4 Alterações em componentes compartilhados
 
----
+Antes de alterar:
 
-## 19. Professores
+- verificar todas as páginas impactadas;
+- revisar responsividade;
+- revisar estados;
+- revisar acessibilidade;
+- não corrigir uma página quebrando outras.
 
-### 19.1 Fotografia
+### 16.5 Figma e ativos
 
-- imagem oficial;
-- boa resolução;
-- recorte consistente;
-- fundo sóbrio;
-- tratamento profissional;
-- sem filtros exagerados;
-- aparência real;
-- boa iluminação.
+O Figma deve ser usado para:
 
-### 19.2 Conteúdo
+- fotos de professores;
+- heroes;
+- ícones;
+- templates sociais;
+- componentes ainda não formalizados no código;
+- nomenclatura visual.
 
-- nome;
-- cargo ou especialidade;
-- credenciais verificáveis;
-- vínculo com o curso;
-- sem afirmações infladas.
+O agente deve:
 
-### 19.3 Figma
+1. procurar o ativo oficial;
+2. evitar recriar algo já existente;
+3. manter nomes consistentes;
+4. exportar no formato correto;
+5. preservar proporção;
+6. documentar novo ativo.
 
-A página “Professores” do Figma é referência oficial de:
+### 16.6 Fotografia e imagens
 
-- fotos;
-- nomenclatura;
-- organização;
-- recortes;
-- proporções.
+Preferir:
 
----
+- profissionais do Direito;
+- magistrados;
+- procuradores;
+- defensores;
+- promotores;
+- tribunais;
+- livros;
+- biblioteca;
+- madeira;
+- documentos;
+- balança;
+- ambientes institucionais.
 
-## 20. Templates de redes sociais
+Estilo:
+
+- cinematográfico;
+- tons quentes;
+- sombras profundas;
+- contraste controlado;
+- fundo desfocado;
+- roupa formal;
+- expressão séria;
+- composição com espaço para texto.
+
+Evitar:
+
+- stock photo genérica;
+- coworking;
+- pessoa sorrindo para notebook;
+- aperto de mãos;
+- pose corporativa artificial;
+- martelo de juiz como clichê dominante;
+- anatomia incorreta em imagens geradas;
+- texto embutido na imagem;
+- repetição da mesma foto.
+
+Performance:
+
+- definir dimensões;
+- evitar CLS;
+- lazy load abaixo da dobra;
+- usar `sizes`;
+- otimizar formato;
+- priorizar imagem crítica;
+- usar `object-fit: cover`;
+- ajustar `object-position`.
+
+### 16.7 Redes sociais
 
 O Figma possui referências de:
 
@@ -1311,534 +2421,11 @@ Não copiar layouts de Instagram diretamente para a web. Adaptar a lógica, não
 
 ---
 
-## 21. Fotografia e imagens
+## 17. O Que Fazer
 
-### 21.1 Direção de arte
-
-Preferir:
-
-- profissionais do Direito;
-- magistrados;
-- procuradores;
-- defensores;
-- promotores;
-- tribunais;
-- livros;
-- biblioteca;
-- madeira;
-- documentos;
-- balança;
-- ambientes institucionais.
-
-### 21.2 Estilo
-
-- cinematográfico;
-- tons quentes;
-- sombras profundas;
-- contraste controlado;
-- fundo desfocado;
-- roupa formal;
-- expressão séria;
-- composição com espaço para texto.
-
-### 21.3 Evitar
-
-- stock photo genérica;
-- coworking;
-- pessoa sorrindo para notebook;
-- aperto de mãos;
-- pose corporativa artificial;
-- martelo de juiz como clichê dominante;
-- anatomia incorreta em imagens geradas;
-- texto embutido na imagem;
-- repetição da mesma foto.
-
-### 21.4 Imagens decorativas
-
-Quando a imagem não acrescentar informação semântica:
-
-```html
-<div aria-hidden="true">
-  <img alt="">
-</div>
-```
-
-Quando comunicar informação real, usar alt descritivo.
-
-### 21.5 Performance
-
-- definir dimensões;
-- evitar CLS;
-- lazy load abaixo da dobra;
-- usar `sizes`;
-- otimizar formato;
-- priorizar hero;
-- `object-fit: cover`;
-- ajustar `object-position`.
-
----
-
-## 22. Footer
-
-O footer deve conter:
-
-- logo;
-- descrição institucional;
-- carreiras;
-- links institucionais;
-- links úteis;
-- informações legais;
-- copyright.
-
-Links úteis esperados:
-
-- Quem Somos;
-- Fale Conosco;
-- Blog;
-- Portal de Entrada;
-- Portal da Pós.
-
-Não remover um portal ao adicionar o outro.
-
----
-
-## 23. Formulários
-
-### 23.1 Regras
-
-- labels visíveis;
-- placeholder não substitui label;
-- mensagens específicas;
-- estados de erro e sucesso;
-- foco visível;
-- altura confortável;
-- ajuda associada por `aria-describedby`;
-- loading;
-- prevenção de envio duplicado;
-- privacidade e consentimento quando aplicável.
-
-### 23.2 Campos
-
-- fundo branco ou soft;
-- borda discreta;
-- raio moderado;
-- texto ink;
-- erro não depende apenas de vermelho;
-- área mínima de toque de 44px.
-
----
-
-## 24. Acessibilidade
-
-### 24.1 Semântica
-
-- um H1 por página;
-- hierarquia correta;
-- `<nav>` para navegação;
-- `<main>` para conteúdo;
-- `<section>` com heading;
-- `<article>` para cards;
-- `<button>` para ações;
-- `<a>` para navegação;
-- não usar `<div>` clicável.
-
-### 24.2 Teclado
-
-Suportar:
-
-- Tab;
-- Shift+Tab;
-- Enter;
-- Espaço;
-- Escape;
-- setas quando aplicável.
-
-### 24.3 Focus visible
-
-Sugestão em fundo claro:
-
-```css
-outline: 3px solid #3a0a6e;
-outline-offset: 3px;
-```
-
-Em fundo escuro:
-
-```css
-outline: 3px solid #ffffff;
-outline-offset: 3px;
-```
-
-### 24.4 Contraste
-
-Atender WCAG AA:
-
-- 4.5:1 para texto normal;
-- 3:1 para texto grande;
-- 3:1 para componentes gráficos essenciais.
-
-### 24.5 Movimento
-
-Respeitar `prefers-reduced-motion`.
-
-### 24.6 Touch
-
-Área mínima aproximada: 44x44px.
-
-### 24.7 Skip link
-
-Manter “Pular para o conteúdo” como primeiro link focável.
-
----
-
-## 25. Responsividade
-
-### 25.1 Princípio
-
-Mobile não é o desktop reduzido. Reorganizar:
-
-- header;
-- hero;
-- cards;
-- pricing;
-- grids;
-- CTAs;
-- tabelas.
-
-### 25.2 Hero mobile
-
-- título continua legível;
-- ações podem empilhar;
-- botões podem ocupar largura total;
-- imagem não compete com texto;
-- altura não deve ser fixa;
-- manter padding vertical.
-
-### 25.3 Cards
-
-- uma coluna para cards grandes;
-- carrossel quando o componente existente usa carrossel;
-- duas colunas apenas com largura suficiente;
-- preservar padding.
-
-### 25.4 Header
-
-- menu colapsado;
-- Portal acessível;
-- contato acessível;
-- disclosure em vez de hover puro.
-
-### 25.5 Pricing
-
-- planos empilhados;
-- plano recomendado preservado;
-- ordem de conteúdo mantida.
-
-### 25.6 Quebras manuais
-
-Quebras como `.desktop-break` devem ser removidas ou ocultadas em mobile.
-
----
-
-## 26. Regras de negócio
-
-### 26.1 Objetivo
-
-Regras de negócio devem impedir que o agente produza páginas visualmente corretas, porém comercialmente ou juridicamente erradas.
-
-### 26.2 Produtos e carreiras
-
-Não alterar:
-
-- nomes;
-- combinações;
-- destinos;
-- escopo;
-- etapa;
-- público.
-
-Sem confirmação.
-
-### 26.3 ENAM
-
-O ENAM se relaciona às magistraturas. Não assumir aplicação automática a Procuradorias, Defensorias ou outros produtos.
-
-Regras, datas, cashback e condições precisam de fonte oficial atual.
-
-### 26.4 Núcleo Duro
-
-Existem ao menos:
-
-- NDCJ — Núcleo Duro Carreiras Jurídicas;
-- NDP — Núcleo Duro Procuradorias.
-
-Núcleo Duro não é sinônimo de curso Regular.
-
-### 26.5 Conteúdo e acesso
-
-Não generalizar entre produtos:
-
-- aulas ao vivo;
-- aulas gravadas;
-- PDF;
-- simulados;
-- correção;
-- cronograma;
-- mentoria;
-- acesso integral;
-- acesso progressivo;
-- prazo.
-
-### 26.6 Preço
-
-Sempre verificar:
-
-- produto;
-- vigência;
-- parcelamento;
-- Pix;
-- desconto;
-- acesso;
-- bônus;
-- checkout.
-
-### 26.7 Resultados
-
-Permitido:
-
-- tradição;
-- método;
-- resultados oficiais;
-- aprovações verificadas;
-- depoimentos autorizados.
-
-Proibido:
-
-- aprovação garantida;
-- método infalível;
-- números inventados;
-- causalidade absoluta;
-- afirmações não comprovadas.
-
-### 26.8 WhatsApp
-
-“Falar com a equipe” deve usar link oficial. Não criar números divergentes.
-
-### 26.9 FAQ
-
-FAQ deve refletir o produto específico.
-
-### 26.10 Ordem narrativa
-
-A sequência recomendada é:
-
-1. proposta;
-2. público;
-3. método;
-4. conteúdo;
-5. diferenciais;
-6. prova social;
-7. FAQ;
-8. investimento;
-9. CTA final.
-
-Não é obrigatório usar todas as seções.
-
----
-
-## 27. Templates de página
-
-### 27.1 Home
-
-1. header;
-2. hero;
-3. carreiras;
-4. ENAM;
-5. Núcleo Duro;
-6. autoridade/resultados;
-7. FAQ;
-8. footer.
-
-### 27.2 Página de carreira
-
-1. header;
-2. page hero;
-3. para quem é;
-4. proposta;
-5. método;
-6. conteúdo;
-7. professores;
-8. materiais;
-9. diferenciais;
-10. resultados;
-11. FAQ;
-12. investimento;
-13. CTA;
-14. footer.
-
-### 27.3 Fase avançada
-
-1. concurso/fase/banca;
-2. contexto;
-3. escopo;
-4. cronograma;
-5. acompanhamento;
-6. professores;
-7. entregáveis;
-8. FAQ;
-9. preço;
-10. CTA.
-
-### 27.4 Institucional
-
-1. hero;
-2. história;
-3. proposta;
-4. números;
-5. método;
-6. equipe;
-7. CTA;
-8. footer.
-
-### 27.5 Professores
-
-1. hero curto;
-2. grupos/filtros;
-3. cards;
-4. credenciais;
-5. CTA.
-
-### 27.6 Landing page de campanha
-
-1. headline;
-2. contexto factual;
-3. oferta;
-4. dados principais;
-5. fonte/documento;
-6. próximos passos;
-7. CTA;
-8. condições;
-9. FAQ.
-
-Campanha não pode criar uma identidade visual independente.
-
----
-
-## 28. SEO e conteúdo
-
-### 28.1 Headings
-
-- um H1;
-- H2 por seção;
-- H3 em cards;
-- não usar heading apenas por aparência.
-
-### 28.2 Links
-
-- texto descritivo;
-- evitar “clique aqui”;
-- evitar nomes diferentes para o mesmo destino;
-- verificar links externos.
-
-### 28.3 Conteúdo
-
-- usar nomes oficiais;
-- responder intenção de busca;
-- evitar texto genérico;
-- manter parágrafos curtos;
-- usar listas somente quando ajudam;
-- FAQ pode usar dados estruturados, se compatível.
-
-### 28.4 Imagens
-
-- dimensões;
-- alt correto;
-- lazy loading;
-- prioridade;
-- formato otimizado;
-- sem CLS.
-
----
-
-## 29. Implementação
-
-### 29.1 Tokens
-
-Reutilizar tokens globais. Não hardcodar a mesma cor e o mesmo espaço em vários componentes.
-
-### 29.2 Componentes
-
-Criar variantes controladas.
-
-Bom:
-
-- `Button`;
-- `ButtonPrimary`;
-- `ButtonOutline`;
-- `SectionHeading`;
-- `CareerCard`;
-- `PricingCard`;
-- `Accordion`;
-- `PageHero`.
-
-Ruim:
-
-- `HomePinkButton`;
-- `DefensoriaPinkButton`;
-- `NdcjPinkButton`;
-- `OtherPinkButton`.
-
-### 29.3 Dados
-
-Centralizar:
-
-- links;
-- cursos;
-- FAQs;
-- preços;
-- informações institucionais;
-- professores;
-- CTAs.
-
-### 29.4 Alterações em componentes compartilhados
-
-Antes de alterar:
-
-- verificar todas as páginas impactadas;
-- revisar responsividade;
-- revisar estados;
-- revisar acessibilidade;
-- não corrigir uma página quebrando outras.
-
----
-
-## 30. Figma e ativos
-
-O Figma deve ser usado para:
-
-- fotos de professores;
-- heroes;
-- ícones;
-- templates sociais;
-- componentes ainda não formalizados no código;
-- nomenclatura visual.
-
-O agente deve:
-
-1. procurar o ativo oficial;
-2. evitar recriar algo já existente;
-3. manter nomes consistentes;
-4. exportar no formato correto;
-5. preservar proporção;
-6. documentar novo ativo.
-
----
-
-## 31. O que fazer
-
-- usar PT Serif em títulos;
+- usar PT Serif em títulos editoriais;
 - usar Montserrat na interface;
-- respeitar container de 1200px;
+- respeitar container de `1200px`;
 - manter espaço negativo;
 - usar rosa para ação;
 - usar dourado com moderação;
@@ -1850,18 +2437,19 @@ O agente deve:
 - validar conteúdo comercial;
 - testar mobile;
 - testar teclado;
-- preservar os dois portais.
+- preservar os dois portais quando aplicáveis;
+- marcar regras não aplicáveis como `N/A` em auditorias.
 
 ---
 
-## 32. O que não fazer
+## 18. O Que Não Fazer
 
 - não usar glassmorphism;
-- não usar azul SaaS;
+- não usar azul SaaS como identidade;
 - não usar neon;
 - não usar sombras duras;
 - não arredondar tudo;
-- não usar sans em todos os títulos;
+- não usar sans-serif em todos os títulos editoriais;
 - não usar serif em botões;
 - não usar fotos genéricas;
 - não repetir imagens;
@@ -1871,80 +2459,15 @@ O agente deve:
 - não inventar resultado;
 - não prometer aprovação;
 - não criar identidade paralela;
-- não reduzir padding para “encaixar” conteúdo;
+- não reduzir padding apenas para encaixar conteúdo;
 - não usar autoplay;
 - não remover Portal de Entrada ao adicionar Portal da Pós;
-- não alterar produto, carreira ou regra sem confirmação.
+- não alterar produto, carreira ou regra sem confirmação;
+- não tratar ausência de hero, pricing ou footer comercial como erro em ferramentas.
 
 ---
 
-## 33. Checklist obrigatório para agentes
-
-Antes de concluir uma página:
-
-### Conteúdo
-
-- [ ] O H1 descreve claramente a página?
-- [ ] O produto e a carreira estão corretos?
-- [ ] Os preços foram confirmados?
-- [ ] As condições foram confirmadas?
-- [ ] Os links foram confirmados?
-- [ ] Não existem promessas indevidas?
-- [ ] O CTA é específico?
-
-### Visual
-
-- [ ] As cores usam tokens oficiais?
-- [ ] PT Serif e Montserrat estão nos papéis corretos?
-- [ ] O conteúdo usa o container oficial?
-- [ ] O espaçamento segue o sistema?
-- [ ] As imagens seguem a direção de arte?
-- [ ] O dourado não está excessivo?
-- [ ] O rosa está reservado a ações e destaque?
-
-### Componentes
-
-- [ ] Foram reutilizados componentes existentes?
-- [ ] Hover existe?
-- [ ] Focus-visible existe?
-- [ ] Disabled existe?
-- [ ] Loading existe quando necessário?
-- [ ] O card inteiro é clicável quando deve ser?
-- [ ] O accordion usa semântica correta?
-- [ ] O carrossel tem controles acessíveis?
-
-### Responsividade
-
-- [ ] Desktop revisado?
-- [ ] Tablet revisado?
-- [ ] Mobile revisado?
-- [ ] Botões não quebram?
-- [ ] Headings não transbordam?
-- [ ] Imagens mantêm foco?
-- [ ] Pricing empilha corretamente?
-- [ ] Menu mobile funciona?
-
-### Acessibilidade
-
-- [ ] Um único H1?
-- [ ] Hierarquia de headings correta?
-- [ ] Navegação por teclado?
-- [ ] Focus visível?
-- [ ] Contraste AA?
-- [ ] Reduced motion?
-- [ ] Alt texts corretos?
-- [ ] Touch targets adequados?
-
-### Regressão
-
-- [ ] Componentes compartilhados foram verificados?
-- [ ] Nenhum link oficial foi removido?
-- [ ] Portal de Entrada e Portal da Pós foram preservados?
-- [ ] Não houve alteração acidental em outra página?
-
----
-
-## 34. Estado deste documento
+## 19. Estado Deste Documento
 
 Valores oficialmente confirmados pelo site:
 
@@ -1953,21 +2476,21 @@ Valores oficialmente confirmados pelo site:
 - container;
 - topbar;
 - header;
-- hero;
+- hero editorial;
 - sombra;
 - H1;
 - H2;
 - espaçamento de seção;
 - fundo claro;
-- fundo base do hero;
+- fundo escuro institucional;
 - divisor dourado;
 - animação fade-up;
 - transição padrão;
-- estrutura semântica do hero;
+- estrutura semântica de hero;
 - estrutura dos cards de carreira;
 - breakpoints do carrossel de carreira.
 
-Valores que devem ser tratados como padrões consolidados, mas ainda podem ser refinados com inspeção adicional:
+Valores consolidados que podem ser refinados com inspeção adicional:
 
 - escala completa de body;
 - escala de card titles;
@@ -1977,6 +2500,7 @@ Valores que devem ser tratados como padrões consolidados, mas ainda podem ser r
 - grids de páginas internas;
 - breakpoints globais;
 - estados de formulário;
-- estrutura de todas as páginas.
+- estrutura de todas as páginas;
+- padrões específicos de dashboards e ferramentas.
 
-Quando o código oficial fornecer um valor mais preciso, atualizar este arquivo.
+Quando o código oficial fornecer valor mais preciso, atualizar este arquivo.

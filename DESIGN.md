@@ -179,7 +179,7 @@ Toda página deve comunicar, nesta ordem:
 5. sofisticação;
 6. modernidade discreta.
 
-A Ênfase deve parecer:
+O Ênfase deve parecer:
 
 - jurídica;
 - experiente;
@@ -190,7 +190,7 @@ A Ênfase deve parecer:
 - objetiva;
 - segura.
 
-A Ênfase não deve parecer:
+O Ênfase não deve parecer:
 
 - startup SaaS;
 - plataforma tecnológica genérica;

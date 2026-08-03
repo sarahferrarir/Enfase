@@ -1,0 +1,1533 @@
+{
+  "rows": 51190,
+  "fields": {
+    "NM Ano": {
+      "non_null": 51190,
+      "null": 0,
+      "unique": 22,
+      "top": [
+        [
+          "2014",
+          4685
+        ],
+        [
+          "2012",
+          4098
+        ],
+        [
+          "2013",
+          4088
+        ],
+        [
+          "2015",
+          3738
+        ],
+        [
+          "2021",
+          3650
+        ],
+        [
+          "2022",
+          3288
+        ],
+        [
+          "2018",
+          3188
+        ],
+        [
+          "2017",
+          2940
+        ],
+        [
+          "2016",
+          2845
+        ],
+        [
+          "2011",
+          2560
+        ],
+        [
+          "2025",
+          2300
+        ],
+        [
+          "2009",
+          2190
+        ],
+        [
+          "2010",
+          2150
+        ],
+        [
+          "2019",
+          2060
+        ],
+        [
+          "2023",
+          1950
+        ],
+        [
+          "2008",
+          1650
+        ],
+        [
+          "2007",
+          1460
+        ],
+        [
+          "2024",
+          1400
+        ],
+        [
+          "2006",
+          550
+        ],
+        [
+          "2026",
+          180
+        ],
+        [
+          "2004",
+          120
+        ],
+        [
+          "2020",
+          100
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM Banca": {
+      "non_null": 51190,
+      "null": 0,
+      "unique": 30,
+      "top": [
+        [
+          "CESPE",
+          13185
+        ],
+        [
+          "BANCA PRÓPRIA",
+          9510
+        ],
+        [
+          "FCC",
+          8890
+        ],
+        [
+          "FGV",
+          4440
+        ],
+        [
+          "CEBRASPE",
+          3920
+        ],
+        [
+          "VUNESP",
+          3845
+        ],
+        [
+          "FUNDEP",
+          1120
+        ],
+        [
+          "(TESTE) Cargo XY",
+          1090
+        ],
+        [
+          "FUNDATEC",
+          730
+        ],
+        [
+          "FMP CONCURSOS",
+          600
+        ],
+        [
+          "CESGRANRIO",
+          530
+        ],
+        [
+          "ESAF",
+          400
+        ],
+        [
+          "PUCPR",
+          300
+        ],
+        [
+          "AOCP",
+          300
+        ],
+        [
+          "FUNCAB",
+          260
+        ],
+        [
+          "FUMARC",
+          220
+        ],
+        [
+          "UEPA",
+          210
+        ],
+        [
+          "FAURGS",
+          200
+        ],
+        [
+          "FAPEC",
+          200
+        ],
+        [
+          "UNIVERSA",
+          180
+        ],
+        [
+          "COPSUEL",
+          180
+        ],
+        [
+          "NCUFPR",
+          160
+        ],
+        [
+          "CSUFG",
+          100
+        ],
+        [
+          "FEPESE",
+          100
+        ],
+        [
+          "IESES",
+          100
+        ],
+        [
+          "UFMT",
+          100
+        ],
+        [
+          "INSTITUTO CIDADES",
+          100
+        ],
+        [
+          "CONSULPLAN",
+          80
+        ],
+        [
+          "IBGP",
+          80
+        ],
+        [
+          "FUNDAÇÃO CEPERJ",
+          60
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM Órgão": {
+      "non_null": 51190,
+      "null": 0,
+      "unique": 181,
+      "top": [
+        [
+          "MP/SC",
+          1800
+        ],
+        [
+          "AGU",
+          1500
+        ],
+        [
+          "MP/SP",
+          900
+        ],
+        [
+          "DPU",
+          800
+        ],
+        [
+          "TJ/SP",
+          800
+        ],
+        [
+          "MP/MG",
+          800
+        ],
+        [
+          "TJ/SC",
+          800
+        ],
+        [
+          "MPF",
+          720
+        ],
+        [
+          "TRF3",
+          700
+        ],
+        [
+          "TJ/PR",
+          680
+        ],
+        [
+          "TRF2",
+          600
+        ],
+        [
+          "MPT",
+          600
+        ],
+        [
+          "DPE/RS",
+          600
+        ],
+        [
+          "TJ/GO",
+          560
+        ],
+        [
+          "MP/PR",
+          525
+        ],
+        [
+          "TRF1",
+          500
+        ],
+        [
+          "TRF5",
+          500
+        ],
+        [
+          "TRF4",
+          500
+        ],
+        [
+          "TJ/PE",
+          500
+        ],
+        [
+          "MP/GO",
+          500
+        ],
+        [
+          "PG/DF",
+          500
+        ],
+        [
+          "TJ/MT",
+          500
+        ],
+        [
+          "TJ/MS",
+          500
+        ],
+        [
+          "DPE/AM",
+          500
+        ],
+        [
+          "PF",
+          480
+        ],
+        [
+          "TJ/RJ",
+          480
+        ],
+        [
+          "ENAM",
+          480
+        ],
+        [
+          "TJ/MG",
+          460
+        ],
+        [
+          "PGE/PA",
+          460
+        ],
+        [
+          "DPE/ES",
+          450
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM Cargo": {
+      "non_null": 50990,
+      "null": 200,
+      "unique": 22,
+      "top": [
+        [
+          "Promotor de Justiça",
+          10005
+        ],
+        [
+          "Juiz de Direito",
+          9680
+        ],
+        [
+          "Defensor Público",
+          8030
+        ],
+        [
+          "Procurador do Estado",
+          6440
+        ],
+        [
+          "Delegado de Polícia Civil",
+          3900
+        ],
+        [
+          "Juiz Federal",
+          2900
+        ],
+        [
+          "Procurador Municipal",
+          2315
+        ],
+        [
+          "Juiz do Trabalho",
+          1700
+        ],
+        [
+          "Defensor Público Federal",
+          800
+        ],
+        [
+          "Advogado de Estatais",
+          740
+        ],
+        [
+          "Procurador da República",
+          720
+        ],
+        [
+          "Advogado da União",
+          700
+        ],
+        [
+          "Procurador Federal",
+          700
+        ],
+        [
+          "Procurador do Trabalho",
+          600
+        ],
+        [
+          "Delegado de Polícia Federal",
+          480
+        ],
+        [
+          "ENAM",
+          480
+        ],
+        [
+          "Procurador da Fazenda Nacional",
+          400
+        ],
+        [
+          "Investigador de Polícia",
+          100
+        ],
+        [
+          "Advogado do Senado",
+          100
+        ],
+        [
+          "Analista Judiciário - Área Judiciária",
+          80
+        ],
+        [
+          "Técnico Judiciário",
+          60
+        ],
+        [
+          "Escrevente Técnico Judiciário",
+          60
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM Curso": {
+      "non_null": 51190,
+      "null": 0,
+      "unique": 12,
+      "top": [
+        [
+          "JDMP",
+          19685
+        ],
+        [
+          "DEFENSORIAS",
+          8830
+        ],
+        [
+          "PGE",
+          6440
+        ],
+        [
+          "DELEGADO",
+          4380
+        ],
+        [
+          "JFMPF",
+          3620
+        ],
+        [
+          "PGM",
+          2315
+        ],
+        [
+          "JTMPT",
+          2300
+        ],
+        [
+          "AGU",
+          1800
+        ],
+        [
+          "ADVOGADO DE ESTATAIS",
+          740
+        ],
+        [
+          "ANALISTA",
+          500
+        ],
+        [
+          "ENAM",
+          480
+        ],
+        [
+          "ADVOGADO DO SENADO",
+          100
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM Edição": {
+      "non_null": 2280,
+      "null": 48910,
+      "unique": 5,
+      "top": [
+        [
+          "Matutino",
+          1000
+        ],
+        [
+          "Vespertino",
+          800
+        ],
+        [
+          "1ª Edição",
+          240
+        ],
+        [
+          "2ª Edição",
+          160
+        ],
+        [
+          "Manaus",
+          80
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM BLOCO": {
+      "non_null": 15383,
+      "null": 35807,
+      "unique": 6,
+      "top": [
+        [
+          "I",
+          5003
+        ],
+        [
+          "II",
+          4680
+        ],
+        [
+          "III",
+          4031
+        ],
+        [
+          "Único",
+          1398
+        ],
+        [
+          "IV",
+          256
+        ],
+        [
+          "V",
+          15
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "NM Base Produto Vinculado": {
+      "non_null": 51190,
+      "null": 0,
+      "unique": 1,
+      "top": [
+        [
+          "Questões de Concursos",
+          51190
+        ]
+      ],
+      "normalization_collisions": []
+    },
+    "Nome Resumido": {
+      "non_null": 51190,
+      "null": 0,
+      "unique": 489,
+      "top": [
+        [
+          "AGU_2022_",
+          300
+        ],
+        [
+          "AGU_2012_",
+          200
+        ],
+        [
+          "AGU_2009_",
+          200
+        ],
+        [
+          "AGU_2015_",
+          200
+        ],
+        [
+          "DPU_2007_",
+          200
+        ],
+        [
+          "DPU_2010_",
+          200
+        ],
+        [
+          "DPU_2015_",
+          200
+        ],
+        [
+          "AGU_2013_",
+          200
+        ],
+        [
+          "AGU_2010_",
+          200
+        ],
+        [
+          "AGU_2007_",
+          200
+        ],
+        [
+          "DPU_2017_",
+          200
+        ],
+        [
+          "DPE/DF_2013_",
+          200
+        ],
+        [
+          "DPE/CE_2007_",
+          200
+        ],
+        [
+          "DPE/ES_2009_",
+          200
+        ],
+        [
+          "PG/DF_2013_",
+          200
+        ],
+        [
+          "PGE/BA_2013_",
+          200
+        ],
+        [
+          "MP/SC_2014_Matutino",
+          200
+        ],
+        [
+          "MP/SC_2016_Matutino",
+          200
+        ],
+        [
+          "MP/SC_2016_Vespertino",
+          200
+        ],
+        [
+          "MP/SC_2014_Vespertino",
+          200
+        ],
+        [
+          "DPE/AL_2009_",
+          200
+        ],
+        [
+          "PGM Fortaleza/CE_2016_",
+          200
+        ],
+        [
+          "MP/SC_2019_Matutino",
+          200
+        ],
+        [
+          "MP/SC_2019_Vespertino",
+          200
+        ],
+        [
+          "MP/SC_2021_Vespertino",
+          200
+        ],
+        [
+          "DPE/DF_2019_",
+          200
+        ],
+        [
+          "DPE/RS_2021_",
+          200
+        ],
+        [
+          "PG/DF_2022_",
+          200
+        ],
+        [
+          "MP/SC_2021_Matutino",
+          200
+        ],
+        [
+          "MP/SC_2023_Matutino",
+          200
+        ]
+      ],
+      "normalization_collisions": []
+    }
+  },
+  "combinations": {
+    "ano_banca_orgao_cargo_curso": {
+      "unique": 485,
+      "top": [
+        [
+          [
+            "2014",
+            "BANCA PRÓPRIA",
+            "MP/SC",
+            "Promotor de Justiça",
+            "JDMP"
+          ],
+          400
+        ],
+        [
+          [
+            "2016",
+            "BANCA PRÓPRIA",
+            "MP/SC",
+            "Promotor de Justiça",
+            "JDMP"
+          ],
+          400
+        ],
+        [
+          [
+            "2019",
+            "BANCA PRÓPRIA",
+            "MP/SC",
+            "Promotor de Justiça",
+            "JDMP"
+          ],
+          400
+        ],
+        [
+          [
+            "2021",
+            "CEBRASPE",
+            "MP/SC",
+            "Promotor de Justiça",
+            "JDMP"
+          ],
+          400
+        ],
+        [
+          [
+            "2024",
+            "FGV",
+            "ENAM",
+            "ENAM",
+            "ENAM"
+          ],
+          240
+        ],
+        [
+          [
+            "2012",
+            "CESPE",
+            "AGU",
+            "Advogado da União",
+            "AGU"
+          ],
+          200
+        ],
+        [
+          [
+            "2009",
+            "CESPE",
+            "AGU",
+            "Advogado da União",
+            "AGU"
+          ],
+          200
+        ],
+        [
+          [
+            "2015",
+            "CESPE",
+            "AGU",
+            "Advogado da União",
+            "AGU"
+          ],
+          200
+        ],
+        [
+          [
+            "2007",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2010",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2015",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "AGU",
+            "Procurador Federal",
+            "AGU"
+          ],
+          200
+        ],
+        [
+          [
+            "2010",
+            "CESPE",
+            "AGU",
+            "Procurador Federal",
+            "AGU"
+          ],
+          200
+        ],
+        [
+          [
+            "2007",
+            "CESPE",
+            "AGU",
+            "Procurador Federal",
+            "AGU"
+          ],
+          200
+        ],
+        [
+          [
+            "2017",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "DPE/DF",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2007",
+            "CESPE",
+            "DPE/CE",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2009",
+            "CESPE",
+            "DPE/ES",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "PG/DF",
+            "Procurador do Estado",
+            "PGE"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "PGE/BA",
+            "Procurador do Estado",
+            "PGE"
+          ],
+          200
+        ],
+        [
+          [
+            "2009",
+            "CESPE",
+            "DPE/AL",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2016",
+            "CESPE",
+            "PGM Fortaleza/CE",
+            "Procurador Municipal",
+            "PGM"
+          ],
+          200
+        ],
+        [
+          [
+            "2019",
+            "CESPE",
+            "DPE/DF",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2021",
+            "CEBRASPE",
+            "DPE/RS",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          200
+        ],
+        [
+          [
+            "2022",
+            "CESPE",
+            "PG/DF",
+            "Procurador do Estado",
+            "PGE"
+          ],
+          200
+        ],
+        [
+          [
+            "2023",
+            "CEBRASPE",
+            "MP/SC",
+            "Promotor de Justiça",
+            "JDMP"
+          ],
+          200
+        ],
+        [
+          [
+            "2025",
+            "FGV",
+            "ENAM",
+            "ENAM",
+            "ENAM"
+          ],
+          160
+        ],
+        [
+          [
+            "2006",
+            "CESPE",
+            "CEF",
+            "Advogado de Estatais",
+            "ADVOGADO DE ESTATAIS"
+          ],
+          150
+        ],
+        [
+          [
+            "2010",
+            "CESPE",
+            "DPE/BA",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          150
+        ],
+        [
+          [
+            "2014",
+            "CESPE",
+            "DPE/PE",
+            "Defensor Público",
+            "DEFENSORIAS"
+          ],
+          150
+        ]
+      ]
+    },
+    "ano_banca_orgao_cargo": {
+      "unique": 485,
+      "top": [
+        [
+          [
+            "2014",
+            "BANCA PRÓPRIA",
+            "MP/SC",
+            "Promotor de Justiça"
+          ],
+          400
+        ],
+        [
+          [
+            "2016",
+            "BANCA PRÓPRIA",
+            "MP/SC",
+            "Promotor de Justiça"
+          ],
+          400
+        ],
+        [
+          [
+            "2019",
+            "BANCA PRÓPRIA",
+            "MP/SC",
+            "Promotor de Justiça"
+          ],
+          400
+        ],
+        [
+          [
+            "2021",
+            "CEBRASPE",
+            "MP/SC",
+            "Promotor de Justiça"
+          ],
+          400
+        ],
+        [
+          [
+            "2024",
+            "FGV",
+            "ENAM",
+            "ENAM"
+          ],
+          240
+        ],
+        [
+          [
+            "2012",
+            "CESPE",
+            "AGU",
+            "Advogado da União"
+          ],
+          200
+        ],
+        [
+          [
+            "2009",
+            "CESPE",
+            "AGU",
+            "Advogado da União"
+          ],
+          200
+        ],
+        [
+          [
+            "2015",
+            "CESPE",
+            "AGU",
+            "Advogado da União"
+          ],
+          200
+        ],
+        [
+          [
+            "2007",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2010",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2015",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "AGU",
+            "Procurador Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2010",
+            "CESPE",
+            "AGU",
+            "Procurador Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2007",
+            "CESPE",
+            "AGU",
+            "Procurador Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2017",
+            "CESPE",
+            "DPU",
+            "Defensor Público Federal"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "DPE/DF",
+            "Defensor Público"
+          ],
+          200
+        ],
+        [
+          [
+            "2007",
+            "CESPE",
+            "DPE/CE",
+            "Defensor Público"
+          ],
+          200
+        ],
+        [
+          [
+            "2009",
+            "CESPE",
+            "DPE/ES",
+            "Defensor Público"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "PG/DF",
+            "Procurador do Estado"
+          ],
+          200
+        ],
+        [
+          [
+            "2013",
+            "CESPE",
+            "PGE/BA",
+            "Procurador do Estado"
+          ],
+          200
+        ],
+        [
+          [
+            "2009",
+            "CESPE",
+            "DPE/AL",
+            "Defensor Público"
+          ],
+          200
+        ],
+        [
+          [
+            "2016",
+            "CESPE",
+            "PGM Fortaleza/CE",
+            "Procurador Municipal"
+          ],
+          200
+        ],
+        [
+          [
+            "2019",
+            "CESPE",
+            "DPE/DF",
+            "Defensor Público"
+          ],
+          200
+        ],
+        [
+          [
+            "2021",
+            "CEBRASPE",
+            "DPE/RS",
+            "Defensor Público"
+          ],
+          200
+        ],
+        [
+          [
+            "2022",
+            "CESPE",
+            "PG/DF",
+            "Procurador do Estado"
+          ],
+          200
+        ],
+        [
+          [
+            "2023",
+            "CEBRASPE",
+            "MP/SC",
+            "Promotor de Justiça"
+          ],
+          200
+        ],
+        [
+          [
+            "2025",
+            "FGV",
+            "ENAM",
+            "ENAM"
+          ],
+          160
+        ],
+        [
+          [
+            "2006",
+            "CESPE",
+            "CEF",
+            "Advogado de Estatais"
+          ],
+          150
+        ],
+        [
+          [
+            "2010",
+            "CESPE",
+            "DPE/BA",
+            "Defensor Público"
+          ],
+          150
+        ],
+        [
+          [
+            "2014",
+            "CESPE",
+            "DPE/PE",
+            "Defensor Público"
+          ],
+          150
+        ]
+      ]
+    },
+    "orgao_cargo": {
+      "unique": 187,
+      "top": [
+        [
+          [
+            "MP/SC",
+            "Promotor de Justiça"
+          ],
+          1800
+        ],
+        [
+          [
+            "MP/SP",
+            "Promotor de Justiça"
+          ],
+          900
+        ],
+        [
+          [
+            "DPU",
+            "Defensor Público Federal"
+          ],
+          800
+        ],
+        [
+          [
+            "TJ/SP",
+            "Juiz de Direito"
+          ],
+          800
+        ],
+        [
+          [
+            "MP/MG",
+            "Promotor de Justiça"
+          ],
+          800
+        ],
+        [
+          [
+            "TJ/SC",
+            "Juiz de Direito"
+          ],
+          800
+        ],
+        [
+          [
+            "MPF",
+            "Procurador da República"
+          ],
+          720
+        ],
+        [
+          [
+            "AGU",
+            "Advogado da União"
+          ],
+          700
+        ],
+        [
+          [
+            "AGU",
+            "Procurador Federal"
+          ],
+          700
+        ],
+        [
+          [
+            "TRF3",
+            "Juiz Federal"
+          ],
+          700
+        ],
+        [
+          [
+            "TRF2",
+            "Juiz Federal"
+          ],
+          600
+        ],
+        [
+          [
+            "MPT",
+            "Procurador do Trabalho"
+          ],
+          600
+        ],
+        [
+          [
+            "DPE/RS",
+            "Defensor Público"
+          ],
+          600
+        ],
+        [
+          [
+            "TJ/PR",
+            "Juiz de Direito"
+          ],
+          600
+        ],
+        [
+          [
+            "MP/PR",
+            "Promotor de Justiça"
+          ],
+          525
+        ],
+        [
+          [
+            "TRF1",
+            "Juiz Federal"
+          ],
+          500
+        ],
+        [
+          [
+            "TRF5",
+            "Juiz Federal"
+          ],
+          500
+        ],
+        [
+          [
+            "TRF4",
+            "Juiz Federal"
+          ],
+          500
+        ],
+        [
+          [
+            "TJ/PE",
+            "Juiz de Direito"
+          ],
+          500
+        ],
+        [
+          [
+            "TJ/GO",
+            "Juiz de Direito"
+          ],
+          500
+        ],
+        [
+          [
+            "MP/GO",
+            "Promotor de Justiça"
+          ],
+          500
+        ],
+        [
+          [
+            "PG/DF",
+            "Procurador do Estado"
+          ],
+          500
+        ],
+        [
+          [
+            "TJ/MT",
+            "Juiz de Direito"
+          ],
+          500
+        ],
+        [
+          [
+            "TJ/MS",
+            "Juiz de Direito"
+          ],
+          500
+        ],
+        [
+          [
+            "DPE/AM",
+            "Defensor Público"
+          ],
+          500
+        ],
+        [
+          [
+            "PF",
+            "Delegado de Polícia Federal"
+          ],
+          480
+        ],
+        [
+          [
+            "TJ/RJ",
+            "Juiz de Direito"
+          ],
+          480
+        ],
+        [
+          [
+            "ENAM",
+            "ENAM"
+          ],
+          480
+        ],
+        [
+          [
+            "PGE/PA",
+            "Procurador do Estado"
+          ],
+          460
+        ],
+        [
+          [
+            "DPE/ES",
+            "Defensor Público"
+          ],
+          450
+        ]
+      ]
+    }
+  },
+  "id_name_conflicts": {
+    "ID Ano": {
+      "ids_with_multiple_names": {},
+      "names_with_multiple_ids": {}
+    },
+    "ID Banca": {
+      "ids_with_multiple_names": {},
+      "names_with_multiple_ids": {}
+    },
+    "ID Órgão": {
+      "ids_with_multiple_names": {},
+      "names_with_multiple_ids": {
+        "TJ/PR": {
+          "155": 480,
+          "20": 200
+        }
+      }
+    },
+    "ID Cargo": {
+      "ids_with_multiple_names": {},
+      "names_with_multiple_ids": {}
+    },
+    "ID Curso": {
+      "ids_with_multiple_names": {},
+      "names_with_multiple_ids": {}
+    }
+  }
+}

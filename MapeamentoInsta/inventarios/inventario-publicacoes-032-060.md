@@ -4,10 +4,10 @@
 
 ## Status Geral
 
-- Posts coletados neste arquivo: 24
-- Intervalo coberto até o momento: Posts 032–055
+- Posts coletados neste arquivo: 29
+- Intervalo coberto: Posts 032–060
 - Intervalo previsto para o arquivo: Posts 032–060 (ajustável conforme fechamento natural dos lotes)
-- Última atualização: adicionado Lote 02 (Posts 044 a 055)
+- Última atualização: adicionado Lote 03 (Posts 056 a 060); intervalo do arquivo concluído
 
 ---
 
@@ -51,6 +51,12 @@
   - **Cobertura em múltiplos toques ao longo do tempo confirmada:** o Post 053 (16/07) é a peça mais antiga já identificada sobre a autorização do concurso do TJ-SC — antecede em 6 dias os Posts 035/036 (22/07, Lote 01 deste arquivo), que trazem a mesma notícia com mais detalhes.
   - **Primeiro carrossel enviado por completo no arquivo:** Post 047 (Concurso Delegado PC-MA) foi enviado com os 3 de 3 slides — sem lacuna de estrutura.
   - **Padrão "Reel-teaser + carrossel panorâmico" reforçado:** Post 049 (teaser "Tem Plot Twist aqui") + Post 050 (panorama "Panorama Ênfase"), publicados no mesmo dia (18/07), repetem o padrão já visto nos Posts 034/035.
+
+- **[Observação — Lote 03]** Lote de fechamento deste arquivo (Posts 056–060) reforçou séries e campanhas já identificadas e trouxe uma nova frente editorial:
+  - **Nova frente "Blog Ênfase":** Post 056 usa um carrossel educativo sobre atualização normativa como resumo e chamada para artigo completo no Blog Ênfase. A peça combina conteúdo de revisão para concursos com captação de tráfego para canal próprio; mantido como novo padrão em observação.
+  - **"Constituição na Polêmica / João Mendes Explica" reforçada em carrossel + Reel:** Post 057 apresenta os dois lados do debate sobre o PL 896/2023, com análise técnica e CTA para o YouTube; o Post 058, publicado no mesmo dia e sobre o mesmo tema, funciona como Reel de chamada/engajamento. O conjunto reforça o uso de múltiplos formatos para distribuir a mesma pauta.
+  - **Campanha "Curso ENAM 2026.2 · Reta Final" reforçada:** Post 059 retoma a oferta em Feed estático, com foco direto nos componentes entregues pelo curso, data de início, tempo de acesso e CTA de matrícula.
+  - **Série "João Mendes Entrevista" confirmada novamente:** Post 060 divulga entrevista com Thiago Vasconcelos (DPE/CE), mantendo dia, horário, canal e identidade visual já observados nos Posts 007 e 021; acrescenta a tag editorial "#Trajetória".
 
 ---
 
@@ -418,6 +424,83 @@
 
 ---
 
+## Lote 03 — Posts 056 a 060
+
+### Post 056 — "Depoimento especial: o que muda com a Resolução CNJ/CNMP nº 16/2026" (Blog Ênfase)
+
+- **Formato:** Carrossel — 7 slides no total, 3 observados (capa 1/7, slide intermediário, último 7/7)
+- **Engajamento:** 63 likes · publicado em 15 de julho
+- **Tema/Assunto:** Mudanças trazidas pela Resolução Conjunta CNJ/CNMP nº 16/2026 sobre depoimento especial de crianças e adolescentes vítimas ou testemunhas de violência.
+- **Objetivo:** Educar sobre nova norma com potencial de cobrança em concursos + direcionar tráfego para o artigo completo no Blog Ênfase.
+- **Público-alvo:** Candidatos a concursos de carreiras jurídicas interessados em atualizações normativas e revisão de conteúdo.
+- **CTA:** "Salve este conteúdo para revisar depois" / "Leia o artigo completo no Blog Ênfase. O link está na bio." / "Saiba mais" / "Link na Bio!"
+- **Elementos visuais:** Identidade "Blog Ênfase"; fundo branco/cinza muito claro com detalhes em rosa; tipografia azul-marinho e rosa; documento oficial do CNJ/CNMP na capa; slide intermediário em formato de checklist dentro de moldura arredondada; fechamento com notebook exibindo o Blog Ênfase e chamada em rosa para o link na bio.
+- **Resumo da legenda:** Apresenta a Resolução Conjunta CNJ/CNMP nº 16/2026 como norma nova com alta chance de cobrança em concursos; destaca produção antecipada da prova, oitiva única, combate à revitimização institucional e diferenças entre escuta especializada e depoimento especial; reforça a importância do tema para carreiras jurídicas e direciona ao artigo completo no blog.
+- **Observações:** Primeiro uso explicitamente catalogado da identidade e do canal "Blog Ênfase" como destino de tráfego. O slide intermediário observado acrescenta planejamento prévio da entrevista, atuação de profissionais capacitados e integração entre Judiciário, Ministério Público e rede de proteção. Estrutura completa não confirmada (3 de 7 slides enviados); os demais slides não foram inferidos.
+- **Status:** Provisória
+
+---
+
+### Post 057 — "Misoginia vira racismo?" (PL 896/2023)
+
+- **Formato:** Carrossel — 8 slides no total, 3 observados (capa 1/8, slide 2/8, último 8/8)
+- **Engajamento:** 28 likes · publicado em 14 de julho
+- **Tema/Assunto:** Análise constitucional do PL 896/2023 ("PL da Misoginia"), que equipara o ódio e a discriminação contra a mulher ao crime de racismo, tornando as condutas inafiançáveis e imprescritíveis, e sua tensão com a liberdade de expressão.
+- **Objetivo:** Educar por meio de análise técnica, apresentando argumentos favoráveis e contrários sem tomar partido + direcionar para análise completa no YouTube e estimular comentários.
+- **Público-alvo:** Candidatos/estudantes de Direito Constitucional e carreiras jurídicas interessados em direitos fundamentais, discurso de ódio e atualização legislativa.
+- **CTA:** "Arrasta" / "Análise completa no vídeo — link na bio" / "No YouTube" / "E você: a favor ou contra? Comente aqui."
+- **Elementos visuais:** Fundo roxo escuro com moldura e destaques em azul-claro/rosa; identificação "PL 896/2023"; foto do Prof. João Mendes; título-pergunta em alta hierarquia; tarja rosa "Inafiançável e imprescritível"; slides numerados; assinatura fixa "Prof. João Mendes · Curso Ênfase · Direito Constitucional"; fechamento com foto profissional, botão azul de YouTube e pergunta para comentário.
+- **Resumo da legenda:** Pergunta se ofender uma mulher pode se tornar crime imprescritível; explica que o PL 896/2023 pretende inserir a misoginia na Lei do Racismo e, na prática, tornar as condutas inafiançáveis e imprescritíveis nos termos do art. 5º, XLII, da Constituição; lista a fase de tramitação, os efeitos da equiparação, o precedente do STF sobre homotransfobia, a tensão entre liberdade de expressão e discurso de ódio e os argumentos dos dois lados; inclui referências normativas e aviso de conteúdo educativo.
+- **Observações:** Reforça o padrão "Constituição na Polêmica / João Mendes Explica" pelo uso de tema de repercussão, apresentação declaradamente neutra dos dois lados e direcionamento ao YouTube. Relacionado ao Reel do Post 058, publicado no mesmo dia e sobre a mesma pauta. Estrutura completa não confirmada (3 de 8 slides enviados); slides 3–7 não foram observados.
+- **Status:** Provisória
+
+---
+
+### Post 058 — Reel: "Tema 'cobrável' demais. Concorda?"
+
+- **Formato:** Reel (vídeo)
+- **Engajamento:** Curtido por profjoaomendes e mais 20 pessoas · publicado em 14 de julho
+- **Tema/Assunto:** Chamada em vídeo sobre misoginia, transfobia, combate ao discurso de ódio e liberdade de manifestação, relacionada ao debate constitucional do PL 896/2023.
+- **Objetivo:** Gerar curiosidade/engajamento sobre tema considerado relevante para provas e reforçar a pauta desenvolvida no carrossel do mesmo dia.
+- **Público-alvo:** Candidatos à magistratura, ao ENAM e a carreiras jurídicas, com interesse em Direito Constitucional.
+- **CTA:** Pergunta para engajamento — "Tema 'cobrável' demais. Concorda?"
+- **Elementos visuais:** Vídeo selfie-style do Prof. João Mendes em ambiente interno; legenda embutida no vídeo com os termos "Misoginia, transfobia, combate ao discurso de ódio, liberdade manifestação"; áudio "Soundridemusic · Tension Mode / High Tension".
+- **Resumo da legenda:** "Tema 'cobrável' demais. Concorda?" + hashtags #magistratura #carreirasjurídicas #enam #concursojurídico #constitucional.
+- **Observações:** Publicado no mesmo dia do Post 057 e tematicamente conectado ao carrossel sobre o PL 896/2023. Apenas um frame do Reel foi enviado; a fala completa do vídeo não foi avaliada.
+- **Status:** Provisória
+
+---
+
+### Post 059 — "O que você recebe?" (Curso ENAM 6º Exame 2026.2 · Reta Final)
+
+- **Formato:** Feed (imagem estática)
+- **Engajamento:** 6 likes · publicado em 14 de julho
+- **Tema/Assunto:** Apresentação dos componentes e condições do "Curso ENAM 6º Exame 2026.2 Reta Final".
+- **Objetivo:** Venda/conversão — detalhar as entregas do curso e incentivar matrícula para o início em 27/07.
+- **Público-alvo:** Candidatos ao ENAM 2026.2 em fase de reta final da preparação.
+- **CTA:** "Matricule-se pelo link da bio" / "Comece sua reta final com direção" / "Link na bio".
+- **Elementos visuais:** Fundo fotográfico escuro com livros jurídicos, caneta e balança da Justiça; tipografia serifada branca no título; detalhes e contornos amarelos; lista de benefícios em bullets; selo de início "27/07"; logotipo Ênfase.
+- **Resumo da legenda:** Informa que o curso foi estruturado com base na análise de provas anteriores para direcionar a preparação ao que a FGV mais cobra; lista 14 semanas de preparação guiada, 500 questões inéditas no padrão ENAM, banco com 48 mil questões, lei seca e jurisprudência de alta incidência, revisão espaçada e simulados; informa início em 27/07 e acesso por 6 meses; encerra com CTA de matrícula.
+- **Observações:** Nova peça da campanha "Curso ENAM 2026.2 · Reta Final", já observada em múltiplos ângulos nos Posts 001, 010, 013, 015 e 017. Aqui o foco é a enumeração direta das entregas e condições do produto em uma única peça estática.
+- **Status:** Provisória
+
+---
+
+### Post 060 — "Sonhos não envelhecem... O retorno depois de 10 anos" (João Mendes Entrevista · Thiago Vasconcelos)
+
+- **Formato:** Feed (imagem estática — chamada para entrevista no YouTube)
+- **Engajamento:** 31 likes · publicado em 13 de julho
+- **Tema/Assunto:** Divulgação de entrevista com Thiago Vasconcelos, Defensor Público da DPE/CE, sobre sua trajetória de retorno ao sonho depois de dez anos.
+- **Objetivo:** Captar audiência para o programa "João Mendes Entrevista" no YouTube + inspirar candidatos à Defensoria Pública por meio de trajetória profissional.
+- **Público-alvo:** Candidatos à Defensoria Pública e concurseiros que precisam de motivação para retomar ou continuar a preparação.
+- **CTA:** "Hoje, às 20h, no YouTube do Curso Ênfase" / "Acesse nosso canal do YouTube para ativar o lembrete!"
+- **Elementos visuais:** Identidade fixa "João Mendes Entrevista" em azul-marinho e rosa sobre fundo claro; tag rosa "#Trajetória"; indicação recorrente "Toda segunda-feira · 20h · YouTube"; foto profissional do entrevistado; card azul-marinho/rosa com nome e cargo; logotipo Ênfase.
+- **Resumo da legenda:** Anuncia Thiago Vasconcelos, Defensor Público da DPE/CE, como convidado do "João Mendes Entrevista" para compartilhar sua trajetória de retorno a um sonho depois de dez anos; apresenta a conversa como inspiração para quem se prepara para a Defensoria Pública e precisa encontrar forças para retomar ou continuar; informa transmissão às 20h no YouTube e pede para ativar o lembrete.
+- **Observações:** Terceira ocorrência catalogada da série semanal "João Mendes Entrevista", após os Posts 007 e 021; confirma novamente periodicidade, horário, canal e estrutura visual fixa, agora com a tag temática "#Trajetória".
+- **Status:** Provisória
+
+---
+
 ## Inventário de Publicações
 
 | ID | Formato | Slides | Tema/Assunto | Objetivo | Público-alvo | CTA | Elementos visuais | Resumo da legenda | Observações | Status |
@@ -434,6 +517,23 @@
 | Post 041 | Feed | — | Anúncio de live sobre o resultado do ENAM ("E agora?") | Captar audiência para live + acolhimento emocional | Candidatos que prestaram o ENAM, perto do corte ou perdidos | "Ative o lembrete e envie para quem fez a prova" | Tarja "Live · Hoje · 19h"; foto de João Mendes com gesto de dúvida | Convida para live das 19h sobre interpretação do resultado e próximos passos | Parte do pilar "dia de resultado" (mesmo dia dos Posts 037/038/039/043) | Provisória |
 | Post 042 | Feed | — | Anúncio de live de lançamento do "Pré-Edital AGU — Preparação Completa" (23/07, Fernanda Gomes) | Captar leads para a live de lançamento (funil live→curso) | Candidatos às carreiras da AGU/Proc. Federal/Fazenda Nacional | "Entre no grupo de interessados (link na bio)" | Fundo azul diagonal; checklist; foto de Fernanda Gomes | Anuncia live cobrindo peso da prova, "regra dos 50%" e abertura da turma | Anuncia o mesmo evento do Post 030 (inventário 001-031), publicado ~2 dias antes | Provisória |
 | Post 043 | Carrossel | 7 total / 3 observados | Resultado preliminar oficial do ENAM 2026.1 (gabarito e relação nominal) | Informar oficialmente + orientar próximos passos | Candidatos que prestaram o ENAM 2026.1 | "Salva / Comenta ENAM" | Coluna decorativa "Enfase"; slides "O que saiu" | Notas de corte (56/40 acertos); prazos de recurso e resultado definitivo; ENAM como certificado de 2 anos | Peça central do pilar "dia de resultado"; 3 de 7 slides | Provisória |
+| Post 044 | Reel | — | Orientação sobre edital-base e adaptação dos estudos para Procurador do BACEN | Educar/orientar estrategicamente + captar leads para o curso específico | Candidatos a Procurador do Banco Central | "Siga @procuradordobacennews / Entre para o grupo pelo link da bio" | Vídeo selfie de Luciana Lima; overlay com frase cortada | Recomenda o edital de Procurador Federal (2022); indica disciplinas a retirar e acrescentar para o BACEN | Conta profalucianalima em uso educativo/estratégico; reforça @procuradordobacennews | Provisória |
+| Post 045 | Reel | — | Importância da memorização da legislação da AGU para a aprovação | Prova social/depoimento de aprovação + reforço de autoridade | Candidatos às carreiras da AGU/PGFN/PGF | Nenhum link explícito capturado | Vídeo selfie de Fernanda Gomes; tabela sobreposta com dados da prova | Pergunta se memorizar a legislação da AGU foi fundamental para a aprovação; hashtags | Reforça o padrão de depoimento/prova social com Fernanda Gomes | Provisória |
+| Post 046 | Reel | — | Posicionamento de marca: "Concurso não é para amadores" | Reforçar marca/branding institucional em tom motivacional-provocador | Concurseiros de carreiras jurídicas em geral | Nenhum explícito | Vídeo de João Mendes gesticulando; áudio "Latte Swirl" | "Concurso não é para amadores" + hashtags | Legenda mínima de posicionamento, sem produto ou link | Provisória |
+| Post 047 | Carrossel | 3 total / 3 observados | Concurso Delegado PC-MA com inscrições abertas | Informar sobre concurso aberto + gerar urgência/captação | Candidatos a concursos policiais/carreiras jurídicas, foco delegacia | "Salva / Marca um amigo / Link na bio" | Fundo escuro; distintivo dourado; tarja "Inscrições Abertas"; cards de dados | 58 vagas + 174 CR; remuneração, inscrições, banca e data da prova | Estrutura completa (3 de 3 slides); concurso também citado no Post 050 | Provisória |
+| Post 048 | Carrossel | 15 total / 3 observados | Boletim de notícias jurídico-políticas da semana (STF, teto remuneratório, Congresso, eleições) | Informar/educar sobre atualidades + construir autoridade e recorrência | Concurseiros de carreiras jurídicas em geral | "Salve este carrossel para consultar depois" | Fundo claro; tarja "Giro Jurídico"; temas numerados; bullets | Resume quatro temas do cenário jurídico-político e a situação da sessão legislativa/LDO | Função equivalente ao "Radar Ênfase", com nome diferente; 3 de 15 slides | Provisória |
+| Post 049 | Reel | — | Teaser de novidade nas carreiras jurídicas | Gerar curiosidade como teaser do carrossel panorâmico do mesmo dia | Concurseiros de carreiras jurídicas em geral | Nenhum link explícito | Vídeo de João Mendes gesticulando; áudio de tensão | "Tem Plot Twist aqui" + hashtags | Teaser do Post 050; reforça padrão Reel-teaser + carrossel panorâmico | Provisória |
+| Post 050 | Carrossel | 8 total / 3 observados | Panorama semanal de concursos jurídicos (TRF5, PC-MA, ENAM, DPE-SP, PGE-BA, TJ-RS, TJDFT) | Informar/consolidar autoridade + apresentar o "Panorama Ênfase" | Concurseiros de carreiras jurídicas em geral | "Comenta o nome do seu certame" | Colunas decorativas "Enfase"; foto de João Mendes; card CTA dourado | Atualiza vagas, bancas, inscrições, resultados e editais de diferentes certames | Nomeia formalmente o "Panorama Ênfase"; 3 de 8 slides; legenda cortada antes do fim | Provisória |
+| Post 051 | Feed | — | Debate constitucional sobre Helena de Troia negra: liberdade artística x igualdade/representatividade | Educar sobre colisão de direitos e ponderação + direcionar ao YouTube | Candidatos/estudantes de Dir. Constitucional, incluindo OAB | "Comenta / Vídeo completo no YouTube" | Colagem de imagens; título "Helena de Troia pode ser negra?"; foto de João Mendes | Apresenta cinco debates constitucionais e os dois lados da controvérsia, sem tomar posição | Reforça o padrão "Constituição na Polêmica / João Mendes Explica" | Provisória |
+| Post 052 | Carrossel | 7 total / 3 observados | "Cursos Carreiras Jurídicas" como preparação unificada para ENAM + 1ª fase | Venda/conversão; reduzir objeção sobre precisar de dois cursos | Candidatos à magistratura e demais carreiras jurídicas | "Acesse o link da bio / Confira" | Fotos profissionais; fundos claro e roxo escuro; checklist | Apresenta preparação integrada e diferenciais de conteúdo, materiais, questões, jurisprudência e simulados | Possível produto guarda-chuva distinto dos cursos específicos; 3 de 7 slides | Provisória |
+| Post 053 | Feed | — | Autorização de novo concurso para Juiz Substituto do TJ-SC | Informar (breaking news) + captar urgência para preparação antecipada | Candidatos à magistratura, foco SC | "Acompanhe o Curso Ênfase e prepare-se" | Bloco vermelho/branco; foto do TJ-SC; tarja "Banca / Vagas / Edital = Em definição" | TJ-SC aprovou a abertura; vagas, banca e calendário ainda serão divulgados; recomenda antecipação | Peça mais antiga sobre o TJ-SC; antecede os Posts 035/036 em 6 dias | Provisória |
+| Post 054 | Feed | — | Shadow docket dos EUA x decisões monocráticas do STF | Educar sobre decisão monocrática, fundamentação e reversibilidade + direcionar ao YouTube | Candidatos/estudantes de Dir. Constitucional | "Análise completa no YouTube" | Gradiente azul/roxo; tarja temática; foto de João Mendes; selo do YouTube | Explica o shadow docket, o paralelo brasileiro, diferenças e reações institucionais | Compartilha template fixo com o Post 055; possível série própria | Provisória |
+| Post 055 | Feed | — | PL 1.828/2023 sobre reconhecimento facial em espaços públicos e proteção de dados | Educar sobre proteção de dados e proporcionalidade + direcionar ao YouTube | Candidatos/estudantes de Dir. Constitucional | "Análise completa no YouTube" | Mesmo template do Post 054; reconhecimento facial simulado; barra "Vigilância facial em massa?" | Explica o PL, biometria como dado sensível, relação com Constituição/LGPD e salvaguardas | Confirma recorrência do template compartilhado com o Post 054 | Provisória |
+| Post 056 | Carrossel | 7 total / 3 observados | Resolução CNJ/CNMP nº 16/2026 e mudanças no depoimento especial | Educar sobre nova norma + direcionar ao artigo no Blog Ênfase | Candidatos a carreiras jurídicas interessados em atualização normativa | "Salve / Leia no Blog Ênfase / Link na bio" | Identidade "Blog Ênfase"; fundo claro; checklist; documento oficial; notebook | Destaca produção antecipada da prova, oitiva única, combate à revitimização e distinção entre escuta e depoimento | Primeira frente "Blog Ênfase" catalogada; 3 de 7 slides; demais slides não inferidos | Provisória |
+| Post 057 | Carrossel | 8 total / 3 observados | PL 896/2023: equiparação da misoginia ao racismo e tensão com liberdade de expressão | Educar com análise técnica dos dois lados + direcionar ao YouTube | Candidatos/estudantes de Dir. Constitucional e carreiras jurídicas | "Arrasta / No YouTube / Comente" | Fundo roxo; destaques azul/rosa; foto de João Mendes; slides numerados; CTA do YouTube | Explica efeitos do PL, precedente do STF, tensão com liberdade de expressão e argumentos favoráveis/contrários | Reforça "Constituição na Polêmica"; relacionado ao Post 058; 3 de 8 slides | Provisória |
+| Post 058 | Reel | — | Chamada sobre misoginia, transfobia, discurso de ódio e liberdade de manifestação | Gerar curiosidade/engajamento e reforçar a pauta do carrossel do mesmo dia | Candidatos à magistratura, ENAM e carreiras jurídicas | "Tema 'cobrável' demais. Concorda?" | Vídeo selfie de João Mendes; termos do tema em legenda embutida; áudio de tensão | Pergunta se o tema é "cobrável" + hashtags | Relacionado ao Post 057; apenas um frame enviado, fala completa não avaliada | Provisória |
+| Post 059 | Feed | — | Entregas do "Curso ENAM 6º Exame 2026.2 Reta Final" | Venda/conversão; detalhar entregas e incentivar matrícula | Candidatos ao ENAM 2026.2 em reta final | "Matricule-se / Comece sua reta final / Link na bio" | Foto escura de livros e balança; título serifado; detalhes amarelos; lista de benefícios | Lista 14 semanas, 500 questões inéditas, banco de 48 mil questões, lei seca, jurisprudência, revisão e simulados | Nova peça da campanha ENAM 2026.2 · Reta Final, com foco direto nas entregas | Provisória |
+| Post 060 | Feed | — | Entrevista com Thiago Vasconcelos (DPE/CE) sobre retorno ao sonho após 10 anos | Captar audiência para entrevista no YouTube + inspirar candidatos à Defensoria | Candidatos à Defensoria Pública e concurseiros em retomada | "Hoje, às 20h / Ative o lembrete no YouTube" | Identidade "João Mendes Entrevista"; tag "#Trajetória"; foto e card do convidado | Divulga trajetória de retomada, data/horário e convite para ativar lembrete | Terceira ocorrência da série; confirma periodicidade, canal e estrutura visual | Provisória |
 
 ---
 

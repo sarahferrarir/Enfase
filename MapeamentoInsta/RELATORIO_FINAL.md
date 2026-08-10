@@ -1,6 +1,6 @@
 # Relatório Final — Sistema de Templates para o Instagram do Curso Ênfase
 
-## Resumo Executivo
+## Resumo 
 
 O projeto mapeou a comunicação do Instagram do Curso Ênfase para definir um sistema de templates consistente, reutilizável e capaz de atender às necessidades editoriais observadas sem criar estruturas redundantes por carreira, produto ou tema jurídico.
 

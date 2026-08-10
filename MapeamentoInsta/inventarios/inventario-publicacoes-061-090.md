@@ -1,6 +1,6 @@
 # Inventário de Publicações – Instagram (Fase de Coleta)
 
-> **Status:** Coleta em andamento. Classificações são provisórias até o encerramento da fase de coleta.
+> **Status:** Coleta concluída. Amostra congelada. Classificações provisórias até a consolidação dos padrões.
 
 ## Status Geral
 
@@ -22,11 +22,11 @@
 | Tema/Assunto | Tópico central da publicação |
 | Objetivo | Objetivo principal de comunicação (ex.: educar, vender, engajar, posicionar marca, etc. — categorias serão refinadas ao longo da coleta) |
 | Público-alvo | Audiência aparente da publicação |
-| CTA principal | Chamada para ação identificada |
+| CTA | Chamada para ação identificada |
 | Elementos visuais | Elementos visuais relevantes (estilo, cores, uso de texto na imagem, fotos vs. ilustração, etc.) |
 | Resumo da legenda | Síntese do texto/legenda do post |
 | Observações | Lacunas de informação, ambiguidades, notas sobre slides não enviados, etc. |
-| Status classificação | Provisória / Ajustada / Requer revisão |
+| Status | Provisória / Ajustada / Requer revisão |
 
 ---
 

@@ -2,10 +2,14 @@
 
 ## Visão geral
 
-- Data da última atualização: 05/08/2026
+- Data da última atualização: 10/08/2026
+- Status da fase: Coleta concluída
+- Estado da amostra: Congelada; nenhum novo conteúdo será adicionado
 - Total de posts catalogados: 90
 - Intervalo de posts cobertos: Posts 001–090
-- Próximo ID que deverá ser utilizado: Post 091
+- Publicações fixadas adicionais: 3 Reels fixados
+- Destaques catalogados: 5 (Aprovados, Cursos, Ferramentas, Gratuitos e Procuradorias)
+- Revisão editorial: Revisão final de consistência concluída
 
 ## Inventários existentes
 
@@ -28,7 +32,7 @@
 | Lote 02 (inventário 061-090) | Posts 076–081 | Concluído |
 | Lote 03 (inventário 061-090) | Posts 082–090 | Concluído |
 
-## Padrões editoriais identificados até o momento
+## Padrões editoriais identificados na amostra
 
 - Campanha "Curso ENAM 2026.2 · Reta Final"
 - Campanha "Pré-Edital 4 em 1" (AGU/PGFN/Procurador Federal/BACEN)
@@ -61,12 +65,13 @@
 - **Limitação dos prints:** para carrosséis, normalmente são enviados apenas capa, um slide intermediário representativo e o último slide — não a estrutura completa. Alguns posts ficaram com lacunas por slides intermediários não enviados (registrado individualmente em cada post afetado no inventário detalhado).
 - **Critério de formato:** posts sem indicador de múltiplos slides foram classificados como "Feed" (estático), mesmo quando a peça parece ser thumbnail/chamada para vídeo externo (ex.: série "Constituição na Polêmica").
 - **Convenção de nomenclatura dos inventários:** `inventario-publicacoes-[primeiro post]-[último post].md`, cobrindo faixas de aproximadamente 30 posts por arquivo (ajustável conforme o fechamento natural dos lotes).
-- **Classificações são todas provisórias** até o encerramento da fase de coleta — nenhuma categoria/família de templates foi formalizada ainda; padrões editoriais são apenas observados e registrados.
-- No inventário 001-031, dois posts estão com status "Requer revisão" por lacuna de informação (legenda não visível ou slides intermediários ausentes).
+- **Classificações permanecem provisórias** até a consolidação dos padrões — nenhuma categoria/família de templates foi formalizada nesta revisão; os padrões editoriais seguem apenas observados e registrados.
+- No inventário 001-031, o Post 022 está com status "Requer revisão" por falta de legenda visível.
 - No inventário 032-060, mais dois posts (037 e 039) estão com status "Requer revisão" por lacuna de legenda — ver arquivo de inventário para detalhes.
 - No inventário 061-090, os Posts 079, 082 e 089 estão com status "Requer revisão" por legenda cortada; carrosséis com slides não enviados permanecem documentados individualmente como lacunas.
 
 ## Próximos passos
 
-- Continuar a coleta a partir do Post 091.
-- Abrir o arquivo `inventario-publicacoes-091-120.md` para o próximo lote, preservando a estrutura e as convenções dos inventários concluídos.
+- Consolidar os padrões identificados na amostra congelada.
+- Produzir os entregáveis previstos na especificação da tarefa: inventário consolidado, catálogo de tipos de templates, matriz resumida, lista de lacunas e recomendação de ordem de criação.
+- Não adicionar novas publicações, Reels, posts fixados ou Destaques à amostra.

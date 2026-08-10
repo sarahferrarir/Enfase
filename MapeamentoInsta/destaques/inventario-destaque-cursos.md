@@ -1,6 +1,6 @@
 # Inventário do Destaque — Cursos
 
-> **Status:** Coleta concluída. Classificações provisórias, registradas com base nos 26 stories enviados em ordem.
+> **Status:** Coleta concluída. Amostra congelada. Classificações provisórias até a consolidação dos padrões.
 
 ## Informações gerais
 
@@ -17,9 +17,8 @@
 
 ## Inventário dos Stories
 
-### CURS-001 — Abertura dos Cursos Regulares 2026
+### Story CURS-001 — Abertura dos Cursos Regulares 2026
 
-- **ID:** CURS-001
 - **Formato:** Story estático — arte gráfica promocional de abertura.
 - **Tema / assunto:** Lançamento dos novos Cursos Regulares 2026 e abertura de matrículas.
 - **Objetivo:** Anunciar a oferta, estabelecer o tema da sequência e estimular o avanço para conhecer as novidades.
@@ -28,13 +27,12 @@
 - **Elementos visuais:** Fundo claro; logotipo rosa do Ênfase; título em azul-marinho e rosa; indicação manuscrita “2026”; bloco branco assimétrico; fotografia de mulher em contexto profissional ocupando a lateral direita; seta circular junto ao CTA.
 - **Resumo do conteúdo:** Apresenta os “Novos Cursos Regulares 2026”, informa que as matrículas estão abertas e convida o usuário a conferir as novidades nos stories seguintes.
 - **Observações:** Primeiro story da sequência sobre Cursos Regulares. A captura foi realizada no navegador e mostra o link do destaque, mas não a data absoluta do story.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-002 — Promessa da Metodologia Inteligência Ênfase
+### Story CURS-002 — Promessa da Metodologia Inteligência Ênfase
 
-- **ID:** CURS-002
 - **Formato:** Story estático — arte gráfica institucional e motivacional.
 - **Tema / assunto:** Metodologia Inteligência Ênfase.
 - **Objetivo:** Associar a metodologia da marca à possibilidade de aprovação e preparar a explicação dos diferenciais do produto.
@@ -43,13 +41,12 @@
 - **Elementos visuais:** Fundo cinza-claro; faixa fotográfica lateral com mulher em ambiente profissional; tipografia azul-marinho e rosa; forte destaque para “TUDO É POSSÍVEL!”.
 - **Resumo do conteúdo:** Afirma que, com a Metodologia Inteligência Ênfase, “tudo é possível”, funcionando como transição entre o anúncio do curso e a explicação do método.
 - **Observações:** Peça de promessa institucional, sem detalhamento de produto nesta tela.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-003 — Dois pilares da metodologia
+### Story CURS-003 — Dois pilares da metodologia
 
-- **ID:** CURS-003
 - **Formato:** Story estático — card didático de metodologia.
 - **Tema / assunto:** Tríade de Conteúdo e Tríade de Estudo — ART.
 - **Objetivo:** Explicar de forma estruturada o que estudar e como estudar dentro da metodologia do Ênfase.
@@ -58,13 +55,12 @@
 - **Elementos visuais:** Fundo cinza-claro; título com destaques em rosa; dois blocos retangulares sobrepostos, um azul-marinho e outro rosa; listas em branco; uso de negrito para conceitos-chave.
 - **Resumo do conteúdo:** Apresenta dois pilares: a Tríade de Conteúdo, composta por teoria, legislação e jurisprudência; e a Tríade de Estudo — ART, composta por aprender, revisar e treinar. Exemplifica os materiais e práticas associados a cada eixo, como aulas, transcrições, PDFs, cadernos, flashcards, mapas mentais e questões.
 - **Observações:** Consolida uma nomenclatura proprietária da metodologia e separa claramente seleção de conteúdo e processo de estudo.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-004 — Conteúdo direcionado dos Cursos Regulares
+### Story CURS-004 — Conteúdo direcionado dos Cursos Regulares
 
-- **ID:** CURS-004
 - **Formato:** Story estático — card informativo de características do produto.
 - **Tema / assunto:** Conteúdos oferecidos e preparação para as fases dos concursos.
 - **Objetivo:** Demonstrar a abrangência curricular dos Cursos Regulares e sua cobertura das diferentes etapas do concurso.
@@ -73,13 +69,12 @@
 - **Elementos visuais:** Grande painel azul-marinho com texto branco; fundo claro; fotografia de estátua da Justiça na lateral direita; cantos arredondados; composição assimétrica.
 - **Resumo do conteúdo:** Lista sete disciplinas fundamentais ao vivo, disciplinas trabalhistas ao vivo às quintas-feiras, disciplinas complementares e formação humanística, PDFs de doutrina, curso de informativos e preparação para todas as fases. Para a segunda fase, menciona técnicas de sentença, peças, pareceres e temas especiais por carreira; para a prova oral, aulas com professores aprovados e orientações práticas.
 - **Observações:** O número “sete” se refere às disciplinas fundamentais ao vivo; a tela também apresenta outras frentes de conteúdo e preparação.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-005 — Ferramentas de estudo
+### Story CURS-005 — Ferramentas de estudo
 
-- **ID:** CURS-005
 - **Formato:** Story estático — card informativo de ferramentas e recursos.
 - **Tema / assunto:** Recursos que potencializam o estudo nos Cursos Regulares.
 - **Objetivo:** Tangibilizar os diferenciais tecnológicos, organizacionais e pedagógicos da oferta.
@@ -88,13 +83,12 @@
 - **Elementos visuais:** Painel azul-marinho com texto branco sobre fundo claro; estátua da Justiça parcialmente visível na lateral esquerda; título em negrito; lista extensa com setas explicativas.
 - **Resumo do conteúdo:** Apresenta videoaula, áudio e PPT do professor; IA do Aluno com transcrição automática, PDF da aula, mapa mental, flashcards e chat de dúvidas jurídicas; Cronograma Inteligente com revisões e treino diário; aplicativo de leitura de lei seca; técnicas de estudo e revisão com o Prof. João Mendes; sistema com mais de 48 mil questões; e questões inéditas com gabarito comentado.
 - **Observações:** A peça anuncia “8 ferramentas”, mas os recursos são agrupados em tópicos e subtópicos; o inventário preserva a organização observável sem recompor a contagem.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-006 — Antecipação da preparação para 2026
+### Story CURS-006 — Antecipação da preparação para 2026
 
-- **ID:** CURS-006
 - **Formato:** Story estático — quebra de objeção com oferta de benefício imediato.
 - **Tema / assunto:** Início antecipado dos estudos e acesso ao Pré-Curso Ênfase.
 - **Objetivo:** Responder à objeção de esperar até janeiro para começar e incentivar a matrícula imediata.
@@ -103,13 +97,12 @@
 - **Elementos visuais:** Fundo cinza-claro; pergunta em aspas; grande destaque rosa para “PREPARAÇÃO”; expressão manuscrita “PARA 2026”; box rosa inferior com o resultado prometido.
 - **Resumo do conteúdo:** Afirma que não é necessário esperar até janeiro. Informa que a matrícula dá acesso ao Pré-Curso Ênfase, com PDFs de doutrina das oito disciplinas fundamentais de 2025 e simulados de questões inéditas e comentadas, para que o aluno comece 2026 em vantagem.
 - **Observações:** Trata diretamente uma objeção temporal e conecta urgência à entrega imediata de materiais.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-007 — Opções de planos
+### Story CURS-007 — Opções de planos
 
-- **ID:** CURS-007
 - **Formato:** Story estático — quadro comparativo de planos.
 - **Tema / assunto:** Modalidades de contratação e bônus dos Cursos Regulares.
 - **Objetivo:** Apresentar alternativas de acesso e benefícios associados a cada plano.
@@ -118,13 +111,12 @@
 - **Elementos visuais:** Fundo claro; três blocos empilhados em azul-marinho, rosa e cinza; fotografia parcial de mulher com óculos na lateral direita; hierarquia tipográfica por plano.
 - **Resumo do conteúdo:** Apresenta o Curso Disciplinas Fundamentais, com 12 meses de acesso, três meses de bônus e Pré-Curso; Cursos Regulares de 12 meses, com três meses de bônus, Pré-Curso e uma Reta Final ou Curso ENAM para os regulares da Magistratura; e Cursos Regulares de 24 meses, com seis meses de bônus, Pré-Curso e duas Retas Finais ou Cursos ENAM para os regulares da Magistratura.
 - **Observações:** Não há preços, condições de pagamento ou datas-limite observáveis.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-008 — CTA dos Cursos Regulares
+### Story CURS-008 — CTA dos Cursos Regulares
 
-- **ID:** CURS-008
 - **Formato:** Story estático — encerramento comercial com sticker de link.
 - **Tema / assunto:** Matrícula nos Cursos Regulares 2026.
 - **Objetivo:** Converter o interesse gerado pela sequência em acesso à página de matrícula.
@@ -133,13 +125,12 @@
 - **Elementos visuais:** Fundo cinza-claro; fotografia parcial de mulher na lateral esquerda; lettering rosa “É Possível!”; ícone de formulário; sublinhado rosa; sticker branco de link.
 - **Resumo do conteúdo:** Encerra a sequência afirmando que, em 2026, “tudo é possível” e direciona o usuário a garantir sua vaga por meio do link.
 - **Observações:** O destino do sticker não foi disponibilizado na coleta.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-009 — Abertura do Curso ENAM 5º Exame
+### Story CURS-009 — Abertura do Curso ENAM 5º Exame
 
-- **ID:** CURS-009
 - **Formato:** Story estático — arte gráfica promocional de abertura.
 - **Tema / assunto:** Lançamento do Curso ENAM 5º Exame 2026.1.
 - **Objetivo:** Anunciar o produto e incentivar o avanço para conhecer sua estrutura.
@@ -148,13 +139,12 @@
 - **Elementos visuais:** Fundo claro; logotipo azul-marinho; título rosa; recorte fotográfico de homem sorrindo e usando celular; bloco branco assimétrico; pequeno quadrado rosa; seta circular.
 - **Resumo do conteúdo:** Comunica a chegada do Curso ENAM 5º Exame 2026.1 e convida o usuário a conferir os detalhes nos stories seguintes.
 - **Observações:** Primeiro story da sequência ENAM. A interface informa que o áudio utilizado está indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-010 — Direcionamento e prova de resultado do ENAM
+### Story CURS-010 — Direcionamento e prova de resultado do ENAM
 
-- **ID:** CURS-010
 - **Formato:** Story estático — argumento de método com prova quantitativa.
 - **Tema / assunto:** Estudo direcionado para o ENAM e resultado acumulado dos alunos.
 - **Objetivo:** Reforçar que a preparação deve priorizar o conteúdo relevante e sustentar a proposta com dado de habilitação.
@@ -163,13 +153,12 @@
 - **Elementos visuais:** Fundo cinza-claro; texto azul-marinho com destaques em negrito; palavra “Resultado” em rosa; linha rosa horizontal; amplo espaço em branco.
 - **Resumo do conteúdo:** Afirma que o candidato não precisa estudar tudo, mas estudar certo. Relaciona a Metodologia Inteligência Ênfase ao foco no que importa para a prova e informa que, nos cinco exames realizados, 5.600 alunos que estudaram no Ênfase foram habilitados.
 - **Observações:** O dado é apresentado pela própria marca; a captura não contém fonte externa ou detalhamento metodológico da contagem. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-011 — Estrutura geral do Curso ENAM
+### Story CURS-011 — Estrutura geral do Curso ENAM
 
-- **ID:** CURS-011
 - **Formato:** Story estático — introdução à arquitetura do produto.
 - **Tema / assunto:** Preparação completa e quatro módulos estratégicos.
 - **Objetivo:** Posicionar o curso como solução direcionada e preparar a apresentação dos módulos.
@@ -178,13 +167,12 @@
 - **Elementos visuais:** Fundo cinza-claro; tipografia azul-marinho e rosa; box contornado em rosa; linha horizontal rosa; composição centralizada.
 - **Resumo do conteúdo:** Define o Curso ENAM 5º Exame 2026.1 como preparação completa, direcionada e sem desperdício de tempo, informa que o curso é dividido em quatro módulos estratégicos e convida a conhecer essa estrutura.
 - **Observações:** Áudio indisponível na captura.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-012 — Módulos Inteligência ENAM e Aprendizagem
+### Story CURS-012 — Módulos Inteligência ENAM e Aprendizagem
 
-- **ID:** CURS-012
 - **Formato:** Story estático — card modular de características do produto.
 - **Tema / assunto:** Dois dos quatro módulos estratégicos do Curso ENAM.
 - **Objetivo:** Detalhar como o curso direciona o estudo e entrega conteúdo de aprendizagem.
@@ -193,13 +181,12 @@
 - **Elementos visuais:** Fundo cinza-claro; dois boxes contornados em rosa; títulos rosa; ícones de check verdes; seta rosa lateral.
 - **Resumo do conteúdo:** Apresenta “Inteligência ENAM”, com seleção do que mais cai e roteiro de estudos personalizado, e “Aprendizagem”, com 38 horas de videoaulas inéditas, PDFs e cronograma semanal.
 - **Observações:** Áudio indisponível na captura.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-013 — Módulos Treinamento e Revisão
+### Story CURS-013 — Módulos Treinamento e Revisão
 
-- **ID:** CURS-013
 - **Formato:** Story estático — card modular de características do produto.
 - **Tema / assunto:** Treinamento e revisão no Curso ENAM.
 - **Objetivo:** Completar a apresentação dos quatro módulos estratégicos e evidenciar volume de prática e suporte de reta final.
@@ -208,13 +195,12 @@
 - **Elementos visuais:** Fundo cinza-claro; dois boxes contornados em rosa; títulos rosa; ícones de check verdes; composição centralizada.
 - **Resumo do conteúdo:** Informa que o módulo de Treinamento contém 1.360 questões comentadas e três simulados exclusivos. O módulo de Revisão oferece videoaulas enxutas e Drops de Revisão liberados na reta final.
 - **Observações:** A redação visual apresenta “1.360 questões comentada”; o resumo registra o sentido observável da oferta. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-014 — Ferramentas complementares do Curso ENAM
+### Story CURS-014 — Ferramentas complementares do Curso ENAM
 
-- **ID:** CURS-014
 - **Formato:** Story estático — lista de ferramentas e suporte.
 - **Tema / assunto:** Recursos adicionais para potencializar os estudos.
 - **Objetivo:** Ampliar a percepção de valor do curso para além das aulas.
@@ -223,13 +209,12 @@
 - **Elementos visuais:** Fundo cinza-claro; box contornado em rosa; lista azul-marinho; título com negrito; composição limpa e centralizada.
 - **Resumo do conteúdo:** Lista IA do Aluno, mapa mental, flashcards, PDF automático, Chat Jurídico, cronograma personalizado, orientações pós-prova e suporte tira-dúvidas, apresentados como recursos para estudar com inteligência, foco e confiança.
 - **Observações:** Áudio indisponível na captura.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-015 — CTA do Curso ENAM
+### Story CURS-015 — CTA do Curso ENAM
 
-- **ID:** CURS-015
 - **Formato:** Story estático — encerramento comercial com sticker de link.
 - **Tema / assunto:** Matrícula no Curso ENAM 5º Exame 2026.1.
 - **Objetivo:** Converter a sequência explicativa em acesso à página do curso.
@@ -238,13 +223,12 @@
 - **Elementos visuais:** Fundo branco; faixa curva rosa na lateral direita; emoji de alvo; blocos azul-marinho e rosa; sticker branco com ícone de link e ilustração de mão; logotipo rosa do Ênfase.
 - **Resumo do conteúdo:** Pergunta se o usuário quer se preparar corretamente rumo à habilitação e o direciona à matrícula no curso por meio do link.
 - **Observações:** O destino do sticker não foi disponibilizado. Áudio indisponível na captura.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-016 — Abertura das Pós-Graduações 2026
+### Story CURS-016 — Abertura das Pós-Graduações 2026
 
-- **ID:** CURS-016
 - **Formato:** Story estático — arte gráfica promocional de abertura.
 - **Tema / assunto:** Lançamento das novas Pós-Graduações 2026.
 - **Objetivo:** Anunciar a nova oferta e introduzir a promessa de aproveitamento duplo entre especialização e preparação para concursos.
@@ -253,13 +237,12 @@
 - **Elementos visuais:** Fundo claro; título rosa; fotografia de mulher sorrindo com camisa amarela; bloco branco assimétrico; pequeno quadrado rosa; seta circular.
 - **Resumo do conteúdo:** Comunica a chegada das novas Pós-Graduações 2026 e afirma que é possível “fazer valer em dobro”, conduzindo à explicação da parceria e das formações.
 - **Observações:** Primeiro story da sequência de Pós-Graduações. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-017 — Parceria Ênfase e UCB
+### Story CURS-017 — Parceria Ênfase e UCB
 
-- **ID:** CURS-017
 - **Formato:** Story estático — anúncio institucional de parceria.
 - **Tema / assunto:** Lançamento das Pós-Graduações 2026 em parceria com a Universidade Castelo Branco.
 - **Objetivo:** Dar legitimidade acadêmica à oferta e explicar sua proposta híbrida.
@@ -268,13 +251,12 @@
 - **Elementos visuais:** Fundo branco; logotipos do Ênfase e da UCB lado a lado; emoji de fogo; texto azul-marinho; composição institucional minimalista.
 - **Resumo do conteúdo:** Informa que o Ênfase, em parceria com a Universidade Castelo Branco, lança as Pós-Graduações 2026, descritas como formações completas que unem especialização acadêmica e estratégia de concurso em um só caminho.
 - **Observações:** A captura informa apenas a parceria e a proposta; não apresenta detalhes contratuais ou acadêmicos adicionais. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-018 — Formações disponíveis
+### Story CURS-018 — Formações disponíveis
 
-- **ID:** CURS-018
 - **Formato:** Story estático — lista de produtos.
 - **Tema / assunto:** Áreas das Pós-Graduações Ênfase + UCB.
 - **Objetivo:** Apresentar as novas formações e o portfólio já consolidado.
@@ -283,13 +265,12 @@
 - **Elementos visuais:** Fundo branco; títulos rosa; listas em azul-marinho; termos principais em negrito; composição textual com amplo espaço em branco.
 - **Resumo do conteúdo:** Apresenta duas novas formações, Direito Público e Direito Privado, e informa que permanecem disponíveis Direito Penal e Processo Penal, Constitucional e Administrativo, Civil e Processo Civil, Trabalho e Processo do Trabalho e Tributário.
 - **Observações:** O conjunto totaliza sete opções de pós-graduação, informação reforçada posteriormente no CURS-024. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-019 — Benefícios da Pós Ênfase + UCB
+### Story CURS-019 — Benefícios da Pós Ênfase + UCB
 
-- **ID:** CURS-019
 - **Formato:** Story estático — lista de argumentos de valor.
 - **Tema / assunto:** Diferenciais acadêmicos e operacionais das pós-graduações.
 - **Objetivo:** Justificar a escolha da oferta por meio de benefícios objetivos.
@@ -298,13 +279,12 @@
 - **Elementos visuais:** Fundo branco com fotografia profissional desfocada; título rosa; lista azul-marinho; uso de negrito para benefícios-chave.
 - **Resumo do conteúdo:** Destaca preparação dupla para concurso e título de especialista, conclusão em sete meses, professores juízes e especialistas renomados, estudo no próprio ritmo com acesso ilimitado às aulas e título reconhecido pelo MEC pela Universidade Castelo Branco.
 - **Observações:** Não são apresentadas carga horária, modalidade formal, critérios de avaliação ou regras de certificação. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-020 — CTA das Pós-Graduações
+### Story CURS-020 — CTA das Pós-Graduações
 
-- **ID:** CURS-020
 - **Formato:** Story estático — encerramento comercial com sticker de link.
 - **Tema / assunto:** Matrícula nas Pós-Graduações 2026.
 - **Objetivo:** Converter o interesse na oferta em acesso à página de inscrição.
@@ -313,13 +293,12 @@
 - **Elementos visuais:** Fundo branco; faixa curva rosa na lateral direita; emoji de aperto de mãos; texto em azul-marinho; sublinhados rosa; sticker de link com ilustração de mão; logotipo azul-marinho.
 - **Resumo do conteúdo:** Posiciona a oferta como oportunidade para começar 2026 no ritmo certo, reforça a mensagem “É possível sim!” e direciona ao acesso pelo sticker.
 - **Observações:** O destino do sticker não foi disponibilizado. Áudio indisponível.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-021 — Abertura Cursos Regulares + Pós 2026
+### Story CURS-021 — Abertura Cursos Regulares + Pós 2026
 
-- **ID:** CURS-021
 - **Formato:** Story estático — arte gráfica promocional de abertura com trilha musical.
 - **Tema / assunto:** Combinação entre Cursos Regulares e Pós-Graduação na versão 2026.
 - **Objetivo:** Apresentar uma oferta combinada de preparação para concursos e especialização.
@@ -328,13 +307,12 @@
 - **Elementos visuais:** Fundo claro; logotipo rosa; título rosa; subtítulo azul-marinho; fotografia de mulher em ambiente profissional na lateral direita; selo dourado “Versão inédita 2026”; recortes brancos assimétricos.
 - **Resumo do conteúdo:** Introduz “Cursos Regulares + Pós 2026” como preparação dupla para concursos e destaca tratar-se de uma versão inédita.
 - **Observações:** Primeiro story da sequência combinada. A interface identifica a faixa “Ignite the Sky”, de AlexGrohl; não foi possível analisar sua sincronização com a narrativa.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-022 — Ponto de virada do concurseiro
+### Story CURS-022 — Ponto de virada do concurseiro
 
-- **ID:** CURS-022
 - **Formato:** Story estático — argumento motivacional e quebra de crença.
 - **Tema / assunto:** Diferença entre estudar mais e estudar certo.
 - **Objetivo:** Ativar uma dor recorrente do público e preparar a apresentação da metodologia como solução.
@@ -343,13 +321,12 @@
 - **Elementos visuais:** Fundo cinza-claro; fotografia parcial de mulher na lateral esquerda; texto azul-marinho; grande destaque rosa em caixa alta para “ESTUDAR MAIS”.
 - **Resumo do conteúdo:** Afirma que todo concurseiro passa por um ponto de virada no qual percebe que estudar mais não é suficiente e que é necessário estudar certo.
 - **Observações:** Peça de identificação emocional que antecede a explicação funcional da metodologia. Trilha identificada na interface.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-023 — Método e acesso imediato ao Pré-Curso
+### Story CURS-023 — Método e acesso imediato ao Pré-Curso
 
-- **ID:** CURS-023
 - **Formato:** Story estático — síntese metodológica e benefício de entrada.
 - **Tema / assunto:** Metodologia Inteligência Ênfase e recursos iniciais.
 - **Objetivo:** Resumir a lógica de preparação e mostrar que o aluno pode começar imediatamente.
@@ -358,13 +335,12 @@
 - **Elementos visuais:** Fundo cinza-claro; título rosa; três ícones lineares rosa; texto azul-marinho; divisórias horizontais; composição centralizada.
 - **Resumo do conteúdo:** Explica que a metodologia ensina o que estudar e como estudar por meio da Tríade de Conteúdo — teoria, legislação e jurisprudência —, da Tríade de Estudo — aprender, revisar e treinar — e de ferramentas como IA do Aluno, cronograma automatizado e mais de 48 mil questões. Informa acesso imediato ao Pré-Curso Ênfase.
 - **Observações:** Retoma conceitos já apresentados em CURS-003 e CURS-005, agora de forma condensada e vinculada à oferta combinada. Trilha identificada na interface.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-024 — Síntese da Pós Ênfase + UCB
+### Story CURS-024 — Síntese da Pós Ênfase + UCB
 
-- **ID:** CURS-024
 - **Formato:** Story estático — card de produto com co-branding.
 - **Tema / assunto:** Benefícios centrais da Pós Ênfase + UCB.
 - **Objetivo:** Apresentar a pós-graduação como segundo componente da preparação combinada.
@@ -373,13 +349,12 @@
 - **Elementos visuais:** Grande painel azul-marinho com marcas Ênfase e UCB; fotografia de mulher em ambiente profissional na lateral direita; fundo claro; lista em branco.
 - **Resumo do conteúdo:** Afirma que a Pós Ênfase + UCB une especialização e estratégia de concurso, oferece sete opções de pós-graduação, conclusão em até sete meses, título reconhecido pelo MEC e professores juízes e especialistas.
 - **Observações:** Reforça benefícios já apresentados em CURS-017–CURS-019. Trilha identificada na interface.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-025 — Integração das duas ofertas
+### Story CURS-025 — Integração das duas ofertas
 
-- **ID:** CURS-025
 - **Formato:** Story estático — peça de síntese da proposta comercial.
 - **Tema / assunto:** União entre Cursos Regulares e Pós-Graduação.
 - **Objetivo:** Consolidar a percepção de que a oferta reúne preparação para concursos e especialização em uma única decisão.
@@ -388,13 +363,12 @@
 - **Elementos visuais:** Fundo cinza-claro; fotografia parcial de mulher na lateral esquerda; texto azul-marinho; título rosa em grande escala; lettering manuscrito “Versão 2026”; linhas brancas e rosa.
 - **Resumo do conteúdo:** Afirma que o usuário pode ter “o melhor dos dois mundos” em um só passo e apresenta a combinação “Cursos Regulares + Pós-Graduação — Versão 2026”.
 - **Observações:** Funciona como ponte direta para o CTA final. Trilha identificada na interface.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 
-### CURS-026 — CTA da oferta combinada
+### Story CURS-026 — CTA da oferta combinada
 
-- **ID:** CURS-026
 - **Formato:** Story estático — encerramento comercial com sticker de link.
 - **Tema / assunto:** Adesão aos Cursos Regulares + Pós-Graduação 2026.
 - **Objetivo:** Converter o usuário para a oferta combinada.
@@ -403,7 +377,7 @@
 - **Elementos visuais:** Fundo cinza-claro; texto azul-marinho e rosa; ícone de formulário; sublinhado; sticker branco de link com ilustração de mão; composição centralizada.
 - **Resumo do conteúdo:** Convida o usuário a começar a estudar imediatamente, conquistar o título de especialista e viver 2026 “no ritmo da aprovação”, encerrando com chamada para garantir a vaga e acessar o link.
 - **Observações:** O destino do sticker não foi disponibilizado. Trilha identificada na interface, sem possibilidade de análise temporal.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 

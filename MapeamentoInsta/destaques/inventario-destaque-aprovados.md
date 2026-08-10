@@ -1,5 +1,7 @@
 # Inventário do Destaque — Aprovados
 
+> **Status:** Coleta concluída. Amostra congelada. Classificações provisórias até a consolidação dos padrões.
+
 ## Informações gerais
 
 - **Nome do destaque:** Aprovados
@@ -15,7 +17,7 @@
 
 ## Inventário dos Stories
 
-### APROV-001
+### Story APROV-001
 
 - **Formato:** Story estático — abertura institucional / prova social
 - **Tema / assunto:** Introdução à apresentação dos resultados do Curso Ênfase
@@ -25,9 +27,9 @@
 - **Elementos visuais:** Fotografia de mulher comemorando, tratada com sobreposição azul; fundo azul-marinho; chamada central em branco “OS NÚMEROS falam por si só...”; linha e quadrados de destaque em rosa; logotipo branco do Ênfase no rodapé.
 - **Resumo do conteúdo:** Peça de abertura que anuncia uma sequência orientada por resultados quantitativos e posiciona os números como argumento institucional.
 - **Observações:** A captura em navegador indica o Destaque “Aprovados” e a marca temporal relativa de 33 semanas. Não há indicador numérico específico neste story.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-002
+### Story APROV-002
 
 - **Formato:** Story estático — indicador de desempenho
 - **Tema / assunto:** Aprovação em concursos de Juiz Federal
@@ -37,9 +39,9 @@
 - **Elementos visuais:** Painel central branco com cantos arredondados; moldura e áreas laterais em azul-marinho; medalha dourada com fita azul; número “82%” em grande destaque azul; pequeno traço rosa; seta lateral rosa; tipografia azul-marinho; data da sequência visível na interface como 12 de dezembro de 2025.
 - **Resumo do conteúdo:** Informa “82% Aprovação nos Concursos de Juiz Federal”, considerando o período de 2015 a 2024.
 - **Observações:** O percentual e o período foram transcritos da peça; não são apresentadas fonte, base de cálculo ou metodologia.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-003
+### Story APROV-003
 
 - **Formato:** Story estático — indicador de desempenho
 - **Tema / assunto:** Aprovação nas Defensorias Públicas
@@ -49,9 +51,9 @@
 - **Elementos visuais:** Fundo azul-marinho; faixa curva rosa na lateral direita; medalha dourada com fita azul; número “81%” em grande destaque branco; traço rosa; tipografia branca; composição centralizada e minimalista.
 - **Resumo do conteúdo:** Apresenta “81% Aprovação nas Defensorias Públicas”, referente ao período de 2017 a 2019.
 - **Observações:** O percentual e o período foram transcritos da peça; não há detalhamento sobre concursos considerados ou forma de apuração.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-004
+### Story APROV-004
 
 - **Formato:** Story estático — indicador de desempenho
 - **Tema / assunto:** Aprovação em concursos de Juiz do Trabalho e Procurador do Trabalho
@@ -61,9 +63,9 @@
 - **Elementos visuais:** Fundo rosa intenso; medalha dourada com fita azul; número “62%” em grande destaque branco; traço azul-marinho; tipografia branca; forma branca curva na lateral direita; nota complementar em corpo menor.
 - **Resumo do conteúdo:** Informa “62% Aprovação nos Concursos de Juiz do Trabalho” entre 2017 e 2023 e acrescenta a afirmação de “71% nos concurso de Procurador do Trabalho”.
 - **Observações:** A redação da nota complementar foi preservada conforme aparece na peça. Os percentuais, períodos e respectivos universos de cálculo não são detalhados.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-005
+### Story APROV-005
 
 - **Formato:** Story estático — indicador de volume de aprovados
 - **Tema / assunto:** Aprovações nas carreiras da AGU e Procuradorias Estaduais
@@ -73,9 +75,9 @@
 - **Elementos visuais:** Painel branco com áreas laterais azul-marinho e detalhes rosa; medalha dourada; expressão “Mais de 1200” em grande destaque azul; traço rosa; texto complementar centralizado; identidade visual limpa e orientada ao dado.
 - **Resumo do conteúdo:** Afirma que mais de 1.200 alunos foram aprovados nas carreiras da AGU e nas Procuradorias Estaduais nos últimos anos.
 - **Observações:** A peça não especifica o intervalo exato representado por “nos últimos anos”, nem discrimina o número por carreira ou concurso.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-006
+### Story APROV-006
 
 - **Formato:** Story estático — indicador de volume de aprovados
 - **Tema / assunto:** Aprovações em concursos de Juiz de Direito
@@ -85,9 +87,9 @@
 - **Elementos visuais:** Fundo azul-marinho; medalha dourada com fita azul; número “350” em grande destaque branco; traço rosa; texto centralizado em branco; faixa curva rosa na lateral direita.
 - **Resumo do conteúdo:** Informa “350 Alunos aprovados nos Concursos de Juiz de Direito”.
 - **Observações:** Não há período de referência, lista de concursos ou metodologia de contabilização na peça.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-007
+### Story APROV-007
 
 - **Formato:** Story estático — indicador de volume de habilitados
 - **Tema / assunto:** Habilitação nos quatro exames do ENAM
@@ -97,9 +99,9 @@
 - **Elementos visuais:** Fundo rosa intenso; medalha dourada com fita azul; expressão “Mais de 5600” em grande destaque branco; traço azul-marinho; texto complementar branco; forma branca curva na lateral direita.
 - **Resumo do conteúdo:** Afirma que mais de 5.600 alunos foram habilitados nos quatro exames do ENAM.
 - **Observações:** A peça não informa a distribuição por edição, a base total de alunos ou o critério utilizado para vincular os habilitados ao Ênfase.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-008
+### Story APROV-008
 
 - **Formato:** Story estático — síntese de recordes institucionais
 - **Tema / assunto:** Recordes históricos e posicionamento de referência
@@ -109,9 +111,9 @@
 - **Elementos visuais:** Painel branco com contornos curvos em azul-marinho e rosa; medalha dourada; título “Recordes que marcaram história!”; traço rosa; lista em tipografia azul-marinho; composição centralizada.
 - **Resumo do conteúdo:** Reúne três afirmações: “100% de aprovação no TRF1 (2019)”, “Referência nos concursos da Magistratura Federal” e “Mais de 12 mil aprovados nos últimos anos”.
 - **Observações:** O story não apresenta fontes, critérios, período exato para o total de aprovados ou definição objetiva da expressão “referência”.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
-### APROV-009
+### Story APROV-009
 
 - **Formato:** Story estático — encerramento institucional
 - **Tema / assunto:** Método, constância, estratégia e transformação pela preparação
@@ -121,7 +123,7 @@
 - **Elementos visuais:** Fotografia de mulher sorrindo sob sobreposição azul; fundo azul-marinho; tipografia branca com palavras em negrito; expressão “transforma!” em rosa; traços e quadrados rosa; logotipo branco do Ênfase no rodapé.
 - **Resumo do conteúdo:** Afirma que a preparação para carreiras jurídicas exige método, constância e estratégia; posiciona o Ênfase, há mais de três décadas, como ponto de virada na trajetória de milhares de aprovados; conclui que os resultados mostram que a preparação transforma.
 - **Observações:** Funciona como fechamento argumentativo da sequência, sem apresentar nova métrica e sem CTA clicável observável.
-- **Status da classificação:** Classificado
+- **Status da classificação:** Provisória
 
 ---
 

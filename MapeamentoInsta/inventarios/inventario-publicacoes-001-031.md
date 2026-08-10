@@ -1,6 +1,6 @@
 # Inventário de Publicações – Instagram (Fase de Coleta)
 
-> **Status:** Coleta em andamento. Classificações são provisórias até o encerramento da fase de coleta.
+> **Status:** Coleta concluída. Amostra congelada. Classificações provisórias até a consolidação dos padrões.
 
 ## Status Geral
 
@@ -21,11 +21,11 @@
 | Tema/Assunto | Tópico central da publicação |
 | Objetivo | Objetivo principal de comunicação (ex.: educar, vender, engajar, posicionar marca, etc. — categorias serão refinadas ao longo da coleta) |
 | Público-alvo | Audiência aparente da publicação |
-| CTA principal | Chamada para ação identificada |
+| CTA | Chamada para ação identificada |
 | Elementos visuais | Elementos visuais relevantes (estilo, cores, uso de texto na imagem, fotos vs. ilustração, etc.) |
 | Resumo da legenda | Síntese do texto/legenda do post |
 | Observações | Lacunas de informação, ambiguidades, notas sobre slides não enviados, etc. |
-| Status classificação | Provisória / Ajustada / Requer revisão |
+| Status | Provisória / Ajustada / Requer revisão |
 
 ---
 
@@ -72,11 +72,12 @@
   10. "Treino": 500 questões inéditas (padrão FGV/ENAM), revisão assertiva por assertiva, banco de 48 mil questões, simulados no formato/tempo da prova
   11. Fechamento comercial: preço (12x R$99,75 ou R$1.197 à vista, 10% desconto no Pix), "Cashback integral" (valor investido vira crédito para curso regular), CTA final "Acesse o link da bio"
 - **Tema/Assunto:** Metodologia de estudo baseada em análise estatística das provas anteriores do ENAM (exame de acesso à magistratura), evidenciando a necessidade de conectar legislação e jurisprudência na preparação.
-- **Objetivo principal:** Construir autoridade/credibilidade por meio de dados (data storytelling) e converter essa autoridade em venda do curso "ENAM 2026.2 · Reta Final".
+- **Objetivo:** Construir autoridade/credibilidade por meio de dados (data storytelling) e converter essa autoridade em venda do curso "ENAM 2026.2 · Reta Final".
 - **Público-alvo:** Candidatos ao ENAM em fase final de preparação (reta final), já familiarizados com o exame.
-- **CTA principal:** "Acesse o link da bio" / "Comece hoje" (matrícula no curso).
+- **CTA:** "Acesse o link da bio" / "Comece hoje" (matrícula no curso).
 - **Elementos visuais:** Alternância entre dois padrões de fundo — azul-marinho escuro com texto branco/dourado (abertura, dados de maior impacto, fechamento comercial) e bege/creme com texto azul-marinho (desenvolvimento didático); numeração romana (I a XI) indicando progressão lógica; números grandes em destaque; gráficos simples (diagrama de conexão, linha do tempo, barra de progresso, sliders ilustrativos); logotipos ENAM + Ênfase fixos no rodapé; botões CTA em amarelo.
 - **Resumo da legenda:** Pergunta retórica sobre a origem das respostas certas no ENAM; apresenta o dado central do carrossel (480 questões analisadas, 87,3% legislação, 38,8% jurisprudência, 31,5% ambas); posiciona o curso como organizador dessa leitura em cronograma, revisão e treino; encerra com CTA de matrícula.
+- **Status:** Provisória
 - **Observações:** Estrutura clássica de "prova por dados → método → oferta", com todos os 11 slides disponíveis para análise. Nenhuma lacuna de informação identificada.
 
 ---
@@ -98,11 +99,12 @@
   9. Oferta comercial: comparação de preços — dois cursos separados (R$1.678 + R$1.497 = R$3.175) vs. combo "Pré-Edital 4 em 1" por R$2.097 (12x R$174,75 sem juros ou R$1.887,30 no Pix)
   10. Fechamento: "Comece antes do cronograma de 24 de agosto" + explicação de benefício de matricular-se antes + CTA "Comece sua preparação" + "Link na bio · cursoenfase.com.br"
 - **Tema/Assunto:** Anúncio de novo concurso público da AGU (Advocacia-Geral da União, 170 vagas em 4 carreiras jurídicas federais) associado à oferta do curso preparatório combo "Pré-Edital 4 em 1".
-- **Objetivo principal:** Informar sobre a oportunidade de concurso (novidade/urgência, edital ainda não publicado) e converter essa urgência em venda do curso combo antes da publicação oficial do edital.
+- **Objetivo:** Informar sobre a oportunidade de concurso (novidade/urgência, edital ainda não publicado) e converter essa urgência em venda do curso combo antes da publicação oficial do edital.
 - **Público-alvo:** Candidatos a concursos jurídicos federais interessados nas carreiras de Advogado da União, Procurador da Fazenda Nacional, Procurador Federal e Procurador do Banco Central.
-- **CTA principal:** "Comece sua preparação" / "Link na bio · cursoenfase.com.br" (matrícula no combo).
+- **CTA:** "Comece sua preparação" / "Link na bio · cursoenfase.com.br" (matrícula no combo).
 - **Elementos visuais:** Fundo azul escuro com textura de grade sutil e traço decorativo verde-amarelo no topo de cada slide; números grandes em destaque (170, 141/154/145, valores em R$); fotos reais das duas coordenadoras em ambientes profissionais (uma delas próxima ao prédio do Banco Central); diagramas simples (círculos com valores, diagrama tipo radar/bússola); tabela comparativa de preços; logotipo Ênfase fixo no rodapé.
 - **Resumo da legenda:** Anuncia o concurso da AGU (170 vagas, 4 carreiras); orienta o candidato a estudar o núcleo comum antes da publicação do edital; apresenta o curso "Pré-Edital 4 em 1" (26 semanas, cronograma diário, aulas específicas de Banco Central); destaca acompanhamento das duas coordenadoras/procuradoras; fecha informando que o cronograma oficial começa em 24 de agosto.
+- **Status:** Provisória
 - **Observações:** Estrutura completa (10/10 slides). Post combina gatilho de urgência/novidade (concurso recém-anunciado, edital pendente), argumento de antecipação (slide 2 — "comece antes"), prova social (números de aprovação) e ancoragem de preço (valor separado vs. valor combo) como gatilhos de conversão.
 
 ---
@@ -121,6 +123,7 @@
 - **CTA:** "Conheça o Curso de Juiz de Direito no link da bio" / "Salva este post e envia para quem estuda para a magistratura com você."
 - **Elementos visuais:** Fundo claro com barra colorida indicando seção; silhueta estilizada do coordenador na capa (efeito "reveal"); foto profissional do Prof. João Mendes; fechamento em fundo roxo escuro com CTA em destaque; logo Ênfase.
 - **Resumo da legenda:** Apresenta Senivaldo Jr. (Juiz de Direito TJSP, mestre em IA aplicada ao Direito) como novo coordenador da Magistratura Estadual; lista responsabilidades (ENAM, 1ª e 2ª fase, simulados orais); situa a contratação no time existente (Fernanda Gomes, Luciana Lima, Stéphanie Cestari, sob direção de João Mendes); convida a conhecer o curso e compartilhar.
+- **Status:** Provisória
 - **Observações:** Slides 2, 4-7 não enviados (conforme processo: capa + intermediário + último). Conteúdo suficiente para classificação.
 
 ---
@@ -135,6 +138,7 @@
 - **CTA:** "Salve para organizar seu ciclo de estudos" / "Salve este mapa e use-o para organizar seu próximo ciclo" (CTA de salvamento/engajamento; sem menção a venda de curso nos slides observados).
 - **Elementos visuais:** Fundo claro com barra rosa/vermelha; foto de Dr. Senivaldo Jr. em pose de "convite"; tipografia grande para o dado central (1.600 questões); último slide com blocos numerados (1 a 5) em card branco.
 - **Resumo da legenda:** Pergunta retórica sobre quais disciplinas priorizar; dado central (8 matérias concentram 76,56% das cobranças, listadas nominalmente); 95,2% das questões envolvem legislação ou jurisprudência; propõe método de organização do ciclo de estudos (75%/25% do tempo, blocos de 20-30 questões, classificação de erros, revisão).
+- **Status:** Provisória
 - **Observações:** ⚠️ **Lacuna relevante:** nenhum slide intermediário foi enviado (apenas 2 de 11), o que impede confirmar se há CTA de venda de curso em algum ponto do meio do carrossel. Classificação de objetivo/CTA é **provisória** e pode mudar se mais slides forem enviados depois.
 
 ---
@@ -149,6 +153,7 @@
 - **CTA:** "Saiba mais no link da BIO."
 - **Elementos visuais:** Vídeo selfie-style, escritório com estante de livros jurídicos; legenda embutida no vídeo ("angústias"); áudio original.
 - **Resumo da legenda:** Reforça que ainda há tempo de se preparar; descreve a estrutura do curso (14 áreas de conhecimento, 24 semanas, PDFs, lei seca, jurisprudência STF/STJ, revisões, questões, 2 simulados, 7 aulas de Banco Central/SFN, encontros quinzenais ao vivo, grupo exclusivo).
+- **Status:** Provisória
 - **Observações:** Post de "prova social/autoridade pessoal" via perfil de instrutora (não o perfil institucional). Mesma campanha do Post 002, em formato de depoimento em vídeo. Apenas um frame estático foi capturado — fala completa do vídeo não avaliada.
 
 ---
@@ -163,6 +168,7 @@
 - **CTA:** Pergunta para comentários — "Qual é hoje a sua maior dúvida sobre a preparação para o ENAM?" / "Assista e compare a orientação com o seu planejamento."
 - **Elementos visuais:** Vídeo do Prof. Senivaldo Jr. falando à câmera; overlay de slide "SE EU COMEÇASSE A ESTUDAR PARA O ENAM HOJE... O que eu faria primeiro?"; imagem de mão escrevendo em caderno.
 - **Resumo da legenda:** Convida reflexão sobre por onde começar a estudar para o ENAM; anuncia que o vídeo traz a resposta do Prof. Senivaldo Jr.; encerra perguntando a maior dúvida do público.
+- **Status:** Provisória
 - **Observações:** Conteúdo educacional puro, sem menção a produto/curso na legenda — diferente da maioria dos posts comerciais do lote.
 
 ---
@@ -177,6 +183,7 @@
 - **CTA:** "Acesse nosso canal do @YouTube para ativar o lembrete!" (assistir entrevista às 20h).
 - **Elementos visuais:** Peça estilo "capa de programa", identidade vermelho/preto; tarja "#TRAJETÓRIA"; foto formal do entrevistado; frase de efeito em destaque; recorrência informada ("Toda segunda-feira, 20h").
 - **Resumo da legenda:** "Eu já estudei chorando" — relata trajetória de mais de 12 anos até a aprovação de Renan Donato (agente penitenciário, analista MPU/MPF, reprovação no sonho da PF em 2013, até Promotor de Justiça); posiciona como história de fôlego para jornadas longas; convida a assistir no YouTube.
+- **Status:** Provisória
 - **Observações:** Formato fixo e recorrente ("João Mendes Entrevista", toda segunda-feira) — série editorial a observar em lotes futuros. Maior engajamento absoluto do lote.
 
 ---
@@ -191,6 +198,7 @@
 - **CTA:** "Salve para comparar com o cronograma oficial quando o edital sair" / "Confira o que já está confirmado →" (CTA de salvamento/engajamento informativo).
 - **Elementos visuais:** Fundo claro, tarja roxa "CARREIRAS JURÍDICAS"; badges coloridos ("PREVISÃO NÃO OFICIAL"/"AINDA NÃO"); tabela de datas estilo calendário; card final de síntese "CONFIRMADO" vs. "PREVISÃO".
 - **Resumo da legenda:** Confirma concurso para Juiz Federal Substituto do TRF5 (FGV contratada, 11 vagas + cadastro de reserva); alerta que datas em circulação ainda não são oficiais; sugere data de prova (29/nov) só como referência provisória; cita fontes oficiais (Portal TRF5, Contrato nº 34/2026, PNCP); convida a salvar para comparação futura.
+- **Status:** Provisória
 - **Observações:** Comentário de seguidor ("Somente para candidatos que fizeram o ENAM?") sem resposta visível da conta. Formato "fact-check" distinto dos demais posts (mais jornalístico que comercial).
 
 ---
@@ -205,6 +213,7 @@
 - **CTA:** Nenhum CTA explícito de compra/link; legenda funciona como gancho de curiosidade.
 - **Elementos visuais:** Vídeo do Prof. Senivaldo Jr. com rótulo "continuar" (indicando sequência de conteúdo); diagrama desenhado à mão (estilo whiteboard): "COMO TODO MUNDO ACHA QUE É..." → Decide estudar → Estuda → Passa, com anotação "PARECE SIMPLES: NÃO É."
 - **Resumo da legenda:** "Quanto tempo até passar???" seguida apenas de hashtags, sem texto explicativo adicional.
+- **Status:** Provisória
 - **Observações:** Rótulo "continuar" sugere que este Reel é parte de uma sequência/série (possível continuação de um post anterior não capturado neste lote). Observar se outras partes aparecem em lotes futuros.
 
 ---
@@ -219,6 +228,7 @@
 - **CTA:** "Consulte a estrutura e as condições no link da bio."
 - **Elementos visuais:** Fundo claro com barra azul; foto profissional do Prof. Senivaldo Jr.; lista de benefícios com emojis de check (✅) na legenda; último slide com data de início em destaque tipográfico ("03/08").
 - **Resumo da legenda:** Contextualiza a reta final do ENAM como algo a ser "construído com direção, estratégia e confiança"; apresenta estrutura do curso (14 semanas, baseada em análise de 6 provas); lista entregáveis (500 questões inéditas, banco de 48 mil questões, estudo direcionado, minissimulados, simulados); segmenta comunicação para quem já tem base construída e para quem está começando (indicando opção alternativa para o segundo grupo).
+- **Status:** Provisória
 - **Observações:** Mesma campanha/curso do Post 001 (fixado), publicado 1 dia antes, com abordagem criativa diferente (segmentação/diagnóstico vs. autoridade por dados). Relevante para futura análise de "família de templates" sobre o mesmo produto — apenas registrado como observação por ora (ver Log de Ajustes).
 
 ---
@@ -233,6 +243,7 @@
 - **CTA:** Nenhum link/CTA de compra explícito; parece responder a uma pergunta feita anteriormente (possivelmente em Story), funcionando como conteúdo de engajamento/branding.
 - **Elementos visuais:** Vídeo selfie-style; card sobreposto "3 Motivos." com lista numerada (01 Boa Informação, 02 Bom Direcionamento, 03 Bom Acompanhamento); imagem estática adicional com o mesmo card em versão "limpa", foto do Prof. Senivaldo Jr. fazendo gesto de "três" e tarja "ENFASE CARREIRAS JURÍDICAS".
 - **Resumo da legenda:** "Sim. 3 bons motivos." — legenda mínima, seguida de hashtags.
+- **Status:** Provisória
 - **Observações:** Engajamento relativamente baixo comparado a outros posts do lote. Comentários de terceiros (ex.: conta "nutmel") sugerem possível parceria ou apenas engajamento espontâneo — não fica claro se há colaboração comercial.
 
 ---
@@ -247,6 +258,7 @@
 - **CTA:** "Salve para revisar na semana e envie para quem estuda com você" (sem menção a produto).
 - **Elementos visuais:** Tarja de identidade fixa "Radar Ênfase | Você sempre bem informado"; ilustração de antena parabólica/radar; fundo claro na introdução e roxo escuro no fechamento; ícone decorativo de "ondas de sinal".
 - **Resumo da legenda:** Anuncia fim do recesso e retorno da pauta do STF/Congresso em ano eleitoral; lista 3 frentes a monitorar (controle de constitucionalidade/Lei da Dosimetria; Direito Eleitoral e Penal; pauta do Congresso — PEC da Segurança, Marco da IA, PL da Misoginia, MPs, IOF); convida a salvar e compartilhar.
+- **Status:** Provisória
 - **Observações:** Segunda ocorrência de um formato de conteúdo com identidade fixa (junto com "João Mendes Entrevista", Post 007) — indica que a conta mantém séries/formatos recorrentes. Mapear como possíveis "templates" na fase de análise final.
 
 ---
@@ -265,6 +277,7 @@
 - **CTA:** "Responda nos comentários" (qual disciplina desorganiza o cronograma) / anúncio da live 11/08 às 20h.
 - **Elementos visuais:** Tag "ENAM · DIREÇÃO DE ESTUDO"; foto do Prof. Senivaldo Jr. apontando para a câmera; imagem em formato de celular; 3 barras decrescentes ilustrando priorização (1, 2, 3).
 - **Resumo da legenda:** Argumenta que um cronograma não pode tratar todos os temas como equivalentes; cita a base de 480 questões (mesma do Post 001); anuncia que o método do curso será revelado "por partes" até a live de 11/08; pergunta qual disciplina mais desorganiza o cronograma do leitor.
+- **Status:** Provisória
 - **Observações:** Primeira peça de uma sequência editorial sobre a mesma base de dados do Post 001/010 — ver Log de Ajustes (Observação Lote 2) sobre a campanha "Curso ENAM 2026.2".
 
 ---
@@ -279,6 +292,7 @@
 - **CTA:** "Veja mais um vídeo na série Constituição na Polêmica / João Mendes Explica" (direciona para conteúdo, não para produto).
 - **Elementos visuais:** Fundo escuro dramático com silhuetas de multidão e efeito de fogo/fumaça; título em amarelo/branco bem impactante; foto do Prof. João Mendes em pose pensativa, microfone ao fundo.
 - **Resumo da legenda:** Reformula a pergunta "racismo ou liberdade de expressão?" como mal formulada; explica que a Constituição reprime o racismo e protege a liberdade de expressão simultaneamente; debate é sobre como delimitar o crime sem esvaziar a liberdade; convida a refletir onde traçar essa linha.
+- **Status:** Provisória
 - **Observações:** Primeira ocorrência identificada da série "Constituição na Polêmica / João Mendes Explica" — ver observação no Log de Ajustes.
 
 ---
@@ -293,6 +307,7 @@
 - **CTA:** "Salve este mapa" / "Envie para quem também vai encarar o ENAM."
 - **Elementos visuais:** Tag "ENAM · MAPA DE REVISÃO"; foto do Prof. João Mendes; destaque tipográfico grande para "o artigo 5°"; 6 bolinhas azuis (representando as 6 provas); card final roxo escuro com fechamento institucional.
 - **Resumo da legenda:** Nas seis provas da FGV, 636 dispositivos diferentes foram cobrados, mas só 128 reaparecem em duas ou mais edições; o artigo 5º da Constituição lidera (presente nas 6 provas, 24 questões), seguido por artigos 37, 7º, 109, além de dispositivos fora da Constituição; explica que recorrência não prevê a próxima prova, mas orienta por onde começar a revisão quando o tempo é curto.
+- **Status:** Provisória
 - **Observações:** Continuação explícita do Post 013 ("ontem mostramos onde estudar, hoje o que revisar primeiro") — parte da mesma sequência editorial sobre a campanha do Curso ENAM 2026.2 (ver Log de Ajustes).
 
 ---
@@ -307,6 +322,7 @@
 - **CTA:** Nenhum explícito — legenda termina em perguntas retóricas (quais direitos em conflito, intensidade da restrição etc.).
 - **Elementos visuais:** Mesmo padrão visual dramático escuro do Post 014 (fundo craquelado/fumaça, título grande impactante); foto do Prof. João Mendes com gesto de mãos abertas; livro da Constituição ao fundo.
 - **Resumo da legenda:** Questiona se um princípio criado para limitar o poder do Estado pode ampliar o poder de quem julga; explica as três etapas da proporcionalidade (adequação, necessidade, proporcionalidade em sentido estrito); alerta que, sem demonstração real dessas etapas, a proporcionalidade vira "carimbo" para justificar decisões pré-definidas; conecta com críticas ao decisionismo e ao "governo dos juízes".
+- **Status:** Provisória
 - **Observações:** Segunda ocorrência da série "Constituição na Polêmica / João Mendes Explica" (junto com Post 014) — mesmo padrão visual e editorial.
 
 ---
@@ -321,6 +337,7 @@
 - **CTA:** "Link na Bio" (cursoenfase.com.br/curso-enam) / "Salve este mapa para montar o próximo ciclo de estudos."
 - **Elementos visuais:** Tag "ENAM · ANÁLISE DE PROVA"; foto do Prof. João Mendes; gráfico circular de destaque ("72%"); barra segmentada de proporções; card final roxo escuro com lista de entregáveis do curso e botão "Link na Bio".
 - **Resumo da legenda:** Cerca de 72% das questões do ENAM envolveram lei seca (49% lei seca isolada, 15,8% lei seca+jurisprudência, 7,3% lei seca+teoria); reforça que "lei seca não é complemento, é um dos eixos da preparação"; conecta o diagnóstico com a estrutura do Curso ENAM 2026.2 (trilha de 14 semanas, 500 questões inéditas, banco de 48 mil questões, lei seca e jurisprudência de STF/STJ, simulados).
+- **Status:** Provisória
 - **Observações:** Terceira peça da sequência de dados sobre o ENAM (após Posts 013 e 015), e a que efetivamente fecha com CTA de venda — mostra a estrutura em funil da campanha (dado → dado → dado+oferta). Publicado antes de Posts 013/015 (7 dias vs. 5 dias atrás), sugerindo que a sequência pode ter sido reaproveitada/republicada em ordem diferente da criação original.
 
 ---
@@ -335,6 +352,7 @@
 - **CTA:** "Salve para revisar a rota e envie para aquele amigo que também estava esperando por esse concurso" (engajamento/compartilhamento, sem venda direta nos slides observados).
 - **Elementos visuais:** Tag "VOCÊ BEM INFORMADO NO ÊNFASE"; foto de distintivo da Polícia Civil da Bahia; diagrama circular "DELEGADO de Polícia (Direito)" conectado a Ministério Público, Magistratura, Defensoria Pública e Formação Jurídica; fechamento com tags CLAREZA/FONTE/DIREÇÃO.
 - **Resumo da legenda:** Banca contratada e 100 vagas para Delegado previstas em contrato, mas edital ainda não publicado; orienta tratar datas como previsão até publicação oficial; sugere consolidar Penal, Processo Penal, Constitucional e Administrativo enquanto se aguarda o edital.
+- **Status:** Provisória
 - **Observações:** ⚠️ Comentário de seguidor ("Edital saiu hoje...", 6 dias atrás) indica que a informação do post ficou desatualizada rapidamente — relevante para entender o ciclo de vida curto desse tipo de conteúdo "boletim de concurso" (mesmo padrão dos Posts 008 e 019).
 
 ---
@@ -350,6 +368,7 @@
 - **CTA:** "Cadastre-se gratuitamente no link da bio para receber o acesso e entrar no grupo da live."
 - **Elementos visuais:** Fundo claro na capa com foto profissional de Luciana Lima; badge "PROCURADOR DO BACEN"; fechamento em fundo roxo escuro com informações práticas da live (data, horário, canal).
 - **Resumo da legenda:** Autorização não é edital, mas muda a qualidade da decisão; detalha a Portaria MGI (170 vagas, 20 para Procurador, prazo de até 6 meses para publicação do edital); posiciona o período de pré-edital como momento de mapear a base e construir preparação, não de espera passiva; anuncia live com Luciana Lima em 28/07 às 20h, com apresentação do novo curso.
+- **Status:** Provisória
 - **Observações:** Peça mais antiga da campanha do Pré-Edital 4 em 1/BACEN identificada até agora (anterior aos Posts 002 e 005) — mostra a origem do funil: autorização → live gratuita → (depois) venda do combo. Ver observação no Log de Ajustes.
 
 ---
@@ -364,6 +383,7 @@
 - **CTA:** "Participe da Live."
 - **Elementos visuais:** Vídeo selfie-style em escritório com estante de livros jurídicos; overlay de pergunta "Faça uma pergunta: Proc Bacen é o concurso mais difícil da AGU?"; gesto de mão fazendo sinal de "dois" ou similar.
 - **Resumo da legenda:** Argumenta que o concurso de Procurador do Bacen não é mais difícil que as demais carreiras da AGU (edital mais enxuto); lista matérias que NÃO caem (Direito Ambiental, Agrário, Legislação de Educação/Ciência/Tecnologia, peso tributário da PGFN); destaca o núcleo real de atuação (Direito Econômico, SFN, Banco Central, CMN, regulação bancária, câmbio, sistema de pagamentos, sigilo bancário); conclui que exige direcionamento estratégico, não é impossível.
+- **Status:** Provisória
 - **Observações:** Promove o mesmo evento do Post 019 (Live Procurador do BACEN, 28/07), com ângulo de quebra de objeção em vez de anúncio institucional — reforça padrão de "live como funil" (ver Log de Ajustes).
 
 ---
@@ -378,6 +398,7 @@
 - **CTA:** "Acesse nosso canal do @YouTube para ativar o lembrete!"
 - **Elementos visuais:** Mesma identidade visual do Post 007 ("João Mendes Entrevista", tarja #TRAJETÓRIA, vermelho/preto, "Toda segunda-feira 20h YouTube"); foto de Luciana Lima segurando uma agenda/pasta.
 - **Resumo da legenda:** "O erro que quase atrasou minha aprovação" — Luciana Lima compartilha trajetória marcada por reprovações até a aprovação, incluindo ter ficado a apenas um ponto da aprovação na AGU; posiciona como história para quem se prepara para a advocacia pública.
+- **Status:** Provisória
 - **Observações:** Segunda ocorrência confirmada da série fixa "João Mendes Entrevista" (junto com Post 007) — confirma que é uma série semanal recorrente (ver Log de Ajustes).
 
 ---
@@ -392,6 +413,7 @@
 - **CTA:** Não visível.
 - **Elementos visuais:** Vídeo do Prof. João Mendes gesticulando; overlay de legenda automática parcial "chamada Constituição na" (cortada); áudio "HeartDrumMachine · Education Music".
 - **Resumo da legenda:** ⚠️ **Não capturado** — a legenda do post não está visível na captura de tela (apenas overlay de legenda automática do vídeo, cortada).
+- **Status:** Requer revisão
 - **Observações:** ⚠️ **Lacuna de informação:** sem a legenda completa, a classificação de tema/objetivo/CTA é **especulativa**, baseada apenas no padrão visual e no fragmento de texto visível. Recomendo reenviar este post com a legenda completa visível, se possível, para confirmar a classificação.
 
 ---
@@ -411,6 +433,7 @@
 - **CTA:** "Conheça todos os detalhes no link da bio."
 - **Elementos visuais:** Tag "CARREIRAS DA AGU"; foto profissional de Fernanda Gomes; card de coordenação com lista de benefícios (orientação diária no WhatsApp, encontros quinzenais); fechamento com 4 perguntas numeradas e CTA.
 - **Resumo da legenda:** Alerta que volume sem sequência pode virar dispersão; apresenta o Curso Pré-Edital Carreiras da AGU (24 semanas, cronograma, 2 simulados, coordenação de Fernanda Gomes); detalha que o curso prepara para 3 carreiras específicas, início 24/08, acesso por 8 meses.
+- **Status:** Provisória
 - **Observações:** Peça-irmã do Post 002 (fixado), mas focada apenas nas carreiras "AGU proper" (sem BACEN) — ver Log de Ajustes sobre o padrão de funil replicado por carreira.
 
 ---
@@ -425,6 +448,7 @@
 - **CTA:** "Salve este post/carrossel para revisar o seu método de questões."
 - **Elementos visuais:** Ilustração de silhueta praticando chute (artes marciais); citação em destaque atribuída a Bruce Lee; foto de instrutor no fechamento.
 - **Resumo da legenda:** Não basta fazer muitas questões uma vez, é preciso repetir o mesmo tipo de problema; sugere rotina de 10 questões/dia útil + simulado mensal de 100 questões (3.720/ano); alerta que resolver questões não é só marcar alternativas — o ganho está em corrigir com atenção e voltar ao mesmo tema.
+- **Status:** Provisória
 - **Observações:** Conteúdo de metodologia pura, sem menção a produto específico — reforça o padrão de conteúdo educativo "puro" já visto em outros posts (013, 015, 017 parcialmente, 024).
 
 ---
@@ -439,6 +463,7 @@
 - **CTA:** "Salve para a sua próxima prova e envie a quem está na reta final."
 - **Elementos visuais:** Vídeo do Prof. João Mendes falando à câmera; overlay "Conselho dos outros ≠ regra sua".
 - **Resumo da legenda:** Na véspera, a pergunta não é se "deveria" estudar, mas o que deixa a pessoa mais inteira para o dia seguinte; valida tanto revisar quanto descansar, dependendo do que cada um sente; "descanso também é preparação".
+- **Status:** Provisória
 - **Observações:** Publicado no mesmo dia do Post 026, com mensagem complementar — ver observação no Log de Ajustes sobre o pilar "véspera de prova".
 
 ---
@@ -453,6 +478,7 @@
 - **CTA:** "Salve este post e envie para um colega de estudo."
 - **Elementos visuais:** Logo do MPSP; foto do Prof. João Mendes; bandeira/selo de São Paulo com data; cards numerados de cuidados de véspera (refeição, sono, energia); fechamento "Boa prova."
 - **Resumo da legenda:** Lista o que é importante saber (horário, portões, locais de prova, o que levar, estrutura da preambular — 100 questões, 5h, corte em 50 pontos); aborda cuidados de véspera (trânsito, comida, sono); reconhece que não há fórmula única para a véspera — reforça consulta ao aviso oficial (Aviso nº 531/2026 – PGJ-Concurso).
+- **Status:** Provisória
 - **Observações:** Publicado no mesmo dia do Post 025, mesmo tema (véspera de prova) em formatos complementares (Reel emocional + carrossel prático) — ver Log de Ajustes.
 
 ---
@@ -467,6 +493,7 @@
 - **CTA:** "Salve/Envie/Comente" + "Estude com direção: link na bio" (cursoenfase.com.br).
 - **Elementos visuais:** Tag "MAGISTRATURA FEDERAL · TRF1"; formas geométricas decorativas (quadrado/retângulo arredondado); fechamento com 3 botões de ação (Salve, Envie, Comente).
 - **Resumo da legenda:** Resultado definitivo da prova prática de sentença do XVIII Concurso do TRF1 saiu no DOU (24/07), com convocação para a 3ª etapa; detalha o que essa fase envolve — inscrição definitiva, sindicância de vida pregressa (art. 57, Res. 75/2009 CNJ), exames de sanidade física/mental, exame psicotécnico, prova de títulos, confirmação de autodeclaração (heteroidentificação, que já aproveita o ENAM).
+- **Status:** Provisória
 - **Observações:** ⚠️ **Lacuna:** nenhum slide intermediário foi enviado (apenas 2 de 10) — não é possível confirmar como cada uma das etapas listadas na legenda é detalhada visualmente no meio do carrossel.
 
 ---
@@ -481,6 +508,7 @@
 - **CTA:** "Siga @procuradordobacennews" + "venha para nossa lista de interessados" (funil pré-lançamento).
 - **Elementos visuais:** Vídeo selfie-style; overlay de pergunta "Faça uma pergunta: Mais de 10 anos sem concurso, quais expectativas pra nomeação?".
 - **Resumo da legenda:** Convida a seguir a conta @procuradordobacennews para acompanhar o concurso; oferece entrada na lista de interessados com condições especiais no lançamento do curso preparatório do Ênfase.
+- **Status:** Provisória
 - **Observações:** Identifica uma **conta-satélite** (@procuradordobacennews) dedicada exclusivamente ao concurso do BACEN, usada como parte da estratégia de captação de lista — ver Log de Ajustes.
 
 ---
@@ -495,6 +523,7 @@
 - **CTA:** "Assista ao vídeo completo no YouTube e deixe sua resposta nos comentários."
 - **Elementos visuais:** Mesmo padrão visual dramático da série (fundo escuro, raio/tempestade, silhueta do Congresso e do STF); foto do Prof. João Mendes com mãos abertas.
 - **Resumo da legenda:** O STF declarou a vaquejada inconstitucional por 6 votos a 5; oito meses depois, o Congresso reagiu com Emenda Constitucional; usa o caso para discutir os limites da "reação legislativa" e se a última palavra do STF é ou não provisória.
+- **Status:** Provisória
 - **Observações:** 4ª ocorrência confirmada da série "Constituição na Polêmica" (junto com Posts 014, 016, 022) — mesmo padrão visual e CTA de direcionamento ao YouTube.
 
 ---
@@ -510,6 +539,7 @@
 - **CTA:** "Ative o lembrete no YouTube" / participar da live 23/07 às 20h.
 - **Elementos visuais:** Tag "CARREIRAS DA AGU"; foto profissional de Fernanda Gomes; cards "O PONTO" e "A DECISÃO"; fechamento com instruções práticas (link nos Stories, ativar lembrete).
 - **Resumo da legenda:** A nota total não conta toda a história — a regra dos 50% por grupo pode reprovar quem "sabe muito"; anuncia live no mesmo dia (23/07, 20h) com Fernanda Gomes, que também apresentará a turma Pré-Edital Carreiras da AGU.
+- **Status:** Provisória
 - **Observações:** Par funil com o Post 023 (que vende o curso 4 dias depois) — confirma o padrão "live → curso" replicado para a frente AGU/PGFN/PGF, análogo ao par Posts 019/020 para o BACEN. Ver Log de Ajustes.
 
 ---
@@ -524,6 +554,7 @@
 - **CTA:** "Comente o concurso que você espera" / "Salve pra revisar a fila depois" / "Siga e ative o sino pro edital não passar."
 - **Elementos visuais:** Tag "CONCURSOS JURÍDICOS · Radar de editais · Julho 2026"; foto do Prof. João Mendes apontando; cards com contagem de concursos por bloco (6 "prestes a sair", 4 "já abertos"); selos de confiabilidade por cor (ato oficial / 2+ fontes / sem ato oficial).
 - **Resumo da legenda:** Mapeia a "fila" de editais de julho — nenhum tem edital publicado ainda, mas bancas já contratadas ou concursos autorizados; lista os "prestes a sair" (PC-RJ Delegado, DPE-SP Defensor, TRF5 Juiz, AGU/BACEN, PGE-BA/ENAM) e os "já abertos" (PC-MA, TJ-MG, DPE-RJ, TJ-PE, com datas de prova/inscrição); menciona selo de confiabilidade por slide.
+- **Status:** Provisória
 - **Observações:** Post "guarda-chuva" que consolida vários concursos já catalogados individualmente (TRF5 = Post 008; AGU/BACEN = Posts 002/019/023/030). Possível novo formato fixo "Radar de editais", **diferente** do "Radar Ênfase" (Post 012, focado em pauta STF/Congresso) — nomenclatura parecida entre os dois merece atenção na análise final. Ver Log de Ajustes.
 
 ---

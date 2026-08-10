@@ -1,6 +1,6 @@
 # Inventário do Destaque — Procuradorias
 
-> **Status:** Coleta concluída para o material recebido em 05/08/2026. Classificações provisórias, sujeitas a revisão na consolidação final dos Destaques.
+> **Status:** Coleta concluída. Amostra congelada. Classificações provisórias até a consolidação dos padrões.
 
 ## Informações gerais
 

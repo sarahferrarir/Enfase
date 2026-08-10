@@ -1,6 +1,6 @@
 # Inventário do Destaque — Gratuitos
 
-> **Status:** Coleta concluída. Classificações provisórias, baseadas exclusivamente nos stories enviados.
+> **Status:** Coleta concluída. Amostra congelada. Classificações provisórias até a consolidação dos padrões.
 
 ## Informações gerais
 
@@ -27,7 +27,7 @@
 - **Elementos visuais:** Fundo branco e cinza-claro; composição assimétrica com fotografia de homem sorrindo à direita; blocos geométricos brancos sobrepostos; logotipo do Ênfase em azul-marinho; título em rosa e azul-marinho; pequeno quadrado rosa no canto inferior direito; seta circular acompanhando o CTA.
 - **Resumo do conteúdo:** Capa que anuncia “Conheça os Materiais Gratuitos do Ênfase” e qualifica a oferta como voltada à preparação jurídica, preparando a navegação pelos recursos apresentados nos stories seguintes.
 - **Observações:** Peça introdutória sem indicação individual de produto. Não há sticker de link visível neste story.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-002
 
@@ -39,7 +39,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em azul-marinho e rosa; fotografia de mãos segurando um tablet sobre mesa de madeira, com livros e balança da Justiça ao fundo; no tablet, mockup da capa “Juiz de Direito TJSP — Concurso 192 — 2025 — Prova Comentada”; sticker branco com ícone colorido de link.
 - **Resumo do conteúdo:** Oferta de material com a prova comentada do 192º Concurso do TJSP. A peça promete examinar cada alternativa e explicar por que apenas uma corresponde ao padrão das provas da Vunesp.
 - **Observações:** O destino do sticker e o formato do material não foram verificados.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-003
 
@@ -51,7 +51,7 @@
 - **Elementos visuais:** Mesmo template branco e cinza-claro da série; linha pontilhada rosa; título em rosa; fotografia de mãos segurando um tablet em ambiente de biblioteca; mockup no dispositivo com a capa “Juiz Federal TRF6 — I Concurso Público — 2025 — Prova Comentada”; sticker branco de link.
 - **Resumo do conteúdo:** Divulgação da prova comentada do primeiro concurso do TRF6, apresentada como análise de cada alternativa e do caminho utilizado pela banca para chegar à resposta correta.
 - **Observações:** Não é possível determinar pelo print quais disciplinas ou questões integram o material, nem o formato de entrega.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-004
 
@@ -63,7 +63,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de tablet segurado diante de estante de livros; capa digital “Juiz Federal TRF1 — XVIII Concurso Público — 2025 — Prova Comentada”; sticker branco de link.
 - **Resumo do conteúdo:** Oferta de análise gratuita e detalhada da prova aplicada em 15/06/2025 no XVIII Concurso do TRF1.
 - **Observações:** A data da aplicação é informada na própria peça. Não há detalhamento observável sobre autores, extensão ou disciplinas abordadas.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-005
 
@@ -75,7 +75,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de pessoa com tablet no colo; mockup “Juiz Federal TRF5 — XV Concurso Público — 2025 — Prova Comentada”, com selo “Gratuito”; sticker branco de link.
 - **Resumo do conteúdo:** Divulgação da análise gratuita da prova aplicada em 25 de maio para Juiz Federal Substituto da 5ª Região, com proposta de revisar cada questão, entender o perfil da prova e direcionar a preparação para oportunidades posteriores.
 - **Observações:** O ano da data “25 de maio” não aparece no texto explicativo, embora a capa do material indique 2025.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-006
 
@@ -87,7 +87,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de pessoa utilizando tablet; tela com mockup “Novo Curso Regular — Juiz de Direito — Degustação: 3 dias”; sticker branco de link.
 - **Resumo do conteúdo:** Convite para experimentar gratuitamente, por três dias, o Curso Juiz de Direito, apresentado como preparação que já aprovou milhares de candidatos na Magistratura Estadual.
 - **Observações:** Trata-se do único story da sequência dedicado a uma degustação de curso, e não a uma prova comentada. Condições de acesso e escopo da degustação não foram informados no print.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-007
 
@@ -99,7 +99,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de mãos segurando tablet em ambiente jurídico; capa “4º Exame Nacional da Magistratura — Prova Comentada — ENAM 2025.2”; sticker branco de link.
 - **Resumo do conteúdo:** Oferta da prova comentada do 4º Exame do ENAM, descrita como uma análise completa e estratégica da prova considerada central para a trajetória rumo à Magistratura.
 - **Observações:** O story não discrimina quais componentes tornam a análise “mais completa e estratégica”.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-008
 
@@ -111,7 +111,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de mãos segurando tablet; capa escura com selo “Gratuito” e texto “Prova ENAM 3º Exame — Questões Comentadas — Mai/2025”; sticker branco de link.
 - **Resumo do conteúdo:** Divulgação de gabaritos extraoficiais elaborados por juízes e especialistas, apresentados como recurso para avaliar o desempenho e ajustar a preparação.
 - **Observações:** A peça identifica a referência temporal “Mai/2025” na capa do material. Os nomes dos autores não são exibidos.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-009
 
@@ -123,7 +123,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de pessoa segurando tablet no colo; capa escura com selo “Gratuito” e texto “Prova ENAM 2ª Edição — Questões Comentadas — Out/2024”; sticker branco de link.
 - **Resumo do conteúdo:** Oferta da prova comentada do 2º Exame do ENAM, incentivando a revisão de cada questão, a identificação do perfil da avaliação e o direcionamento dos estudos futuros.
 - **Observações:** O texto usa “2º Exame”, enquanto a capa do material apresenta “2ª edição”; ambos foram preservados conforme observados.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-010
 
@@ -135,7 +135,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de pessoa utilizando tablet com caneta; capa escura com selo “Gratuito” e texto “Prova ENAM 1ª Edição — Questões Comentadas — Abr/2024”; sticker branco de link.
 - **Resumo do conteúdo:** Convite para baixar a prova comentada do 1º Exame do ENAM, revisar cada questão, treinar e preparar-se para as provas seguintes.
 - **Observações:** O formato do arquivo e a quantidade de questões comentadas não são informados.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-011
 
@@ -147,7 +147,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de pessoa analisando um tablet; capa escura com selo “Gratuito” e texto “Prova ENAM 1ª Edição Manaus — Questões Comentadas — Mai/2024”; sticker branco de link.
 - **Resumo do conteúdo:** Oferta de material sobre a reaplicação de Manaus do 1º Exame do ENAM, com promessa de mostrar o que mudou e como essas alterações podem afetar a preparação.
 - **Observações:** A peça não especifica no próprio story quais mudanças ocorreram; esse conteúdo estaria no material acessado pelo link.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-012
 
@@ -159,7 +159,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de mãos segurando tablet sobre mesa com livros e martelo; capa “Procurador da República — MPF — 31º Concurso Público — 2025 — Prova Comentada”; sticker branco de link.
 - **Resumo do conteúdo:** Divulgação da prova comentada do 31º Concurso do MPF, acompanhada da mensagem “Prepare-se com inteligência, eleve seu desempenho!”.
 - **Observações:** A peça não apresenta detalhes adicionais sobre a prova, disciplinas, data ou autoria dos comentários.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-013
 
@@ -171,7 +171,7 @@
 - **Elementos visuais:** Template branco e cinza-claro; linha pontilhada rosa; título em rosa; fotografia de mãos segurando tablet; capa escura com selo “Gratuito” e texto “Defensor Público do Estado — DPE-PE — IV Concurso Público — 2025 — Prova Comentada”; sticker branco de link.
 - **Resumo do conteúdo:** Oferta da prova comentada do IV Concurso da DPE-PE, com foco em avaliar o desempenho, identificar as bases jurídicas de cada questão e visualizar possibilidades de recurso.
 - **Observações:** É a única peça do lote dedicada especificamente à carreira de Defensoria Pública.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ### Story GRAT-014
 
@@ -183,7 +183,7 @@
 - **Elementos visuais:** Fundo branco; faixa vertical rosa com canto arredondado à direita; emoji de aperto de mãos; texto central em azul-marinho e rosa; sublinhado rosa; sticker de link acompanhado por ilustração de mão clicando; logotipo do Ênfase em azul-marinho.
 - **Resumo do conteúdo:** Mensagem final que atribui os materiais à experiência e ao compromisso do Ênfase com quem está na jornada de preparação, seguida de convite para acessar todos os produtos reunidos.
 - **Observações:** O texto do sticker utiliza “produtos”, termo mais amplo que “materiais gratuitos”. O destino do link e a composição exata da página não foram verificados.
-- **Status da classificação:** Provisória.
+- **Status da classificação:** Provisória
 
 ---
 

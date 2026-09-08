@@ -1,0 +1,301 @@
+{
+  "numero_informativo": "899",
+  "data_publicacao": null,
+  "julgados": [
+    {
+      "processo": "REsp 2.068.273-RS",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "Contribuição salário-educação. Pessoa física titular de cartório. Atividade estatal típica. Ausência de sujeição passiva.",
+      "destaque": "A contribuição social do salário-educação, prevista no § 5º do art. 212 da Constituição Federal de 1988 e instituída pelo art. 15 da Lei n. 9.424/1996, não é exigível da pessoa física que exerce serviço notarial ou registral, a qual não se enquadra na definição de contribuinte trazida na legislação que rege o tributo.",
+      "informacoes_inteiro_teor": "A questão submetida a julgamento sob o rito dos recursos repetitivos é a seguinte: \"Definir se a pessoa física que exerce serviço notarial ou registral é contribuinte da contribuição social do salário-educação, prevista no § 5º do art. 212 da Constituição Federal de 1988 e instituída pelo art. 15 da Lei n. 9.424/1996\".",
+      "relator": "Ministro Teodoro Silva Santos",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "20/8/2026",
+      "legislacao_aplicada": [
+        "Constituição Federal (CF), art. 173, § 2º",
+        "art. 212, § 5º",
+        "art. 236",
+        "Lei n. 9.424/1996, art. 15",
+        "Decreto n. 6.003/2006",
+        "Lei n. 8.212/1991, art. 15, parágrafo único",
+        "Código Tributário Nacional (CTN), art. 108, caput e § 1º",
+        "Lei n. 8.935/1994, art. 1º",
+        "Código Civil (CC), art. 966"
+      ]
+    },
+    {
+      "processo": "REsp 2.204.874-SP",
+      "ramo_direito": "DIREITO PENAL, DIREITO PROCESSUAL CIVIL, DIREITO MARCÁRIO, EXECUÇÃO PENAL",
+      "tema": "Execução penal. Pagamento da pena de multa. Penhora de 1/4 do pecúlio. Possibilidade. Ressalva dos recursos indispensáveis ao sustento do condenado e de sua família. Impenhorabilidade prevista no art. 833, IV e X, do CPC. Inaplicabilidade. Princípio da especialidade.",
+      "destaque": "1. É possível a penhora de até 1/4 do pecúlio do condenado para o pagamento da pena de multa criminal, desde que não incida sobre os recursos indispensáveis ao sustento do condenado e de sua família, nos termos das previsões contidas no art. 50, §§ 1º e 2º, do Código Penal e arts. 168 e 170 da Lei de Execução Penal.\n2. As regras de impenhorabilidade do pecúlio e da quantidade depositada em caderneta de poupança, previstas no art. 833, IV e X, do CPC somente são aplicáveis a dívidas que não tenham como fundamento multa fixada em sentença penal condenatória.",
+      "informacoes_inteiro_teor": "A controvérsia submetida ao rito dos recursos repetitivos consiste em definir se é possível a penhora de pecúlio do condenado para pagamento de pena de multa, diante da alegação de impenhorabilidade das verbas de natureza alimentar.\nO pecúlio consiste em valores monetários ou ativos adquiridos durante o período de cumprimento da pena em unidade prisional, por meio do trabalho, seja interno, seja externo, cujo propósito é garantir ao reeducando meios de subsistência e, assim, contribuir para sua reintegração à sociedade após o cumprimento da pena. O beneficiário pode utilizá-lo para adquirir produtos dentro do estabelecimento prisional, custear suas despesas pessoais e familiares ou até mesmo reservá-los para o período posterior à sua liberação. Além disso, se houver ordem judicial, o pecúlio também pode ser usado na reparação dos danos causados pelo crime cometido, desde que ainda não tenham sido indenizados.\nA Lei de Execução Penal estabelece um sistema normativo especial para a cobrança da pena de multa aplicada, que, não obstante constitua dívida de valor (art. 51 do CP), não perde a natureza de sanção criminal (ADI 3.150/DF). Os arts. 50, §§ 1º e 2º, do CP e arts. 168 e 170, da Lei n. 7.210/1984, contemplam expressamente a possibilidade de penhora do pecúlio do apenado, com limite máximo de desconto mensal de 1/4 da remuneração e mínimo de 1/10, desde que não incida sobre os recursos indispensáveis ao sustento do condenado e de sua família.\nE justamente em razão dessa natureza de sanção criminal é que a ela devem se aplicar as normas especiais contidas na legislação criminal, em detrimento das normas gerais de impenhorabilidade contidas no Código de Processo Civil.",
+      "relator": "Ministro Rogerio Schietti",
+      "orgao_julgador": "Terceira Seção",
+      "data_julgamento": "12/8/2026",
+      "legislacao_aplicada": [
+        "Lei n. 7.210/1984 (LEP)",
+        "art. 12",
+        "art. 168",
+        "art. 170",
+        "Código Penal (CP)",
+        "art. 50, §§ 1º e 2º",
+        "art. 51",
+        "Código de Processo Civil (CPC)",
+        "art. 833, IV e X"
+      ]
+    },
+    {
+      "processo": "REsp 2.223.324-MT",
+      "ramo_direito": "DIREITO ADMINISTRATIVO",
+      "tema": "Prescrição intercorrente. Processo administrativo sancionatório. Art. 1º, § 1º, da Lei n. 9.873/1999. Despachos de impulsionamento processual previstos em lei. Paralisação do feito afastada.",
+      "destaque": "Não se exige a prática de atos tendentes à apuração da infração para fins de interrupção do prazo prescricional intercorrente em processos administrativos sancionatórios;\nDecisões e despachos proferidos com base na legislação e voltados à decisão final obstam a prescrição intercorrente;\nConfigura paralisação processual apenas a ausência de despachos ou de julgamentos ou, ainda, a prática de atos sem previsão legal e sem aptidão para impulsionar o procedimento administrativo; e\nDespachos de impulsionamento processual previstos em lei afastam a paralisação do feito.",
+      "informacoes_inteiro_teor": "A controvérsia discute a interpretação do art. 1º, § 1º, da Lei n. 9.873/1999, que trata da prescrição intercorrente em processos administrativos sancionatórios, na busca por identificar o alcance normativo da expressão \"despacho\", inserida naquele preceptivo legal.",
+      "relator": "Ministro Paulo Sérgio Domingues",
+      "orgao_julgador": "Primeira Turma",
+      "data_julgamento": "16/12/2025",
+      "legislacao_aplicada": [
+        "Lei n. 9.873/1999, art. 1º e art. 2º"
+      ]
+    },
+    {
+      "processo": "REsp 2.280.900-SP",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Mandado de segurança coletivo. Impetração por associação genérica. Ausência de associados na circunscrição. Ausência de pertinência temática específica. Legitimidade ativa não configurada. Tema n. 1.119/STF. Inaplicabilidade.",
+      "destaque": "Associações genéricas, sem delimitação de categoria específica e sem demonstração mínima de associados atingidos pela autoridade coatora, não detêm legitimidade ativa para impetrar mandado de segurança coletivo, sendo inaplicável o Tema n. 1.119/STF.\nA substituição processual no mandado de segurança coletivo exige pertinência temática entre as finalidades estatutárias da entidade e os direitos líquidos e certos tutelados.\nA ausência de associados na circunscrição da autoridade coatora afasta o interesse jurídico e impede a concessão da segurança em mandado de segurança coletivo.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em definir se uma associação de caráter genérico possui legitimidade ativa para impetrar mandado de segurança coletivo sem a indicação nominal de seus associados e sem a comprovação de filiação prévia, quando inexistente demonstração de associados alcançados pelos atos da autoridade coatora na respectiva circunscrição.",
+      "relator": "Ministro Sérgio Kukina",
+      "orgao_julgador": "Primeira Turma",
+      "data_julgamento": "18/8/2026",
+      "legislacao_aplicada": [
+        "Tema n. 1.119/STF"
+      ]
+    },
+    {
+      "processo": "REsp 2.243.944-SP",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL, DIREITO TRIBUTÁRIO",
+      "tema": "Execução fiscal. Exceção de pré-executividade acolhida em parte. Sucumbência recíproca. Continuidade da execução. Arbitramento de verba honorária advocatícia em favor da Fazenda Pública. Impossibilidade. Bis in idem.",
+      "destaque": "Não cabe, na exceção de pré-executividade (EPE) parcialmente acolhida, a sucumbência recíproca, visto que condenar o excipiente/executado em honorários advocatícios tanto na EPE quanto na continuação da execução principal caracterizaria indevido bis in idem.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia à análise do cabimento de condenação ao pagamento de honorários de sucumbência com base na parcela rejeitada de exceção de pré-executividade (EPE). A jurisprudência do Superior Tribunal de Justiça consolidou-se no sentido de que a exceção de pré-executividade rejeitada não impõe ao excipiente/executado a condenação ao ônus sucumbencial, pois, nesse caso, há o prosseguimento da execução. Nesse contexto, o acolhimento da exceção de pré-executividade, ainda que parcial, acarreta a condenação apenas da parte exequente a pagar honorários advocatícios. O executado, por sua vez, não deve ser condenado. Isso porque, na parcela na qual o excipiente não tem sucesso, há a continuidade da execução e, nela, eventualmente, haverá condenação própria em honorários, calculada justamente sobre o montante restante da execução principal. Não se autoriza, portanto, a sucumbência recíproca na EPE parcialmente acolhida, visto que condenar o excipiente/executado em honorários advocatícios tanto na EPE quanto na continuação da execução principal, seria condená-lo duas vezes pelo mesmo fato, caracterizando indevido bis in idem.",
+      "relator": "Ministra Maria Thereza de Assis Moura",
+      "orgao_julgador": "Segunda Turma",
+      "data_julgamento": "10/3/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 2.176.108-RS",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "Ação de repetição de indébito. Prazo prescricional. Pedido ou impugnação administrativa. Não interrupção do prazo prescricional. Súmula 625/STJ. Aplicabilidade.",
+      "destaque": "O pedido ou impugnação administrativa, qualquer que seja sua forma ou fundamento, não interrompe o prazo prescricional da ação de repetição de indébito tributário, nos termos da Súmula 625/STJ.",
+      "informacoes_inteiro_teor": "Cinge-se a controvérsia à aplicabilidade do enunciado 625 da Súmula do STJ ao caso de impugnação a glosa realizada pela Receita Federal que culminou em inscrição em dívida ativa e execução fiscal.",
+      "relator": "Ministra Maria Thereza de Assis Moura",
+      "orgao_julgador": "Segunda Turma",
+      "data_julgamento": "7/4/2026",
+      "legislacao_aplicada": [
+        "Código Tributário Nacional (CTN), art. 165 e art. 168.",
+        "Súmula 625/STJ"
+      ]
+    },
+    {
+      "processo": "REsp 2.145.365-SP",
+      "ramo_direito": "DIREITO CIVIL, DIREITO PROCESSUAL CIVIL",
+      "tema": "Execução de título extrajudicial. Executado casado sob o regime de comunhão universal. Possibilidade de penhora de valores em contas da esposa não integrante do polo passivo. Resguardo da meação.",
+      "destaque": "1. No regime da comunhão universal, é possível a penhora de valores em contas bancárias do cônjuge não integrante do polo passivo, desde que resguardada a meação, porque a constrição recai sobre bens do executado, conforme o art. 790, IV, do CPC e o art. 1.667 do CC.\n2. A demonstração de exclusividade ou incomunicabilidade de bens do cônjuge ocorre por embargos de terceiro, nos termos do art. 674, § 2º, I, do CPC, e deve ser respeitada a meação na alienação de coisa indivisível, conforme o art. 843 do CPC.",
+      "informacoes_inteiro_teor": "A controvérsia diz respeito a agravo de instrumento interposto contra decisão que indeferiu o bloqueio, via Sisbajud, de valores existentes em contas bancárias de titularidade da esposa do executado, por ser terceira estranha à lide e não responsável pela dívida.\nA Corte estadual manteve a decisão agravada, negando provimento ao agravo de instrumento, ao afirmar que a responsabilidade patrimonial limita-se à pessoa do executado e que é inadmissível a penhora sobre numerário em conta de titularidade exclusiva de quem não integra o polo passivo, ainda que casados sob comunhão universal.\nContudo, mostra-se patente a vulneração do art. 790, IV, do Código de Processo Civil e do art. 1.667 do Código Civil, pois a meação do executado responde pela dívida e a constrição deve recair sobre patrimônio comunicável.\nCom efeito, no regime da comunhão universal de bens, forma-se um único patrimônio entre os consortes, o qual engloba todos os créditos e débitos de cada um individualmente, com exceção das hipóteses previstas no art. 1.668 do Código Civil. Por essa razão, revela-se perfeitamente possível a constrição judicial de bens do cônjuge do devedor, casado sob o regime da comunhão universal de bens, ainda que o cônjuge não tenha sido parte no processo, resguardada, obviamente, a sua meação.\nDestarte, não há que se falar em responsabilização de terceiro (cônjuge) pela dívida do executado, pois a penhora recairá sobre bens de propriedade do próprio devedor, decorrentes de sua meação nos bens em nome de sua esposa, em virtude do regime adotado.\nPor derradeiro, vale salientar que, caso a medida constritiva recaia sobre bem de propriedade exclusiva do cônjuge do devedor - bem próprio, nos termos do art. 1.668 do Código Civil, ou decorrente de sua meação -, o meio processual para impugnar essa constrição, a fim de se afastar a presunção de comunicabilidade, será pela via dos embargos de terceiro, a teor do que dispõe o art. 674, § 2º, I, do Código de Processo Civil de 2015.",
+      "relator": "Ministro João Otávio de Noronha",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "22/6/2026",
+      "legislacao_aplicada": [
+        "Código Civil (CC), art. 1.667 e art. 1.668.",
+        "Código de Processo Civil (CPC), art. 674, § 2º, I; art. 790, IV; e art. 843."
+      ]
+    },
+    {
+      "processo": "REsp 1.579.704-PR",
+      "ramo_direito": "DIREITO PROCESSUAL CIVIL",
+      "tema": "Suspeição de perito judicial. Preclusão consumativa. Anulação de perícia por vício procedimental. Inexistência de reabertura do prazo.",
+      "destaque": "A suspeição do perito judicial deve ser arguida na primeira oportunidade em que couber à parte falar nos autos, sob pena de preclusão.\nA anulação da perícia por vício procedimental não reabre o prazo para arguição de suspeição fundada em fato pretérito e conhecido.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em definir se a anulação de perícia, por vício procedimental na execução dos trabalhos, teve o efeito de reabrir a possibilidade de arguição de suspeição do perito com fundamento em fato preexistente, já conhecido pelas partes e anteriormente reputado precluso pelo Tribunal de origem.",
+      "relator": "Ministro João Otávio de Noronha",
+      "orgao_julgador": "Quarta Turma",
+      "data_julgamento": "16/6/2026",
+      "legislacao_aplicada": [
+        "Código de Processo Civil (CPC/1973), art. 138, III e § 1º."
+      ]
+    },
+    {
+      "processo": "HC 1.037.481-SP",
+      "ramo_direito": "DIREITO PENAL, EXECUÇÃO PENAL",
+      "tema": "Execução penal. Introdução de entorpecente em estabelecimento prisional por intermédio de visitante cadastrada. Coautoria do apenado. Conduta dolosa típica. Falta disciplinar de natureza grave.",
+      "destaque": "A tentativa de ingresso de substância entorpecente em estabelecimento prisional por visitante previamente cadastrada, destinada a preso, configura conduta típica de crime doloso e falta disciplinar grave, nos termos do art. 52 da Lei de Execução Penal, ainda que o entorpecente seja interceptado na portaria.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em saber se o reconhecimento de falta disciplinar grave fundada em tentativa de ingresso de entorpecente em estabelecimento prisional por intermédio de visitante do apenado configura (i) responsabilização objetiva; (ii) mera preparação atípica; ou (iii) se está amparado em prova idônea de participação do sentenciado, à luz do princípio da intranscendência penal.",
+      "relator": "Ministra Maria Marluce Caldas",
+      "orgao_julgador": "Quinta Turma",
+      "data_julgamento": "17/6/2026",
+      "legislacao_aplicada": [
+        "Lei de Execução Penal (LEP), art. 52",
+        "Código Penal (CP), art. 29",
+        "Lei n. 11.343/2006, art. 33"
+      ]
+    },
+    {
+      "processo": "AgRg no HC 1.042.816-RO",
+      "ramo_direito": "DIREITO PROCESSUAL PENAL",
+      "tema": "Foro por prerrogativa de função. Competência originária para julgamento de membro do Ministério Público. Órgão fracionário de Tribunal de Justiça. Possibilidade.",
+      "destaque": "É válida a atribuição regimental a órgão fracionário do Tribunal de Justiça para processar e julgar, originariamente, membro do Ministério Público estadual.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em saber se a competência originária para processar e julgar membro do Ministério Público estadual por crime comum pertence ao Tribunal Pleno ou se pode ser atribuída a órgão fracionário pelo Regimento Interno do Tribunal de origem.",
+      "relator": "Ministra Nilsoni de Freitas (Desembargadora convocada do TJDFT)",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "18/8/2026",
+      "legislacao_aplicada": [
+        "Constituição Federal (CF), art. 96, I, a",
+        "Lei n. 8.625/1993, art. 40, IV"
+      ]
+    },
+    {
+      "processo": "AgRg no HC 1.042.816-RO",
+      "ramo_direito": "DIREITO PROCESSUAL PENAL",
+      "tema": "Investigação de autoridade. Foro privilegiado. Prescindibilidade de autorização judicial prévia. Supervisão judicial posterior. Suficiência.",
+      "destaque": "A investigação de autoridade com foro por prerrogativa de função não exige autorização judicial prévia, bastando a supervisão judicial posterior, salvo exigência normativa específica.",
+      "informacoes_inteiro_teor": "A controvérsia consiste em saber se as providências adotadas pelo Ministério Público estadual entre o recebimento da notícia anônima e a autorização judicial configuraram investigação formal de autoridade detentora de prerrogativa de foro, a contaminar todo o acervo probatório subsequente.",
+      "relator": "Ministra Nilsoni de Freitas (Desembargadora convocada do TJDFT)",
+      "orgao_julgador": "Sexta Turma",
+      "data_julgamento": "18/8/2026",
+      "legislacao_aplicada": [
+        "STF, Rcl 69164 AgR, Min. Luiz Fux, Primeira Turma, DJe de 24/10/2024"
+      ]
+    },
+    {
+      "processo": "REsp 2.242.804-AC e REsp 2.129.469-SP",
+      "ramo_direito": "DIREITO DO CONSUMIDOR",
+      "tema": "A Segunda Seção acolheu a proposta de afetação do REsp 2.242.804-AC e do REsp 2.129.469-SP ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir a obrigatoriedade de custeio de musicoterapia, pela operadora de plano de saúde, em favor de beneficiário com transtorno do espectro autista\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Raul Araújo",
+      "orgao_julgador": "Segunda Seção",
+      "data_julgamento": "30/6/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 2.255.394-MA e REsp 2.255.370-MA",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "1464",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Ricardo Villas Bôas Cueva",
+      "orgao_julgador": "Segunda Seção",
+      "data_julgamento": "30/6/2026",
+      "legislacao_aplicada": [
+        "Lei nº 13.786/2018 (Lei do Distrato)"
+      ]
+    },
+    {
+      "processo": "REsp 2.255.393-MA",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "A Segunda Seção acolheu a proposta de afetação do REsp 2.255.393-MA e do REsp 2.255.054-MA ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir o percentual e a respectiva base de cálculo dos valores que o vendedor poderá reter na rescisão, por iniciativa e culpa do comprador/consumidor, de contratos de compra e venda de imóvel firmados anteriormente à vigência da Lei n. 13.786/2018 (Lei do Distrato)\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Ricardo Villas Bôas Cueva",
+      "orgao_julgador": "Segunda Seção",
+      "data_julgamento": "30/6/2026",
+      "legislacao_aplicada": [
+        "Lei n. 13.786/2018 (Lei do Distrato)"
+      ]
+    },
+    {
+      "processo": "REsp 2.258.565-SP",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "A Segunda Seção acolheu a proposta de afetação do REsp 2.258.565-SP, do REsp 2.259.135-SP e do REsp 2.258.822-SP ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se, nos contratos de compra e venda de imóveis submetidos a regime de patrimônio de afetação e firmados após a vigência da Lei n. 13.786/2018 (Lei do Distrato), a rescisão por inadimplemento do comprador autoriza o vendedor a reter até 50% (cinquenta por cento) das quantias pagas, nos termos do art. 67-A, § 5º, da Lei n. 4.591/1964\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Ricardo Villas Bôas Cueva",
+      "orgao_julgador": "Segunda Seção",
+      "data_julgamento": "30/6/2026",
+      "legislacao_aplicada": [
+        "Lei n. 13.786/2018 (Lei do Distrato)",
+        "Art. 67-A, § 5º, da Lei n. 4.591/1964"
+      ]
+    },
+    {
+      "processo": "REsp 2.223.773-MA, REsp 2.222.623-MA e REsp 2.222.624-MA",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "Tema 1467 - Definir se a demora injustificada ou indevida da operadora de plano de saúde em autorizar o tratamento prescrito pelo médico equipara-se à recusa indevida de cobertura para fins de aplicação do Tema 1.365",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Ricardo Villas Bôas Cueva",
+      "orgao_julgador": "Segunda Seção",
+      "data_julgamento": "30/6/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 2.271.268-TO e REsp 2.242.024-TO",
+      "ramo_direito": "DIREITO PROCESSUAL TRABALHISTA, DIREITO PROCESSUAL CIVIL",
+      "tema": "A Primeira Seção acolheu a proposta de afetação do REsp 2.271.268-TO e do REsp 2.242.024-TO ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se a cobrança de empréstimo concedido pelo ente público a particular (contrato de mútuo), a título de implementação da política de microcrédito (Banco do Povo), pode ser efetivada por intermédio da execução fiscal regida pela Lei n. 6.830/1980\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Sérgio Kukina",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "23/6/2026",
+      "legislacao_aplicada": [
+        "Lei n. 6.830/1980"
+      ]
+    },
+    {
+      "processo": "REsp 2.242.339-BA e do REsp 2.245.522-BA",
+      "ramo_direito": "DIREITO ADMINISTRATIVO",
+      "tema": "A Primeira Seção acolheu a proposta de afetação do REsp 2.242.339-BA e do REsp 2.245.522-BA ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \" i) definir os conceitos de ações de educação, de saúde ou de assistência social para incidência da exceção contemplada no art. 25, § 3º, da Lei Complementar n. 101/2000 às exigências de regularidade fiscal e financeira relativamente ao recebimento de transferências voluntárias por entes federativos; ii) possibilidade de aplicar, ao repasse de recursos estaduais, a regra prevista no art. 26 da Lei n. 10.522/2002, a qual dispensa as exigências da Lei de Responsabilidade Fiscal no tocante a transferências voluntárias de recursos federais a serem alocados em ações sociais ou ações em faixa de fronteira\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministra Regina Helena Costa",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "18/8/2026",
+      "legislacao_aplicada": [
+        "Lei Complementar n. 101/2000",
+        "Lei n. 10.522/2002"
+      ]
+    },
+    {
+      "processo": "REsp 2.273.410-TO e do REsp 2.216.186-TO",
+      "ramo_direito": "DIREITO PROCESSUAL TRABALHISTA, DIREITO PROCESSUAL CIVIL",
+      "tema": "A Primeira Seção acolheu a proposta de afetação do REsp 2.273.410-TO e do REsp 2.216.186-TO ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se o protesto extrajudicial é causa interruptiva do prazo prescricional da pretensão da Fazenda Pública de reaver crédito não tributário fundado em contrato de mútuo, no âmbito de programa de microcrédito operado por entidade autárquica estadual\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Sérgio Kukina",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "18/8/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 1.980.730-RS e REsp 1.980.997-RS",
+      "ramo_direito": "DIREITO CIVIL",
+      "tema": "A Segunda Seção acolheu a proposta de afetação do REsp 1.980.730-RS e do REsp 1.980.997-RS ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir o termo inicial do prazo prescricional da pretensão do mutuário associado de revisão de cláusulas de contrato de empréstimo pessoal firmado com entidade de previdência privada fechada\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Raul Araújo",
+      "orgao_julgador": "Segunda Seção",
+      "data_julgamento": "18/8/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 2.258.325-CE",
+      "ramo_direito": "DIREITO ADMINISTRATIVO",
+      "tema": "A Primeira Seção acolheu a proposta de afetação do REsp 2.258.325-CE e do REsp 2.254.394-CE ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se a demora injustificada da Administração na análise do requerimento de aposentadoria gera o dever de indenizar o servidor por danos materiais. Em caso afirmativo, estabelecer qual o prazo de atraso caracterizador da mora administrativa e qual o termo inicial para o pagamento da indenização devida\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministro Afrânio Vilela",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "25/8/2026",
+      "legislacao_aplicada": []
+    },
+    {
+      "processo": "REsp 2.239.211-PE, REsp 2.239.811-PB, REsp 2.261.206-CE",
+      "ramo_direito": "DIREITO TRIBUTÁRIO",
+      "tema": "A Primeira Seção acolheu a proposta de afetação do REsp 2.239.211-PE, do REsp 2.239.811-PB e do REsp 2.261.206-CE ao rito dos recursos repetitivos a fim de uniformizar o entendimento a respeito da seguinte controvérsia: \"Definir se os valores recebidos a título de gorjeta e repassados aos empregados da pessoa jurídica integram a base de cálculo do SIMPLES Nacional\"",
+      "destaque": null,
+      "informacoes_inteiro_teor": null,
+      "relator": "Ministra Regina Helena Costa",
+      "orgao_julgador": "Primeira Seção",
+      "data_julgamento": "25/8/2026",
+      "legislacao_aplicada": []
+    }
+  ]
+}

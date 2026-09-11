@@ -1,5 +1,8 @@
 import json, unicodedata
 from collections import Counter, defaultdict
+from pathlib import Path
+
+DATA_DIR = Path(__file__).resolve().parents[1] / "data" / "analysis"
 
 def clean(v):
     if v is None: return None
@@ -10,7 +13,7 @@ def key(v):
     v = clean(v)
     return unicodedata.normalize("NFKD", v).encode("ascii", "ignore").decode().casefold() if v else None
 
-rows = [json.loads(x) for x in open("analysis-data/metadata.jsonl", encoding="utf-8")]
+rows = [json.loads(x) for x in open(DATA_DIR / "metadata.jsonl", encoding="utf-8")]
 fields = ["NM Ano","NM Banca","NM Órgão","NM Cargo","NM Curso","NM Edição","NM BLOCO","NM Base Produto Vinculado","Nome Resumido"]
 summary = {"rows": len(rows), "fields": {}, "combinations": {}}
 for f in fields:
@@ -46,5 +49,5 @@ for fid, fname in id_name_pairs:
       "names_with_multiple_ids": {n:dict(c) for n,c in name_to_ids.items() if len(c)>1},
     }
 summary["id_name_conflicts"]=conflicts
-json.dump(summary,open("analysis-data/summary.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+json.dump(summary,open(DATA_DIR / "summary.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
 print(json.dumps({"rows":summary["rows"],"unique":{f:d["unique"] for f,d in summary["fields"].items()},"combos":summary["combinations"],"conflict_counts":{f:{k:len(v) for k,v in d.items()} for f,d in conflicts.items()}},ensure_ascii=False,indent=2))

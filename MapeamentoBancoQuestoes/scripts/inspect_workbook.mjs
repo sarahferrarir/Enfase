@@ -33,4 +33,4 @@ for (const sheet of workbook.worksheets.items) {
   }
 }
 
-await fs.writeFile("workbook-inspected.ok", "ok\n");
+await fs.writeFile(new URL("../data/analysis/workbook-inspected.ok", import.meta.url), "ok\n");

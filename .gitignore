@@ -8,6 +8,8 @@ venv/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # macOS
 .DS_Store
@@ -17,3 +19,19 @@ venv/
 
 # Logs
 *.log
+
+# Node dependencies
+node_modules/
+
+# Local tool settings
+.claude/settings.local.json
+
+# Workbook inspection marker
+workbook-inspected.ok
+
+# Python tooling caches and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/

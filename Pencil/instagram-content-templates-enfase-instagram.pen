@@ -113,7 +113,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "docs/instagram/assets/logo-enfase-branca.png",
+                    "url": "../docs/instagram/assets/logo-enfase-branca.png",
                     "mode": "fit"
                   }
                 },
@@ -170,7 +170,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "docs/instagram/assets/career-mag-federal-2.png",
+                        "url": "../docs/instagram/assets/career-mag-federal-2.png",
                         "mode": "fill"
                       },
                       "width": 338,
@@ -420,7 +420,7 @@
                       "fill": {
                         "type": "image",
                         "enabled": true,
-                        "url": "docs/instagram/assets/career-mag-federal-2.png",
+                        "url": "../docs/instagram/assets/career-mag-federal-2.png",
                         "mode": "fill"
                       },
                       "width": 1066,
@@ -450,7 +450,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "docs/instagram/assets/logo-enfase-branca.png",
+                    "url": "../docs/instagram/assets/logo-enfase-branca.png",
                     "mode": "fit"
                   }
                 },
@@ -4891,7 +4891,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "docs/instagram/assets/logo-enfase.png",
+                                    "url": "../docs/instagram/assets/logo-enfase.png",
                                     "mode": "fit"
                                   }
                                 }
@@ -4956,7 +4956,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "docs/instagram/assets/logo-enfase-branca.png",
+                                    "url": "../docs/instagram/assets/logo-enfase-branca.png",
                                     "mode": "fit"
                                   }
                                 }
@@ -5050,7 +5050,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "docs/instagram/assets/logo-enfase.png",
+                                "url": "../docs/instagram/assets/logo-enfase.png",
                                 "mode": "fit"
                               }
                             }
@@ -5136,7 +5136,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "docs/instagram/assets/logo-enfase.png",
+                                "url": "../docs/instagram/assets/logo-enfase.png",
                                 "mode": "fit"
                               }
                             },
@@ -5189,7 +5189,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "docs/instagram/assets/logo-enfase.png",
+                                "url": "../docs/instagram/assets/logo-enfase.png",
                                 "mode": "fit"
                               }
                             },
@@ -5242,7 +5242,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "docs/instagram/assets/logo-enfase-branca.png",
+                                "url": "../docs/instagram/assets/logo-enfase-branca.png",
                                 "mode": "fit"
                               }
                             },
@@ -6176,7 +6176,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "clipboard-1",
+                                    "url": "assets/clipboard-1",
                                     "mode": "fill"
                                   },
                                   "width": 481,
@@ -6231,7 +6231,7 @@
                                   "fill": {
                                     "type": "image",
                                     "enabled": true,
-                                    "url": "07407629ff9e6576ddddc20a29824449c1570d13.png",
+                                    "url": "../07407629ff9e6576ddddc20a29824449c1570d13.png",
                                     "mode": "fill"
                                   },
                                   "width": 481,
@@ -6315,7 +6315,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "docs/instagram/assets/career-mag-federal-2.png",
+                                "url": "../docs/instagram/assets/career-mag-federal-2.png",
                                 "mode": "fill"
                               },
                               "cornerRadius": 12
@@ -6388,7 +6388,7 @@
                               "fill": {
                                 "type": "image",
                                 "enabled": true,
-                                "url": "docs/instagram/assets/career-mag-federal-2.png",
+                                "url": "../docs/instagram/assets/career-mag-federal-2.png",
                                 "mode": "fill"
                               },
                               "cornerRadius": 12,
@@ -6612,7 +6612,7 @@
                                           "fill": {
                                             "type": "image",
                                             "enabled": true,
-                                            "url": "docs/instagram/assets/career-mag-federal-2.png",
+                                            "url": "../docs/instagram/assets/career-mag-federal-2.png",
                                             "mode": "fill"
                                           },
                                           "cornerRadius": 14,
@@ -6661,7 +6661,7 @@
                                               "fill": {
                                                 "type": "image",
                                                 "enabled": true,
-                                                "url": "docs/instagram/assets/logo-enfase-branca.png",
+                                                "url": "../docs/instagram/assets/logo-enfase-branca.png",
                                                 "mode": "fit"
                                               }
                                             },

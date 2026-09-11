@@ -1,3 +1,4 @@
+# Gerador histórico: não reproduz os entregáveis finais. As saídas continuam no diretório de execução.
 import hashlib, json, re, unicodedata
 from collections import Counter, defaultdict
 from datetime import date
@@ -16,7 +17,7 @@ def sid(prefix,*parts):
     return f"{prefix}_{hashlib.sha256(raw.encode()).hexdigest()[:16]}"
 def md(v): return "—" if v is None else str(v).replace("|","\\|")
 
-rows=[json.loads(x) for x in open('analysis-data/metadata.jsonl',encoding='utf-8')]
+rows=[json.loads(x) for x in open(Path(__file__).resolve().parents[2] / 'data' / 'analysis' / 'metadata.jsonl',encoding='utf-8')]
 for r in rows:
     for k,v in list(r.items()): r[k]=clean(v) if not k.startswith('_') else v
 

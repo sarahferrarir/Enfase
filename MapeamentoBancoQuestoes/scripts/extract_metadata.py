@@ -39,7 +39,7 @@ def rows(z, target, strings):
         row.clear()
 
 src = sys.argv[1]
-outdir = Path(sys.argv[2])
+outdir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(__file__).resolve().parents[1] / "data" / "analysis"
 outdir.mkdir(parents=True, exist_ok=True)
 with zipfile.ZipFile(src) as z:
     ss = shared_strings(z)

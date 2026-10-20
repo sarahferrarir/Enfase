@@ -23,7 +23,7 @@ def _looks_like_valid_item(paragraphs: list[Paragraph]) -> bool:
     if not paragraphs:
         return False
     text = "\n".join(p.text for p in paragraphs)
-    return "Resumo:" in text and bool(re.search(r"\b(ADI|ADPF|ADO|ADC|RE|ARE|HC|MS|Rcl|RCL|ACO)\b", text))
+    return "Resumo:" in text and bool(re.search(r"\b(ADI|ADPF|ADO|ADC|RE|ARE|HC|MS|MI|Rcl|RCL|ACO)\b", text))
 
 
 def split_editorial_items(plenario_paragraphs: list[Paragraph]) -> list[EditorialItem]:

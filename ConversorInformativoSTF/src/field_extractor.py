@@ -8,7 +8,7 @@ from .schemas import EditorialItem, InformativoMetadata, JulgadoSTF, Paragraph
 from .utils import generate_id, generate_timestamp, normalize_spaces, parse_numeric_date, unique_or_join
 
 
-PROCESS_CLASSES = r"ADI|ADPF|ADO|ADC|RE|ARE|HC|MS|Rcl|RCL|ACO|RMS|PET|SL"
+PROCESS_CLASSES = r"ADI|ADPF|ADO|ADC|RE|ARE|HC|MS|MI|Rcl|RCL|ACO|RMS|PET|SL"
 PROCESS_RE = re.compile(
     rf"\b(?P<class>{PROCESS_CLASSES})\s+"
     r"(?P<number>\d[\d.]*(?:\s+[A-Za-z][A-Za-z.-]*)?)"
